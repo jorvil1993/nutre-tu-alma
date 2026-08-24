@@ -14,7 +14,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
   },
   {
     id: "prueba-filotea-vocacion",
-    reading: `No, Filotea, la devoción nada echa a perder, cuando es verdadera; al contrario, todo lo perfecciona, y, cuando es contraria a la vocación de alguno, es, sin la menor duda, falsa. La abeja, dice Aristóteles, saca su miel de las flores sin dañarlas y las deja frescas y enteras, según las encontró; mas la verdadera devoción todavía hace más, porque no sólo no causa perjuicio a vocación ni negocio alguno, sino, antes bien, los adorna y embellece.`,
+    reading: `En la creación, manda Dios a las plantas que lleven sus frutos, cada una según su especie; de la misma manera que a los cristianos, plantas vivas de la Iglesia, les manda que produzcan frutos de devoción, cada uno según su condición y estado. De diferente manera han de practicar la devoción el noble y el artesano, el criado y el príncipe, la viuda, la soltera y la casada; y no solamente esto, sino que es menester acomodar la práctica de la devoción a las fuerzas, a los quehaceres y a las obligaciones de cada persona en particular.`,
     source: "Filotea · Parte I, capítulo 3",
     question: "¿Qué parte concreta de tu trabajo, familia u obligaciones necesitas hoy ofrecer a Dios para vivirla como vocación y no como carga?",
     imageQuestion: "¿Cómo puedes santificar hoy tu trabajo?",
@@ -80,6 +80,11 @@ const imageCard = (experience, topicNumber) => `
         <div class="image-caption">Pintura sacra · imagen de prueba</div>
         <div class="swipe-hint">Desliza para continuar</div>
       </div>
+    </div>
+    <div class="image-actions" aria-hidden="true">
+      <span class="devotion-mark devotion-mark--cross"></span>
+      <span class="devotion-mark devotion-mark--marian">M</span>
+      <span class="devotion-mark devotion-mark--prayer">🙏</span>
     </div>
   </article>`;
 
