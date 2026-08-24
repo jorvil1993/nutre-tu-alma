@@ -90,6 +90,15 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     image: "./assets/images/08-padre-misericordioso.png",
     imageAlt: "El padre de la parábola corre a abrazar a su hijo que regresa, sosteniéndolo con ternura.",
   },
+  {
+    id: "combate-caida-desanimo",
+    reading: `Cuando cometemos alguna falta, ya sea por irreflexión o sorpresa, ya sea con malicia y premeditación, lo importante es no desanimarse, no dejar de luchar por recuperar de nuevo la amistad con Dios, la paz y pureza del alma. Cuando nos suceda hacer o decir o pensar algo que va contra la ley de Dios, tenemos que decirle humildemente a Nuestro Señor: "Oh Dios mío: acabo de demostrar lo que soy: miseria, debilidad, mala inclinación. Pero ¿qué más podía esperarse de una creatura tan miserable y débil como yo, sino caídas, infidelidades y pecados?".`,
+    source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 25",
+    question: "Cuando caes o fallas, ¿te encierras en el desánimo de tu orgullo herido, o acudes enseguida a Dios para pedir perdón y recobrar la paz?",
+    imageQuestion: "¿Te encierras en el desánimo o vuelves a Dios?",
+    image: "./assets/images/10-combate-caida-desanimo.png",
+    imageAlt: "Cristo se inclina con infinita misericordia para levantar y consolar a un hombre arrodillado y arrepentido.",
+  },
 ];
 
 const feed = document.querySelector("#feed");
