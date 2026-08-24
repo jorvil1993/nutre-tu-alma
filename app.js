@@ -63,6 +63,33 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     image: "./assets/images/05-manos-confianza.png",
     imageAlt: "Cristo extiende la mano hacia un niño que se acerca a tomarla con confianza.",
   },
+  {
+    id: "prueba-philippe-mana",
+    reading: `La gracia de Dios se da al momento, día a día. A veces nos gustaría poder reservarla, crear «almacenes» de fuerza. Pero no es posible. Observad la imagen del maná que alimentó a los hebreos en el desierto; cuando pretendieron almacenarlo se pudría. Dios lo daba cada día, en la justa medida, ni más ni menos, y tenía el mejor sabor que a cada uno le convenía. Cuando decimos «pan nuestro», lo que pedimos no son grandes reservas (¿qué haríamos con ellas?), sino que simplemente pedimos el pan de este día, y Dios nos lo da, por lo que no es necesario preocuparse.`,
+    source: "La confianza en Dios · Jacques Philippe, Capítulo 5",
+    question: "¿En qué área de tu negocio te cuesta confiar en que Dios te dará, día a día, exactamente lo que necesitas?",
+    imageQuestion: "¿Confías en el pan de hoy?",
+    image: "./assets/images/06-mana-desierto.png",
+    imageAlt: "Una familia bíblica recoge el maná del suelo al amanecer en el desierto, con gratitud.",
+  },
+  {
+    id: "prueba-philippe-orgullo",
+    reading: `Cuando el bien que está presente en nuestra vida se convierte en un pretexto para juzgar y menospreciar a los demás, está convirtiéndose en una ocasión de orgullo. Debemos estar atentos porque sucede muy rápido. La actitud verdadera es alegrarse del bien que está presente en nuestra vida, pero sin bajar la guardia ante lo que podría alimentar un orgullo más o menos consciente. Sabemos que los dos signos habituales y principales del orgullo son tanto menospreciar a los demás como desanimarse. El desánimo es una expresión del orgullo, dijo Teresa. Cuando se es humilde, cuando uno acepta su pequeñez, no se desanima pues tiene confianza en Dios y en sí mismo.`,
+    source: "La confianza en Dios · Jacques Philippe, Capítulo 2",
+    question: "¿Cuándo fue la última vez que juzgaste a alguien o te desanimaste contigo mismo, sin ver que las dos cosas nacen del mismo orgullo?",
+    imageQuestion: "¿Qué mueve tu juicio: humildad u orgullo?",
+    image: "./assets/images/07-fariseo-publicano.png",
+    imageAlt: "El fariseo ora erguido con la cabeza en alto mientras el publicano se queda atrás, arrodillado y cabizbajo.",
+  },
+  {
+    id: "prueba-philippe-padre-fiel",
+    reading: `Esta relación filial con Dios, que se expresa y se profundiza especialmente en la oración, no siempre es fácil de vivir hoy en día. Vivir como niños, en un mundo de competencia despiadada, no es nada fácil. Debemos ser adultos, saber perder a veces, manteniendo sin embargo el corazón de un niño, un corazón que descansa en Dios, que se abandona en Dios. Él sabrá ser nuestro defensor. Él es nuestro Padre, es fiel. Con frecuencia nos agitamos, en lugar de contar con el Señor con confianza. Un aspecto esencial de la vida espiritual es este trabajo de renovación de la confianza en nuestro corazón. Herido por el pecado original, en él habitan los miedos, las dudas, y su curación requiere mucho tiempo. Quizás nunca lleguemos a curarlo totalmente a lo largo de nuestra vida, pero al menos podremos llevar a cabo grandes progresos por esta confianza.`,
+    source: "La confianza en Dios · Jacques Philippe, Capítulo 4",
+    question: "En medio de la competencia de tu negocio, ¿dónde te agitas solo esta semana en vez de contar con tu Padre con confianza?",
+    imageQuestion: "¿Te abandonas en tu Padre?",
+    image: "./assets/images/08-padre-misericordioso.png",
+    imageAlt: "El padre de la parábola corre a abrazar a su hijo que regresa, sosteniéndolo con ternura.",
+  },
 ];
 
 const feed = document.querySelector("#feed");
@@ -184,5 +211,7 @@ const resumeObserver = new IntersectionObserver(
 cards.forEach((card) => resumeObserver.observe(card));
 
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./sw.js");
+  navigator.serviceWorker
+    .register("./sw.js", { updateViaCache: "none" })
+    .then((registration) => registration.update());
 }

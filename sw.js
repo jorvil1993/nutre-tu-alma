@@ -1,4 +1,6 @@
-const CACHE_NAME = "hacia-dios-runtime-v1";
+// Incrementar esta versión al publicar una actualización de la aplicación.
+// Así las instalaciones existentes reemplazan inmediatamente su copia anterior.
+const CACHE_NAME = "hacia-dios-runtime-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
