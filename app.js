@@ -68,6 +68,9 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
 const feed = document.querySelector("#feed");
 feed.className = "feed";
 
+const RESUME_STORAGE_KEY = "nutre-tu-alma:resume-v1";
+const FULL_CYCLE_SIZE = 100;
+
 const escapeHtml = (value) =>
   value.replace(/[&<>'\"]/g, (character) => ({
     "&": "&amp;",
@@ -78,7 +81,7 @@ const escapeHtml = (value) =>
   })[character]);
 
 const readingCard = (experience, topicNumber) => `
-  <article class="card reading-card" aria-label="Lectura ${topicNumber}">
+  <article class="card reading-card" data-content-id="${experience.id}" data-phase="reading" aria-label="Lectura ${topicNumber}">
     <div class="topline"><span class="brand">Hacia Dios</span><span>${topicNumber} de ${experiences.length}</span></div>
     <div class="card-main">
       <p class="card-type">Lectura · pausa breve</p>
@@ -91,7 +94,7 @@ const readingCard = (experience, topicNumber) => `
   </article>`;
 
 const questionCard = (experience, topicNumber) => `
-  <article class="card question-card" aria-label="Pregunta de meditación ${topicNumber}">
+  <article class="card question-card" data-content-id="${experience.id}" data-phase="question" aria-label="Pregunta de meditación ${topicNumber}">
     <div class="topline"><span class="brand">Hacia Dios</span><span>Medita</span></div>
     <div class="card-main">
       <p class="card-type">Para llevar al corazón</p>
@@ -101,7 +104,7 @@ const questionCard = (experience, topicNumber) => `
   </article>`;
 
 const imageCard = (experience, topicNumber) => `
-  <article class="card image-card" aria-label="Imagen de contemplación ${topicNumber}">
+  <article class="card image-card" data-content-id="${experience.id}" data-phase="image" aria-label="Imagen de contemplación ${topicNumber}">
     <img src="${experience.image}" alt="${escapeHtml(experience.imageAlt)}" />
     <div class="image-overlay">
       <div>
@@ -121,6 +124,64 @@ feed.innerHTML = experiences
     imageCard(experience, index + 1),
   ])
   .join("");
+
+const cards = [...feed.querySelectorAll(".card")];
+
+const loadResume = () => {
+  try {
+    return JSON.parse(localStorage.getItem(RESUME_STORAGE_KEY) || "null");
+  } catch {
+    return null;
+  }
+};
+
+const resumeIndex = () => {
+  const saved = loadResume();
+  if (!saved?.contentId || !saved?.phase) return 0;
+
+  const savedIndex = cards.findIndex(
+    (card) => card.dataset.contentId === saved.contentId && card.dataset.phase === saved.phase,
+  );
+  if (savedIndex < 0) return 0;
+
+  if (!saved.advanceOnResume) return savedIndex;
+  if (savedIndex < cards.length - 1) return savedIndex + 1;
+
+  return experiences.length >= FULL_CYCLE_SIZE ? 0 : savedIndex;
+};
+
+const saveResume = (card) => {
+  const phase = card.dataset.phase;
+  const position = {
+    contentId: card.dataset.contentId,
+    phase,
+    advanceOnResume: phase === "image",
+  };
+  localStorage.setItem(RESUME_STORAGE_KEY, JSON.stringify(position));
+};
+
+const restoreIndex = resumeIndex();
+let resumeRestored = false;
+
+requestAnimationFrame(() => {
+  cards[restoreIndex]?.scrollIntoView({ block: "start" });
+  requestAnimationFrame(() => {
+    resumeRestored = true;
+  });
+});
+
+const resumeObserver = new IntersectionObserver(
+  (entries) => {
+    if (!resumeRestored) return;
+    const activeCard = entries
+      .filter((entry) => entry.isIntersecting)
+      .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0]?.target;
+    if (activeCard) saveResume(activeCard);
+  },
+  { root: feed, threshold: 0.68 },
+);
+
+cards.forEach((card) => resumeObserver.observe(card));
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./sw.js");
