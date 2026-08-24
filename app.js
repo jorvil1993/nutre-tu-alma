@@ -30,6 +30,39 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     image: "./assets/images/01-cristo-y-pedro.png",
     imageAlt: "Cristo resucitado sostiene con ternura a san Pedro arrodillado junto al mar.",
   },
+  {
+    id: "prueba-azul-confianza",
+    reading: `«Tú no has entendido, hijo, que Yo he escogido la necedad para confundir la sabiduría y la debilidad para derrotar la fuerza.
+
+Es mi voluntad que este pequeño volumen se propague así tal como es: éste será el medio con el que llamaré a muchos Sacerdotes a mi Movimiento y me formaré mi ejército invencible...
+
+Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tienes miedo? Ora y abandónate a Mí: deja que sea Yo sola la que verdaderamente obre.»`,
+    source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de octubre de 1973",
+    question: "¿Qué preocupación de tu negocio o de tu día sigues cargando tú solo, sin haberla dejado de verdad en manos de Dios?",
+    imageQuestion: "¿Qué temor no le has entregado a Dios?",
+    image: "./assets/images/03-virgen-consuela.png",
+    imageAlt: "La Virgen sostiene el rostro de un hombre arrodillado y angustiado, consolándolo con ternura.",
+  },
+  {
+    id: "prueba-agustin-inquieto",
+    reading: `Grande eres, Señor, e inmensamente digno de alabanza; grande es tu poder y tu inteligencia no tiene límites.
+
+Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu creación y que, como todos, lleva siempre consigo por todas partes su mortalidad y el testimonio de su pecado, el testimonio de que tú siempre te resistes a la soberbia humana. Así pues, no obstante su miseria, ese hombre te quiere alabar. Y tú lo estimulas para que encuentre deleite en tu alabanza; nos creaste para ti y nuestro corazón andará siempre inquieto mientras no descanse en ti.`,
+    source: "Confesiones · Libro I, capítulo 1",
+    question: "¿En qué rincón de tu corazón sigue buscando descanso en el control o en la razón, en vez de en Dios?",
+    imageQuestion: "¿Dónde descansa tu corazón?",
+    image: "./assets/images/04-agustin-corazon-inquieto.png",
+    imageAlt: "San Agustín, de noche junto a una ventana, mira hacia una luz cálida con la mano sobre el pecho.",
+  },
+  {
+    id: "prueba-philippe-acto",
+    reading: `Os digo esto para haceros comprender lo siguiente: a través de acontecimientos insignificantes, Dios puede sanarnos profundamente. A veces sentimos como una llamada del Señor para salir de nosotros mismos, para dar un paso adelante, para hacernos más adultos, más libres. Hay momentos de la vida en los que nos damos vueltas a nosotros mismos sobre nuestra inmadurez, nuestras quejas, nuestros lamentos, nuestras dependencias y de repente un día se nos da la gracia, que es un don de Dios, pero que apela también a nuestra libertad. Hay una elección que hacer; se trata de una curación y conversión a la vez: la libertad debe optar por llevar a cabo un acto de valor. Cuando realizamos un acto de valor, aunque sea para algo insignificante que Dios nos pida, esto puede llevarnos a una curación profunda, a una nueva libertad que nos es concedida por Dios.`,
+    source: "La confianza en Dios · Capítulo 1",
+    question: "¿Qué pequeño acto de confianza te está pidiendo Dios hoy, uno que quizás te parece insignificante pero que puede sanarte por dentro?",
+    imageQuestion: "¿Qué acto de confianza te pide hoy?",
+    image: "./assets/images/05-manos-confianza.png",
+    imageAlt: "Cristo extiende la mano hacia un niño que se acerca a tomarla con confianza.",
+  },
 ];
 
 const feed = document.querySelector("#feed");
@@ -61,7 +94,6 @@ const questionCard = (experience, topicNumber) => `
   <article class="card question-card" aria-label="Pregunta de meditación ${topicNumber}">
     <div class="topline"><span class="brand">Hacia Dios</span><span>Medita</span></div>
     <div class="card-main">
-      <span class="question-mark" aria-hidden="true">?</span>
       <p class="card-type">Para llevar al corazón</p>
       <p class="question-text">${escapeHtml(experience.question)}</p>
     </div>
@@ -77,14 +109,8 @@ const imageCard = (experience, topicNumber) => `
         <p class="image-reflection">${escapeHtml(experience.imageQuestion)}</p>
       </div>
       <div>
-        <div class="image-caption">Pintura sacra · imagen de prueba</div>
         <div class="swipe-hint">Desliza para continuar</div>
       </div>
-    </div>
-    <div class="image-actions" aria-hidden="true">
-      <span class="devotion-mark devotion-mark--cross"></span>
-      <span class="devotion-mark devotion-mark--marian">M</span>
-      <span class="devotion-mark devotion-mark--prayer">🙏</span>
     </div>
   </article>`;
 

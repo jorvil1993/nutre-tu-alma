@@ -170,12 +170,6 @@ button {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.57) 0%, transparent 27%, transparent 67%, rgba(0, 0, 0, 0.64) 100%);
 }
 
-.image-caption {
-  color: #eae1ce;
-  font-size: 0.76rem;
-  text-shadow: 0 1px 3px #000;
-}
-
 .image-reflection {
   max-width: 15rem;
   margin: 0.9rem 0 0;
@@ -189,68 +183,6 @@ button {
 
 .image-overlay .swipe-hint {
   text-shadow: 0 1px 3px #000;
-}
-
-.image-actions {
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-  right: 0.9rem;
-  display: grid;
-  gap: 0.72rem;
-  transform: translateY(-50%);
-}
-
-.devotion-mark {
-  width: 2.35rem;
-  height: 2.35rem;
-  display: grid;
-  place-items: center;
-  color: #f3ead7;
-  background: rgba(9, 9, 8, 0.52);
-  border: 1px solid rgba(244, 235, 215, 0.45);
-  border-radius: 50%;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.2rem;
-  line-height: 1;
-  text-shadow: 0 1px 3px #000;
-}
-
-.devotion-mark--marian {
-  font-size: 1rem;
-  font-style: italic;
-  font-weight: 700;
-}
-
-.devotion-mark--cross {
-  position: relative;
-}
-
-.devotion-mark--cross::before,
-.devotion-mark--cross::after {
-  content: "";
-  position: absolute;
-  background: #f3ead7;
-  border-radius: 99px;
-  box-shadow: 0 1px 3px #000;
-}
-
-.devotion-mark--cross::before {
-  width: 2px;
-  height: 1.28rem;
-}
-
-.devotion-mark--cross::after {
-  width: 0.58rem;
-  height: 2px;
-  top: 38%;
-}
-
-.devotion-mark--prayer {
-  font-family: system-ui, sans-serif;
-  font-size: 1.08rem;
-  filter: grayscale(1) sepia(0.5) saturate(0.8) brightness(1.45);
 }
 
 @keyframes breathe {
