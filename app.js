@@ -39,7 +39,7 @@ Es mi voluntad que este pequeño volumen se propague así tal como es: éste ser
 Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tienes miedo? Ora y abandónate a Mí: deja que sea Yo sola la que verdaderamente obre.»`,
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de octubre de 1973",
     question: "¿Qué preocupación sigues cargando tú solo, sin haberla dejado de verdad en manos de Dios?",
-    imageQuestion: "¿Qué temor no le has entregado a Dios?",
+    imageQuestion: "¿Qué temes? ¿De qué tienes miedo?",
     image: "./assets/images/03-virgen-consuela.png",
     imageAlt: "La Virgen sostiene el rostro de un hombre arrodillado y angustiado, consolándolo con ternura.",
   },
