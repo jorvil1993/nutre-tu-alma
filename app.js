@@ -210,6 +210,123 @@ const saveResume = (card) => {
 
 const restoreIndex = resumeIndex();
 let resumeRestored = false;
+let activeCardIndex = restoreIndex;
+
+const PAGE_DURATION = 220;
+const SWIPE_DISTANCE = 44;
+const SWIPE_VELOCITY = 0.35;
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+let isPaging = false;
+let pagingFrame = null;
+let gesture = null;
+let lastWheelAt = 0;
+
+feed.tabIndex = 0;
+
+const cardScrollTop = (index) => {
+  const feedBounds = feed.getBoundingClientRect();
+  const cardBounds = cards[index].getBoundingClientRect();
+  return feed.scrollTop + cardBounds.top - feedBounds.top;
+};
+
+const goToCard = (requestedIndex) => {
+  const targetIndex = Math.max(0, Math.min(cards.length - 1, requestedIndex));
+  if (targetIndex === activeCardIndex || isPaging) return;
+
+  const startTop = feed.scrollTop;
+  const targetTop = cardScrollTop(targetIndex);
+  activeCardIndex = targetIndex;
+
+  if (reduceMotion) {
+    feed.scrollTop = targetTop;
+    saveResume(cards[targetIndex]);
+    return;
+  }
+
+  isPaging = true;
+  feed.classList.add("is-paging");
+  const startedAt = performance.now();
+  const easeOutCubic = (progress) => 1 - (1 - progress) ** 3;
+
+  const animate = (now) => {
+    const progress = Math.min(1, (now - startedAt) / PAGE_DURATION);
+    feed.scrollTop = startTop + (targetTop - startTop) * easeOutCubic(progress);
+
+    if (progress < 1) {
+      pagingFrame = requestAnimationFrame(animate);
+      return;
+    }
+
+    feed.scrollTop = targetTop;
+    feed.classList.remove("is-paging");
+    isPaging = false;
+    pagingFrame = null;
+    saveResume(cards[targetIndex]);
+  };
+
+  pagingFrame = requestAnimationFrame(animate);
+};
+
+const finishGesture = (event) => {
+  if (!gesture || event.pointerId !== gesture.pointerId) return;
+
+  const distance = event.clientY - gesture.startY;
+  const elapsed = Math.max(1, performance.now() - gesture.startedAt);
+  const velocity = Math.abs(distance) / elapsed;
+  const shouldPage = Math.abs(distance) >= SWIPE_DISTANCE || velocity >= SWIPE_VELOCITY;
+
+  if (shouldPage) goToCard(activeCardIndex + (distance < 0 ? 1 : -1));
+  gesture = null;
+};
+
+feed.addEventListener("pointerdown", (event) => {
+  if (event.pointerType === "mouse" && event.button !== 0) return;
+  if (isPaging) return;
+
+  feed.focus({ preventScroll: true });
+  gesture = { pointerId: event.pointerId, startY: event.clientY, startedAt: performance.now() };
+  feed.setPointerCapture?.(event.pointerId);
+});
+
+feed.addEventListener(
+  "pointermove",
+  (event) => {
+    if (!gesture || event.pointerId !== gesture.pointerId) return;
+    if (Math.abs(event.clientY - gesture.startY) > 8) event.preventDefault();
+  },
+  { passive: false },
+);
+
+feed.addEventListener("pointerup", finishGesture);
+feed.addEventListener("pointercancel", () => {
+  gesture = null;
+});
+
+feed.addEventListener(
+  "wheel",
+  (event) => {
+    if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
+    event.preventDefault();
+
+    const now = performance.now();
+    if (isPaging || now - lastWheelAt < PAGE_DURATION + 80) return;
+    lastWheelAt = now;
+    goToCard(activeCardIndex + (event.deltaY > 0 ? 1 : -1));
+  },
+  { passive: false },
+);
+
+feed.addEventListener("keydown", (event) => {
+  if (event.key === "ArrowDown" || event.key === "PageDown") {
+    event.preventDefault();
+    goToCard(activeCardIndex + 1);
+  }
+
+  if (event.key === "ArrowUp" || event.key === "PageUp") {
+    event.preventDefault();
+    goToCard(activeCardIndex - 1);
+  }
+});
 
 requestAnimationFrame(() => {
   cards[restoreIndex]?.scrollIntoView({ block: "start" });
@@ -224,7 +341,10 @@ const resumeObserver = new IntersectionObserver(
     const activeCard = entries
       .filter((entry) => entry.isIntersecting)
       .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0]?.target;
-    if (activeCard) saveResume(activeCard);
+    if (activeCard) {
+      activeCardIndex = cards.indexOf(activeCard);
+      saveResume(activeCard);
+    }
   },
   { root: feed, threshold: 0.68 },
 );

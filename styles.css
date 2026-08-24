@@ -29,7 +29,12 @@ button {
   overflow-y: auto;
   overscroll-behavior-y: contain;
   scroll-snap-type: y mandatory;
+  touch-action: pan-x;
   scrollbar-width: none;
+}
+
+.feed.is-paging {
+  scroll-snap-type: none;
 }
 
 .feed::-webkit-scrollbar {
