@@ -222,6 +222,30 @@ const resumeObserver = new IntersectionObserver(
 
 cards.forEach((card) => resumeObserver.observe(card));
 
+// Mantiene la pantalla encendida únicamente mientras Nutre tu Alma está visible.
+// Algunos teléfonos pueden revocarlo en ahorro de batería o con poca batería.
+let screenWakeLock = null;
+
+const keepScreenAwake = async () => {
+  if (!("wakeLock" in navigator) || document.visibilityState !== "visible" || screenWakeLock) return;
+
+  try {
+    screenWakeLock = await navigator.wakeLock.request("screen");
+    screenWakeLock.addEventListener("release", () => {
+      screenWakeLock = null;
+    });
+  } catch {
+    // El sistema decide no concederlo, por ejemplo, en ahorro de batería.
+  }
+};
+
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") keepScreenAwake();
+});
+
+window.addEventListener("focus", keepScreenAwake);
+keepScreenAwake();
+
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
     .register("./sw.js", { updateViaCache: "none" })
