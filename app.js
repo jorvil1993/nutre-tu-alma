@@ -97,6 +97,18 @@ feed.className = "feed";
 
 const RESUME_STORAGE_KEY = "nutre-tu-alma:resume-v1";
 const FULL_CYCLE_SIZE = 100;
+const QUESTION_HEADINGS = [
+  "Para llevar al corazón",
+  "Para meditar hoy",
+  "Detente ante Dios",
+  "En silencio, pregúntate",
+  "Ora con esta pregunta",
+  "Examina tu corazón",
+  "Preséntalo al Señor",
+  "Antes de continuar",
+  "Escucha al Señor",
+  "Vuelve tu corazón a Dios",
+];
 
 const escapeHtml = (value) =>
   value.replace(/[&<>'\"]/g, (character) => ({
@@ -124,7 +136,7 @@ const questionCard = (experience, topicNumber) => `
   <article class="card question-card" data-content-id="${experience.id}" data-phase="question" aria-label="Pregunta de meditación ${topicNumber}">
     <div class="topline"><span class="brand">Hacia Dios</span><span>Medita</span></div>
     <div class="card-main">
-      <p class="card-type">Para llevar al corazón</p>
+      <p class="card-type">${QUESTION_HEADINGS[(topicNumber - 1) % QUESTION_HEADINGS.length]}</p>
       <p class="question-text">${escapeHtml(experience.question)}</p>
     </div>
     <div class="swipe-hint">Desliza para contemplar</div>
