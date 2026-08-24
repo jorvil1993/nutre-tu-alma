@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Cruz dorada sobre fondo oscuro">
+  <rect width="512" height="512" rx="112" fill="#11130f"/>
+  <circle cx="256" cy="256" r="182" fill="none" stroke="#d6b66e" stroke-width="12" opacity=".8"/>
+  <path d="M256 118v276M176 211h160" fill="none" stroke="#f0deb1" stroke-linecap="round" stroke-width="34"/>
+</svg>

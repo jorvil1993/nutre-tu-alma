@@ -1,0 +1,19 @@
+{
+  "name": "Hacia Dios",
+  "short_name": "Hacia Dios",
+  "description": "Lectura, meditación e imagen para volver el corazón a Dios.",
+  "lang": "es",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#11130f",
+  "theme_color": "#11130f",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./assets/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
