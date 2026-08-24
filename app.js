@@ -247,6 +247,14 @@ window.addEventListener("focus", keepScreenAwake);
 keepScreenAwake();
 
 if ("serviceWorker" in navigator) {
+  let reloadingForUpdate = false;
+
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (reloadingForUpdate) return;
+    reloadingForUpdate = true;
+    window.location.reload();
+  });
+
   navigator.serviceWorker
     .register("./sw.js", { updateViaCache: "none" })
     .then((registration) => registration.update());
