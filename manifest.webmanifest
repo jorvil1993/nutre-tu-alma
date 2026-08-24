@@ -1,7 +1,7 @@
 {
-  "name": "Hacia Dios",
-  "short_name": "Hacia Dios",
-  "description": "Lectura, meditación e imagen para volver el corazón a Dios.",
+  "name": "Nutre tu Alma",
+  "short_name": "Nutre tu Alma",
+  "description": "Lectura, meditación e imagen para nutrir el alma y volver el corazón a Dios.",
   "lang": "es",
   "start_url": "./",
   "display": "standalone",

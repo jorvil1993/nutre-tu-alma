@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "nextContentNumber": 10,
+  "rules": {
+    "reading": "Pasaje literal, contiguo y con idea completa; 45-150 palabras, objetivo 70-125.",
+    "question": "Una sola pregunta católica, pastoral y universal, nacida del pasaje; sin datos personales.",
+    "image": "Pintura sacra católica original en formato vertical 9:16, relacionada directamente con el pasaje."
+  },
+  "reservations": [
+    { "book": "EL COMBATE ESPIRITUAL P. Lorenzo Scúpoli.pdf", "owner": "Antigravity", "status": "assigned", "purpose": "contenido público" },
+    { "book": "PRÁCTICA_DEL_AMOR_A_JESUCRISTO,_San_Alfonso_María_de_Ligorio.pdf", "owner": "Antigravity", "status": "assigned", "purpose": "contenido público" },
+    { "book": "El_camino_de_la_confianza_y_el_amor_un_retiro_guiado_por_Santa_Teresita.pdf", "owner": "Antigravity", "status": "assigned", "purpose": "contenido público" },
+    { "book": "LA EUCARISTÍA - CENTRO DE LA VIDA Joseph Ratzinger.pdf", "owner": "Antigravity", "status": "assigned", "purpose": "contenido público" },
+    { "book": "VICIOS Y VIRTUDES, Santa Hildegarda de Bingen.pdf", "owner": "Antigravity", "status": "assigned", "purpose": "contenido público" },
+    { "book": "LA_PASIÓN_EN_CONTEMPLACIONES_DE_PAPEL_José_María_Rodríguez_Olaizola.pdf", "owner": "Antigravity", "status": "assigned", "purpose": "contenido público" },
+    { "book": "RANIERO CANTALAMESA Os doy mi paz.pdf", "owner": "Codex", "status": "assigned", "purpose": "contenido público" },
+    { "book": "Jacques Philippe - La oración, camino de amor.pdf", "owner": "Codex", "status": "assigned", "purpose": "contenido público" },
+    { "book": "Jacques_Philippe_El_tesoro_de_la_oración_116_págs_pdf_·_versión.pdf", "owner": "Codex", "status": "assigned", "purpose": "contenido público" },
+    { "book": "Si_conocieras_el_don_de_Dios_Aprender_a_recibir_Jacques_Philippe.pdf", "owner": "Codex", "status": "assigned", "purpose": "contenido público" },
+    { "book": "La fuerza del silencio - Cardenal Robert Sarah.pdf", "owner": "Codex", "status": "assigned", "purpose": "contenido público" },
+    { "book": "De las virtudes y los vicios, Concepción Cabrera de Armida.pdf", "owner": "Codex", "status": "assigned", "purpose": "contenido público" }
+  ],
+  "entries": [
+    { "number": 1, "id": "prueba-imitacion-paz", "book": "Imitacion_de_Cristo_(Kempis).pdf", "locator": "Libro I, capítulo 6", "page": null, "owner": "Codex", "status": "published", "image": "01-cristo-y-pedro.png" },
+    { "number": 2, "id": "prueba-filotea-vocacion", "book": "Filotea_Introduccion_a_la_vida_devota_de_San_Francisco_de_Sales.pdf", "locator": "Parte I, capítulo 3", "page": null, "owner": "Codex", "status": "published", "image": "02-virgen-y-nino.png" },
+    { "number": 3, "id": "prueba-paz-abandono", "book": "Jacques Philippe - La paz interior.pdf", "locator": "Capítulo 5", "page": null, "owner": "Codex", "status": "published", "image": "01-cristo-y-pedro.png" },
+    { "number": 4, "id": "prueba-azul-confianza", "book": "A-los-Sacerdotes.pdf", "locator": "13 de octubre de 1973", "page": null, "owner": "Codex", "status": "published", "image": "03-virgen-consuela.png" },
+    { "number": 5, "id": "prueba-agustin-inquieto", "book": "CONFESIONES San Agustín.pdf", "locator": "Libro I, capítulo 1", "page": null, "owner": "Codex", "status": "published", "image": "04-agustin-corazon-inquieto.png" },
+    { "number": 6, "id": "prueba-philippe-acto", "book": "La confianza en Dios - Jacques Philippe.pdf", "locator": "Capítulo 1", "page": null, "owner": "Codex", "status": "published", "image": "05-manos-confianza.png" },
+    { "number": 7, "id": "prueba-philippe-mana", "book": "La confianza en Dios - Jacques Philippe.pdf", "locator": "Capítulo 5", "page": null, "owner": "Codex", "status": "published", "image": "06-mana-desierto.png" },
+    { "number": 8, "id": "prueba-philippe-orgullo", "book": "La confianza en Dios - Jacques Philippe.pdf", "locator": "Capítulo 2", "page": null, "owner": "Codex", "status": "published", "image": "07-fariseo-publicano.png" },
+    { "number": 9, "id": "prueba-philippe-padre-fiel", "book": "La confianza en Dios - Jacques Philippe.pdf", "locator": "Capítulo 4", "page": null, "owner": "Codex", "status": "published", "image": "08-padre-misericordioso.png" }
+  ]
+}

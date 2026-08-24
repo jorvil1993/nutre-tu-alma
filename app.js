@@ -121,7 +121,7 @@ const escapeHtml = (value) =>
 
 const readingCard = (experience, topicNumber) => `
   <article class="card reading-card" data-content-id="${experience.id}" data-phase="reading" aria-label="Lectura ${topicNumber}">
-    <div class="topline"><span class="brand">Hacia Dios</span><span>${topicNumber} de ${experiences.length}</span></div>
+    <div class="topline"><span class="brand">Nutre tu Alma</span><span>${topicNumber} de ${experiences.length}</span></div>
     <div class="card-main">
       <p class="card-type">Lectura · pausa breve</p>
       <div class="reading-text">${escapeHtml(experience.reading).replaceAll("\n\n", "<br><br>")}</div>
@@ -134,7 +134,7 @@ const readingCard = (experience, topicNumber) => `
 
 const questionCard = (experience, topicNumber) => `
   <article class="card question-card" data-content-id="${experience.id}" data-phase="question" aria-label="Pregunta de meditación ${topicNumber}">
-    <div class="topline"><span class="brand">Hacia Dios</span><span>Medita</span></div>
+    <div class="topline"><span class="brand">Nutre tu Alma</span><span>Medita</span></div>
     <div class="card-main">
       <p class="card-type">${QUESTION_HEADINGS[(topicNumber - 1) % QUESTION_HEADINGS.length]}</p>
       <p class="question-text">${escapeHtml(experience.question)}</p>
@@ -147,7 +147,7 @@ const imageCard = (experience, topicNumber) => `
     <img src="${experience.image}" alt="${escapeHtml(experience.imageAlt)}" />
     <div class="image-overlay">
       <div>
-        <div class="topline"><span class="brand">Hacia Dios</span><span>Contempla</span></div>
+        <div class="topline"><span class="brand">Nutre tu Alma</span><span>Contempla</span></div>
         <p class="image-reflection">${escapeHtml(experience.imageQuestion)}</p>
       </div>
       <div>

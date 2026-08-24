@@ -1,6 +1,4 @@
-// Incrementar esta versión al publicar una actualización de la aplicación.
-// Así las instalaciones existentes reemplazan inmediatamente su copia anterior.
-const CACHE_NAME = "hacia-dios-runtime-v3";
+const CACHE_NAME = "nutre-tu-alma-runtime-v4";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -10,6 +8,12 @@ const APP_SHELL = [
   "./assets/app-icon.svg",
   "./assets/images/01-cristo-y-pedro.png",
   "./assets/images/02-virgen-y-nino.png",
+  "./assets/images/03-virgen-consuela.png",
+  "./assets/images/04-agustin-corazon-inquieto.png",
+  "./assets/images/05-manos-confianza.png",
+  "./assets/images/06-mana-desierto.png",
+  "./assets/images/07-fariseo-publicano.png",
+  "./assets/images/08-padre-misericordioso.png",
 ];
 
 self.addEventListener("install", (event) => {
