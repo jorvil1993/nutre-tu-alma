@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "nextContentNumber": 155,
+  "nextContentNumber": 205,
   "rules": {
     "reading": "Pasaje literal, contiguo y con idea completa; 45-150 palabras, objetivo 70-125.",
     "question": "Una sola pregunta católica, pastoral y universal, nacida del pasaje; sin datos personales.",
@@ -1817,504 +1817,504 @@
       "image": "104-olaizola-sepulcro-esperanza.png"
     },
     {
-      "number": 105,
+      "number": 155,
       "id": "paz-de-no-entrometerse",
       "book": "Imitacion_de_Cristo_(Kempis).pdf",
       "locator": "Libro I, capítulo 11",
       "page": 10,
       "owner": "Claude",
       "status": "published",
-      "image": "105-paz-de-no-entrometerse.png"
+      "image": "155-paz-de-no-entrometerse.png"
     },
     {
-      "number": 106,
+      "number": 156,
       "id": "paz-consigo-y-con-los-otros",
       "book": "Imitacion_de_Cristo_(Kempis).pdf",
       "locator": "Libro II, capítulo 3",
       "page": 30,
       "owner": "Claude",
       "status": "published",
-      "image": "106-paz-consigo-y-con-los-otros.png"
+      "image": "156-paz-consigo-y-con-los-otros.png"
     },
     {
-      "number": 107,
+      "number": 157,
       "id": "nave-sin-timon",
       "book": "Imitacion_de_Cristo_(Kempis).pdf",
       "locator": "Libro I, capítulo 13",
       "page": 11,
       "owner": "Claude",
       "status": "published",
-      "image": "107-nave-sin-timon.png"
+      "image": "157-nave-sin-timon.png"
     },
     {
-      "number": 108,
+      "number": 158,
       "id": "hoy-el-hombre-manana-no-parece",
       "book": "Imitacion_de_Cristo_(Kempis).pdf",
       "locator": "Libro I, capítulo 23",
       "page": 22,
       "owner": "Claude",
       "status": "published",
-      "image": "108-hoy-el-hombre-manana-no-parece.png"
+      "image": "158-hoy-el-hombre-manana-no-parece.png"
     },
     {
-      "number": 109,
+      "number": 159,
       "id": "solo-dios-llena-el-alma",
       "book": "Imitacion_de_Cristo_(Kempis).pdf",
       "locator": "Libro II, capítulo 5",
       "page": 31,
       "owner": "Claude",
       "status": "published",
-      "image": "109-solo-dios-llena-el-alma.png"
+      "image": "159-solo-dios-llena-el-alma.png"
     },
     {
-      "number": 110,
+      "number": 160,
       "id": "cerrar-la-puerta-y-hallar-paz",
       "book": "Imitacion_de_Cristo_(Kempis).pdf",
       "locator": "Libro I, capítulo 20",
       "page": 19,
       "owner": "Claude",
       "status": "published",
-      "image": "110-cerrar-la-puerta-y-hallar-paz.png"
+      "image": "160-cerrar-la-puerta-y-hallar-paz.png"
     },
     {
-      "number": 111,
+      "number": 161,
       "id": "solo-en-ti-descansa-mi-corazon",
       "book": "Imitacion_de_Cristo_(Kempis).pdf",
       "locator": "Libro III, capítulo 21",
       "page": 63,
       "owner": "Claude",
       "status": "published",
-      "image": "111-solo-en-ti-descansa-mi-corazon.png"
+      "image": "161-solo-en-ti-descansa-mi-corazon.png"
     },
     {
-      "number": 112,
+      "number": 162,
       "id": "donde-estas-cuando-no-estas-contigo",
       "book": "Imitacion_de_Cristo_(Kempis).pdf",
       "locator": "Libro II, capítulo 5",
       "page": 31,
       "owner": "Claude",
       "status": "published",
-      "image": "112-donde-estas-cuando-no-estas-contigo.png"
+      "image": "162-donde-estas-cuando-no-estas-contigo.png"
     },
     {
-      "number": 113,
+      "number": 163,
       "id": "cuatro-cosas-que-causan-paz",
       "book": "Imitacion_de_Cristo_(Kempis).pdf",
       "locator": "Libro III, capítulo 23",
       "page": 65,
       "owner": "Claude",
       "status": "published",
-      "image": "113-cuatro-cosas-que-causan-paz.png"
+      "image": "163-cuatro-cosas-que-causan-paz.png"
     },
     {
-      "number": 114,
+      "number": 164,
       "id": "donde-esta-tu-fe",
       "book": "Imitacion_de_Cristo_(Kempis).pdf",
       "locator": "Libro III, capítulo 30",
       "page": 71,
       "owner": "Claude",
       "status": "published",
-      "image": "114-donde-esta-tu-fe.png"
+      "image": "164-donde-esta-tu-fe.png"
     },
     {
-      "number": 115,
+      "number": 165,
       "id": "el-sabor-del-delito",
       "book": "CONFESIONES San Agustín.pdf",
       "locator": "Libro II, capítulo 6",
       "page": 27,
       "owner": "Claude",
       "status": "published",
-      "image": "115-el-sabor-del-delito.png"
+      "image": "165-el-sabor-del-delito.png"
     },
     {
-      "number": 116,
+      "number": 166,
       "id": "corazon-inquieto-hasta-que-descanse",
       "book": "CONFESIONES San Agustín.pdf",
       "locator": "Libro I, capítulo 1",
       "page": 1,
       "owner": "Claude",
       "status": "published",
-      "image": "116-corazon-inquieto-hasta-que-descanse.png"
+      "image": "166-corazon-inquieto-hasta-que-descanse.png"
     },
     {
-      "number": 117,
+      "number": 167,
       "id": "presa-en-la-amistad-de-las-cosas-mortales",
       "book": "CONFESIONES San Agustín.pdf",
       "locator": "Libro IV, capítulo 6",
       "page": 94,
       "owner": "Claude",
       "status": "published",
-      "image": "117-presa-en-la-amistad-de-las-cosas-mortales.png"
+      "image": "167-presa-en-la-amistad-de-las-cosas-mortales.png"
     },
     {
-      "number": 118,
+      "number": 168,
       "id": "arrojate-con-confianza",
       "book": "CONFESIONES San Agustín.pdf",
       "locator": "Libro VIII, capítulo 11",
       "page": 135,
       "owner": "Claude",
       "status": "published",
-      "image": "118-arrojate-con-confianza.png"
+      "image": "168-arrojate-con-confianza.png"
     },
     {
-      "number": 119,
+      "number": 169,
       "id": "soberbia-que-ama-una-parte-como-si-fuera-el-todo",
       "book": "CONFESIONES San Agustín.pdf",
       "locator": "Libro III, capítulo 8",
       "page": 57,
       "owner": "Claude",
       "status": "published",
-      "image": "119-soberbia-que-ama-una-parte-como-si-fuera-el-todo.png"
+      "image": "169-soberbia-que-ama-una-parte-como-si-fuera-el-todo.png"
     },
     {
-      "number": 120,
+      "number": 170,
       "id": "el-ir-y-venir-de-mis-pensamientos",
       "book": "CONFESIONES San Agustín.pdf",
       "locator": "Libro X, capítulo 28",
       "page": 214,
       "owner": "Claude",
       "status": "published",
-      "image": "120-el-ir-y-venir-de-mis-pensamientos.png"
+      "image": "170-el-ir-y-venir-de-mis-pensamientos.png"
     },
     {
-      "number": 121,
+      "number": 171,
       "id": "toma-y-lee",
       "book": "CONFESIONES San Agustín.pdf",
       "locator": "Libro VIII, capítulo 12",
       "page": 136,
       "owner": "Claude",
       "status": "published",
-      "image": "121-toma-y-lee.png"
+      "image": "171-toma-y-lee.png"
     },
     {
-      "number": 122,
+      "number": 172,
       "id": "la-mano-oculta-de-tu-providencia",
       "book": "CONFESIONES San Agustín.pdf",
       "locator": "Libro V, capítulo 7",
       "page": 110,
       "owner": "Claude",
       "status": "published",
-      "image": "122-la-mano-oculta-de-tu-providencia.png"
+      "image": "172-la-mano-oculta-de-tu-providencia.png"
     },
     {
-      "number": 123,
+      "number": 173,
       "id": "temo-la-adversidad-en-medio-de-la-prosperidad",
       "book": "CONFESIONES San Agustín.pdf",
       "locator": "Libro X, capítulo 28",
       "page": 193,
       "owner": "Claude",
       "status": "published",
-      "image": "123-temo-la-adversidad-en-medio-de-la-prosperidad.png"
+      "image": "173-temo-la-adversidad-en-medio-de-la-prosperidad.png"
     },
     {
-      "number": 124,
+      "number": 174,
       "id": "mi-peso-es-mi-amor",
       "book": "CONFESIONES San Agustín.pdf",
       "locator": "Libro XIII, capítulo 9",
       "page": 270,
       "owner": "Claude",
       "status": "published",
-      "image": "124-mi-peso-es-mi-amor.png"
+      "image": "174-mi-peso-es-mi-amor.png"
     },
     {
-      "number": 125,
+      "number": 175,
       "id": "la-devocion-es-la-dulzura-de-las-dulzuras",
       "book": "Filotea_Introduccion_a_la_vida_devota_de_San_Francisco_de_Sales.pdf",
       "locator": "Primera Parte, capítulo II",
       "page": 4,
       "owner": "Claude",
       "status": "published",
-      "image": "125-la-devocion-es-la-dulzura-de-las-dulzuras.png"
+      "image": "175-la-devocion-es-la-dulzura-de-las-dulzuras.png"
     },
     {
-      "number": 126,
+      "number": 176,
       "id": "la-devocion-cabe-en-cualquier-vocacion",
       "book": "Filotea_Introduccion_a_la_vida_devota_de_San_Francisco_de_Sales.pdf",
       "locator": "Primera Parte, capítulo III",
       "page": 6,
       "owner": "Claude",
       "status": "published",
-      "image": "126-la-devocion-cabe-en-cualquier-vocacion.png"
+      "image": "176-la-devocion-cabe-en-cualquier-vocacion.png"
     },
     {
-      "number": 127,
+      "number": 177,
       "id": "cuidado-sin-inquietud-como-los-angeles",
       "book": "Filotea_Introduccion_a_la_vida_devota_de_San_Francisco_de_Sales.pdf",
       "locator": "Tercera Parte, capítulo X",
       "page": 93,
       "owner": "Claude",
       "status": "published",
-      "image": "127-cuidado-sin-inquietud-como-los-angeles.png"
+      "image": "177-cuidado-sin-inquietud-como-los-angeles.png"
     },
     {
-      "number": 128,
+      "number": 178,
       "id": "trata-tus-asuntos-sin-precipitacion",
       "book": "Filotea_Introduccion_a_la_vida_devota_de_San_Francisco_de_Sales.pdf",
       "locator": "Tercera Parte, capítulo X",
       "page": 93,
       "owner": "Claude",
       "status": "published",
-      "image": "128-trata-tus-asuntos-sin-precipitacion.png"
+      "image": "178-trata-tus-asuntos-sin-precipitacion.png"
     },
     {
-      "number": 129,
+      "number": 179,
       "id": "la-rosa-entre-las-espinas",
       "book": "Filotea_Introduccion_a_la_vida_devota_de_San_Francisco_de_Sales.pdf",
       "locator": "Primera Parte, capítulo XII",
       "page": 52,
       "owner": "Claude",
       "status": "published",
-      "image": "129-la-rosa-entre-las-espinas.png"
+      "image": "179-la-rosa-entre-las-espinas.png"
     },
     {
-      "number": 130,
+      "number": 180,
       "id": "la-dulzura-con-nosotros-mismos",
       "book": "Filotea_Introduccion_a_la_vida_devota_de_San_Francisco_de_Sales.pdf",
       "locator": "Tercera Parte, capítulo IX",
       "page": 90,
       "owner": "Claude",
       "status": "published",
-      "image": "130-la-dulzura-con-nosotros-mismos.png"
+      "image": "180-la-dulzura-con-nosotros-mismos.png"
     },
     {
-      "number": 131,
+      "number": 181,
       "id": "el-arrepentimiento-tranquilo-y-firme",
       "book": "Filotea_Introduccion_a_la_vida_devota_de_San_Francisco_de_Sales.pdf",
       "locator": "Tercera Parte, capítulo IX",
       "page": 90,
       "owner": "Claude",
       "status": "published",
-      "image": "131-el-arrepentimiento-tranquilo-y-firme.png"
+      "image": "181-el-arrepentimiento-tranquilo-y-firme.png"
     },
     {
-      "number": 132,
+      "number": 182,
       "id": "quejate-tan-poco-como-puedas",
       "book": "Filotea_Introduccion_a_la_vida_devota_de_San_Francisco_de_Sales.pdf",
       "locator": "Tercera Parte, capítulo VIII",
       "page": 75,
       "owner": "Claude",
       "status": "published",
-      "image": "132-quejate-tan-poco-como-puedas.png"
+      "image": "182-quejate-tan-poco-como-puedas.png"
     },
     {
-      "number": 133,
+      "number": 183,
       "id": "en-vuestra-paciencia-poseereis-vuestras-almas",
       "book": "Filotea_Introduccion_a_la_vida_devota_de_San_Francisco_de_Sales.pdf",
       "locator": "Tercera Parte, capítulo III",
       "page": 68,
       "owner": "Claude",
       "status": "published",
-      "image": "133-en-vuestra-paciencia-poseereis-vuestras-almas.png"
+      "image": "183-en-vuestra-paciencia-poseereis-vuestras-almas.png"
     },
     {
-      "number": 134,
+      "number": 184,
       "id": "no-limites-tu-paciencia",
       "book": "Filotea_Introduccion_a_la_vida_devota_de_San_Francisco_de_Sales.pdf",
       "locator": "Tercera Parte, capítulo III",
       "page": 68,
       "owner": "Claude",
       "status": "published",
-      "image": "134-no-limites-tu-paciencia.png"
+      "image": "184-no-limites-tu-paciencia.png"
     },
     {
-      "number": 135,
+      "number": 185,
       "id": "la-paz-camino-hacia-la-vida-eterna",
       "book": "Jacques Philippe - La paz interior.pdf",
       "locator": "Los santos y la paz del alma · Juan de Bonilla, 1",
       "page": 57,
       "owner": "Claude",
       "status": "published",
-      "image": "135-la-paz-camino-hacia-la-vida-eterna.png"
+      "image": "185-la-paz-camino-hacia-la-vida-eterna.png"
     },
     {
-      "number": 136,
+      "number": 186,
       "id": "el-alma-libre-y-desprendida",
       "book": "Jacques Philippe - La paz interior.pdf",
       "locator": "Los santos y la paz del alma · Juan de Bonilla, 2",
       "page": 58,
       "owner": "Claude",
       "status": "published",
-      "image": "136-el-alma-libre-y-desprendida.png"
+      "image": "186-el-alma-libre-y-desprendida.png"
     },
     {
-      "number": 137,
+      "number": 187,
       "id": "dios-es-el-principe-de-la-paz",
       "book": "Jacques Philippe - La paz interior.pdf",
       "locator": "Los santos y la paz del alma · San Francisco de Sales, 1",
       "page": 59,
       "owner": "Claude",
       "status": "published",
-      "image": "137-dios-es-el-principe-de-la-paz.png"
+      "image": "187-dios-es-el-principe-de-la-paz.png"
     },
     {
-      "number": 138,
+      "number": 188,
       "id": "las-tres-cosas-que-dan-la-paz",
       "book": "Jacques Philippe - La paz interior.pdf",
       "locator": "Los santos y la paz del alma · San Francisco de Sales, 2",
       "page": 59,
       "owner": "Claude",
       "status": "published",
-      "image": "138-las-tres-cosas-que-dan-la-paz.png"
+      "image": "188-las-tres-cosas-que-dan-la-paz.png"
     },
     {
-      "number": 139,
+      "number": 189,
       "id": "la-paz-nace-de-la-humildad",
       "book": "Jacques Philippe - La paz interior.pdf",
       "locator": "Los santos y la paz del alma · San Francisco de Sales, 3",
       "page": 60,
       "owner": "Claude",
       "status": "published",
-      "image": "139-la-paz-nace-de-la-humildad.png"
+      "image": "189-la-paz-nace-de-la-humildad.png"
     },
     {
-      "number": 140,
+      "number": 190,
       "id": "todo-coopera-al-bien-de-los-que-aman-a-dios",
       "book": "Jacques Philippe - La paz interior.pdf",
       "locator": "Los santos y la paz del alma · San Francisco de Sales, 4",
       "page": 60,
       "owner": "Claude",
       "status": "published",
-      "image": "140-todo-coopera-al-bien-de-los-que-aman-a-dios.png"
+      "image": "190-todo-coopera-al-bien-de-los-que-aman-a-dios.png"
     },
     {
-      "number": 141,
+      "number": 191,
       "id": "la-medida-de-la-providencia-es-tu-confianza",
       "book": "Jacques Philippe - La paz interior.pdf",
       "locator": "Los santos y la paz del alma · San Francisco de Sales, 6",
       "page": 61,
       "owner": "Claude",
       "status": "published",
-      "image": "141-la-medida-de-la-providencia-es-tu-confianza.png"
+      "image": "191-la-medida-de-la-providencia-es-tu-confianza.png"
     },
     {
-      "number": 142,
+      "number": 192,
       "id": "tratar-los-asuntos-sin-precipitacion",
       "book": "Jacques Philippe - La paz interior.pdf",
       "locator": "Los santos y la paz del alma · San Francisco de Sales, 7",
       "page": 61,
       "owner": "Claude",
       "status": "published",
-      "image": "142-tratar-los-asuntos-sin-precipitacion.png"
+      "image": "192-tratar-los-asuntos-sin-precipitacion.png"
     },
     {
-      "number": 143,
+      "number": 193,
       "id": "marta-te-preocupas-por-muchas-cosas",
       "book": "Jacques Philippe - La paz interior.pdf",
       "locator": "Los santos y la paz del alma · San Francisco de Sales, 7",
       "page": 61,
       "owner": "Claude",
       "status": "published",
-      "image": "143-marta-te-preocupas-por-muchas-cosas.png"
+      "image": "193-marta-te-preocupas-por-muchas-cosas.png"
     },
     {
-      "number": 144,
+      "number": 194,
       "id": "aborrecer-los-defectos-con-paz",
       "book": "Jacques Philippe - La paz interior.pdf",
       "locator": "Los santos y la paz del alma · San Francisco de Sales, 8",
       "page": 61,
       "owner": "Claude",
       "status": "published",
-      "image": "144-aborrecer-los-defectos-con-paz.png"
+      "image": "194-aborrecer-los-defectos-con-paz.png"
     },
     {
-      "number": 145,
+      "number": 195,
       "id": "la-confianza-es-el-antidoto-al-miedo",
       "book": "La confianza en Dios - Jacques Philippe.pdf",
       "locator": "Prólogo",
       "page": 7,
       "owner": "Claude",
       "status": "published",
-      "image": "145-la-confianza-es-el-antidoto-al-miedo.png"
+      "image": "195-la-confianza-es-el-antidoto-al-miedo.png"
     },
     {
-      "number": 146,
+      "number": 196,
       "id": "nuestros-miedos-nos-definen",
       "book": "La confianza en Dios - Jacques Philippe.pdf",
       "locator": "Prólogo",
       "page": 7,
       "owner": "Claude",
       "status": "published",
-      "image": "146-nuestros-miedos-nos-definen.png"
+      "image": "196-nuestros-miedos-nos-definen.png"
     },
     {
-      "number": 147,
+      "number": 197,
       "id": "maria-reina-de-la-paz",
       "book": "La confianza en Dios - Jacques Philippe.pdf",
       "locator": "Capítulo 3",
       "page": 67,
       "owner": "Claude",
       "status": "published",
-      "image": "147-maria-reina-de-la-paz.png"
+      "image": "197-maria-reina-de-la-paz.png"
     },
     {
-      "number": 148,
+      "number": 198,
       "id": "el-desanimo-es-una-expresion-del-orgullo",
       "book": "La confianza en Dios - Jacques Philippe.pdf",
       "locator": "Capítulo 2",
       "page": 39,
       "owner": "Claude",
       "status": "published",
-      "image": "148-el-desanimo-es-una-expresion-del-orgullo.png"
+      "image": "198-el-desanimo-es-una-expresion-del-orgullo.png"
     },
     {
-      "number": 149,
+      "number": 199,
       "id": "mi-confianza-era-confianza-en-mi-mismo",
       "book": "La confianza en Dios - Jacques Philippe.pdf",
       "locator": "Capítulo 4",
       "page": 75,
       "owner": "Claude",
       "status": "published",
-      "image": "149-mi-confianza-era-confianza-en-mi-mismo.png"
+      "image": "199-mi-confianza-era-confianza-en-mi-mismo.png"
     },
     {
-      "number": 150,
+      "number": 200,
       "id": "la-verdadera-humildad-es-aceptarse",
       "book": "La confianza en Dios - Jacques Philippe.pdf",
       "locator": "Capítulo 2",
       "page": 39,
       "owner": "Claude",
       "status": "published",
-      "image": "150-la-verdadera-humildad-es-aceptarse.png"
+      "image": "200-la-verdadera-humildad-es-aceptarse.png"
     },
     {
-      "number": 151,
+      "number": 201,
       "id": "el-amor-de-dios-no-esta-sujeto-a-eclipses",
       "book": "La confianza en Dios - Jacques Philippe.pdf",
       "locator": "Capítulo 4",
       "page": 76,
       "owner": "Claude",
       "status": "published",
-      "image": "151-el-amor-de-dios-no-esta-sujeto-a-eclipses.png"
+      "image": "201-el-amor-de-dios-no-esta-sujeto-a-eclipses.png"
     },
     {
-      "number": 152,
+      "number": 202,
       "id": "alimentados-de-la-palabra-de-dios",
       "book": "La confianza en Dios - Jacques Philippe.pdf",
       "locator": "Capítulo 3",
       "page": 61,
       "owner": "Claude",
       "status": "published",
-      "image": "152-alimentados-de-la-palabra-de-dios.png"
+      "image": "202-alimentados-de-la-palabra-de-dios.png"
     },
     {
-      "number": 153,
+      "number": 203,
       "id": "la-confianza-de-jesus-fue-puesta-a-prueba",
       "book": "La confianza en Dios - Jacques Philippe.pdf",
       "locator": "Capítulo 6",
       "page": 91,
       "owner": "Claude",
       "status": "published",
-      "image": "153-la-confianza-de-jesus-fue-puesta-a-prueba.png"
+      "image": "203-la-confianza-de-jesus-fue-puesta-a-prueba.png"
     },
     {
-      "number": 154,
+      "number": 204,
       "id": "toda-prueba-es-una-prueba-de-fe",
       "book": "La confianza en Dios - Jacques Philippe.pdf",
       "locator": "Capítulo 6",
       "page": 92,
       "owner": "Claude",
       "status": "published",
-      "image": "154-toda-prueba-es-una-prueba-de-fe.png"
+      "image": "204-toda-prueba-es-una-prueba-de-fe.png"
     },
     {
       "number": 105,

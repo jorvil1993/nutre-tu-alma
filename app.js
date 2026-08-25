@@ -23,7 +23,7 @@ const experiences = [
     source: "La Imitación de Cristo · Libro II, capítulo 5",
     question: "¿Qué consuelo pequeño y pasajero has puesto en el lugar que solo le corresponde a Dios?",
     imageQuestion: "¿Qué pones en el lugar de Dios?",
-    image: "./assets/images/109-solo-dios-llena-el-alma.png",
+    image: "./assets/images/159-solo-dios-llena-el-alma.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -32,7 +32,7 @@ const experiences = [
     source: "La confianza en Dios · Capítulo 2",
     question: "¿Reconoces tu desánimo de estos días como lo que en el fondo es: una forma de orgullo?",
     imageQuestion: "¿Tu desánimo es en el fondo orgullo?",
-    image: "./assets/images/148-el-desanimo-es-una-expresion-del-orgullo.png",
+    image: "./assets/images/198-el-desanimo-es-una-expresion-del-orgullo.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -50,7 +50,7 @@ const experiences = [
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 2",
     question: "Después de hacer lo poco que puedes hoy, ¿te animas a dejar que Dios se encargue del resto?",
     imageQuestion: "¿Dejas que Dios se encargue del resto?",
-    image: "./assets/images/138-las-tres-cosas-que-dan-la-paz.png",
+    image: "./assets/images/188-las-tres-cosas-que-dan-la-paz.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -95,7 +95,7 @@ const experiences = [
     source: "Confesiones de San Agustín · Libro VIII, capítulo 11",
     question: "¿En qué fuerzas propias te sigues sosteniendo, en vez de arrojarte con confianza en los brazos de Dios?",
     imageQuestion: "¿Te arrojas confiado en los brazos de Dios?",
-    image: "./assets/images/118-arrojate-con-confianza.png",
+    image: "./assets/images/168-arrojate-con-confianza.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -113,7 +113,7 @@ const experiences = [
     source: "La confianza en Dios · Capítulo 6",
     question: "En la prueba que atraviesas ahora, ¿qué respuesta de fe le estás dando a la pregunta de si Dios te quiere?",
     imageQuestion: "¿Qué respuesta de fe das a tu prueba?",
-    image: "./assets/images/154-toda-prueba-es-una-prueba-de-fe.png",
+    image: "./assets/images/204-toda-prueba-es-una-prueba-de-fe.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -149,7 +149,7 @@ const experiences = [
     source: "Confesiones de San Agustín · Libro X, capítulo 28",
     question: "¿Puedes reconocer hoy que temes perder lo próspero tanto como antes deseabas alcanzarlo?",
     imageQuestion: "¿Qué prosperidad temes perder hoy?",
-    image: "./assets/images/123-temo-la-adversidad-en-medio-de-la-prosperidad.png",
+    image: "./assets/images/173-temo-la-adversidad-en-medio-de-la-prosperidad.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -176,7 +176,7 @@ const experiences = [
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo IX",
     question: "Cuando fallas, ¿te tratas a ti mismo con la misma dulzura con la que tratarías a otro?",
     imageQuestion: "¿Te tratas con dulzura cuando fallas?",
-    image: "./assets/images/130-la-dulzura-con-nosotros-mismos.png",
+    image: "./assets/images/180-la-dulzura-con-nosotros-mismos.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -185,7 +185,7 @@ const experiences = [
     source: "La Imitación de Cristo · Libro III, capítulo 30",
     question: "¿Cuánta tristeza de hoy nace, en realidad, de anticipar un mañana que quizás nunca llegue?",
     imageQuestion: "¿Dónde está tu fe en este momento?",
-    image: "./assets/images/114-donde-esta-tu-fe.png",
+    image: "./assets/images/164-donde-esta-tu-fe.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -230,7 +230,7 @@ const experiences = [
     source: "La paz interior · Los santos y la paz del alma · Juan de Bonilla, 2",
     question: "¿A qué resultado concreto está esclavizado hoy tu corazón, de modo que su fracaso te destrozaría?",
     imageQuestion: "¿A qué está esclavizado tu corazón?",
-    image: "./assets/images/136-el-alma-libre-y-desprendida.png",
+    image: "./assets/images/186-el-alma-libre-y-desprendida.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -248,7 +248,7 @@ const experiences = [
     source: "La Imitación de Cristo · Libro II, capítulo 3",
     question: "¿Buscas la paz evitando todo sufrimiento, o aprendes a padecer con humildad como el verdadero camino hacia ella?",
     imageQuestion: "¿Buscas la paz o huyes del sufrimiento?",
-    image: "./assets/images/106-paz-consigo-y-con-los-otros.png",
+    image: "./assets/images/156-paz-consigo-y-con-los-otros.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -266,7 +266,7 @@ const experiences = [
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo VIII",
     question: "¿A quién sueles contarle tus quejas: a alguien que te calma, o a alguien que las agranda?",
     imageQuestion: "¿A quién le cuentas tus quejas?",
-    image: "./assets/images/132-quejate-tan-poco-como-puedas.png",
+    image: "./assets/images/182-quejate-tan-poco-como-puedas.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -311,7 +311,7 @@ const experiences = [
     source: "La confianza en Dios · Capítulo 2",
     question: "¿Confundes a veces la humildad con despreciarte a ti mismo, en vez de aceptarte con honestidad?",
     imageQuestion: "¿Confundes humildad con despreciarte?",
-    image: "./assets/images/150-la-verdadera-humildad-es-aceptarse.png",
+    image: "./assets/images/200-la-verdadera-humildad-es-aceptarse.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -329,7 +329,7 @@ const experiences = [
     source: "La confianza en Dios · Prólogo",
     question: "¿Qué secreto de los santos, capaces de no dejarse arrastrar por el miedo, te falta todavía por vivir?",
     imageQuestion: "¿Qué antídoto contra el miedo te falta vivir?",
-    image: "./assets/images/145-la-confianza-es-el-antidoto-al-miedo.png",
+    image: "./assets/images/195-la-confianza-es-el-antidoto-al-miedo.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -365,7 +365,7 @@ const experiences = [
     source: "La confianza en Dios · Capítulo 3",
     question: "¿Cuánto hace que un versículo de la Escritura no te devuelve la confianza que hoy sientes debilitada?",
     imageQuestion: "¿Qué palabra te devolvería la confianza?",
-    image: "./assets/images/152-alimentados-de-la-palabra-de-dios.png",
+    image: "./assets/images/202-alimentados-de-la-palabra-de-dios.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -392,7 +392,7 @@ const experiences = [
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo IX",
     question: "¿Te corriges a ti mismo como un juez sereno, o como alguien que descarga su propia pasión?",
     imageQuestion: "¿Te corriges con calma o con violencia?",
-    image: "./assets/images/131-el-arrepentimiento-tranquilo-y-firme.png",
+    image: "./assets/images/181-el-arrepentimiento-tranquilo-y-firme.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -410,7 +410,7 @@ const experiences = [
     source: "La Imitación de Cristo · Libro III, capítulo 23",
     question: "De estos cinco pasos hacia la paz, ¿cuál es el que más te cuesta vivir hoy?",
     imageQuestion: "¿Qué paso hacia la paz te cuesta más?",
-    image: "./assets/images/113-cuatro-cosas-que-causan-paz.png",
+    image: "./assets/images/163-cuatro-cosas-que-causan-paz.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -446,7 +446,7 @@ const experiences = [
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo III",
     question: "¿Aceptas con paz solo las cruces que además te hacen quedar bien ante los demás?",
     imageQuestion: "¿Aceptas solo el sufrimiento que da honra?",
-    image: "./assets/images/134-no-limites-tu-paciencia.png",
+    image: "./assets/images/184-no-limites-tu-paciencia.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -504,7 +504,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 6",
     question: "¿Con qué medida—temor o esperanza—sueles anticipar lo que todavía no ha sucedido?",
     imageQuestion: "¿Anticipas el futuro con temor o esperanza?",
-    image: "./assets/images/141-la-medida-de-la-providencia-es-tu-confianza.png",
+    image: "./assets/images/191-la-medida-de-la-providencia-es-tu-confianza.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -576,7 +576,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro III, capítulo 21",
     question: "¿Qué don de Dios has confundido alguna vez con el propio Dios, buscando descansar en el regalo y no en Quien lo da?",
     imageQuestion: "¿Descansas en los dones o en Dios mismo?",
-    image: "./assets/images/111-solo-en-ti-descansa-mi-corazon.png",
+    image: "./assets/images/161-solo-en-ti-descansa-mi-corazon.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -612,7 +612,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 4",
     question: "¿Qué error tuyo del pasado puede Dios estar convirtiendo hoy, sin que aún lo notes, en un bien?",
     imageQuestion: "¿Qué error se está volviendo un bien?",
-    image: "./assets/images/140-todo-coopera-al-bien-de-los-que-aman-a-dios.png",
+    image: "./assets/images/190-todo-coopera-al-bien-de-los-que-aman-a-dios.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -657,7 +657,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Filotea: Introducción a la Vida Devota · Primera Parte, capítulo II",
     question: "¿Vives tu fe como una obligación pesada, o has probado ya la dulzura que promete cuando es verdadera?",
     imageQuestion: "¿Has probado la dulzura de la devoción?",
-    image: "./assets/images/125-la-devocion-es-la-dulzura-de-las-dulzuras.png",
+    image: "./assets/images/175-la-devocion-es-la-dulzura-de-las-dulzuras.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -666,7 +666,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 3",
     question: "¿Te sorprende más caer en tus defectos, o debería sorprenderte más el que Dios te sostenga en pie?",
     imageQuestion: "¿Qué te sorprende más: caer o seguir en pie?",
-    image: "./assets/images/139-la-paz-nace-de-la-humildad.png",
+    image: "./assets/images/189-la-paz-nace-de-la-humildad.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -693,7 +693,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Confesiones de San Agustín · Libro V, capítulo 7",
     question: "¿Qué paso de tu vida, que parecía obra tuya, reconoces ahora que era la mano oculta de Dios?",
     imageQuestion: "¿Ves la mano de Dios en tu camino?",
-    image: "./assets/images/122-la-mano-oculta-de-tu-providencia.png",
+    image: "./assets/images/172-la-mano-oculta-de-tu-providencia.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -729,7 +729,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro I, capítulo 13",
     question: "¿Dónde está el timón de tu confianza en Dios cuando llegan las olas de la tentación?",
     imageQuestion: "¿Dónde está el timón de tu confianza?",
-    image: "./assets/images/107-nave-sin-timon.png",
+    image: "./assets/images/157-nave-sin-timon.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -747,7 +747,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Confesiones de San Agustín · Libro I, capítulo 1",
     question: "¿Reconoces hoy que tu corazón anda inquieto porque busca su descanso en otro lugar que no es Dios?",
     imageQuestion: "¿Dónde busca descanso tu corazón inquieto?",
-    image: "./assets/images/116-corazon-inquieto-hasta-que-descanse.png",
+    image: "./assets/images/166-corazon-inquieto-hasta-que-descanse.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -765,7 +765,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La confianza en Dios · Capítulo 4",
     question: "Cuando fallas y tu confianza en Dios se tambalea con ella, ¿en quién estabas confiando en realidad?",
     imageQuestion: "¿Confías en Dios, o en ti mismo?",
-    image: "./assets/images/149-mi-confianza-era-confianza-en-mi-mismo.png",
+    image: "./assets/images/199-mi-confianza-era-confianza-en-mi-mismo.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -801,7 +801,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro I, capítulo 23",
     question: "Si hoy fuera el último día de tu vida, ¿qué cambiarías ahora mismo en tu manera de vivir?",
     imageQuestion: "¿Vives hoy como si fueras a morir hoy?",
-    image: "./assets/images/108-hoy-el-hombre-manana-no-parece.png",
+    image: "./assets/images/158-hoy-el-hombre-manana-no-parece.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -873,7 +873,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La paz interior · Los santos y la paz del alma · Juan de Bonilla, 1",
     question: "¿Qué has dejado entrar hoy en tu corazón que le causa inquietud sin que te dieras cuenta?",
     imageQuestion: "¿Qué inquieta hoy tu corazón?",
-    image: "./assets/images/135-la-paz-camino-hacia-la-vida-eterna.png",
+    image: "./assets/images/185-la-paz-camino-hacia-la-vida-eterna.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -900,7 +900,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La confianza en Dios · Capítulo 4",
     question: "¿Tu confianza en Dios sube y baja según tus propios éxitos, o descansa solo en su amor?",
     imageQuestion: "¿Tu confianza depende de tus éxitos?",
-    image: "./assets/images/151-el-amor-de-dios-no-esta-sujeto-a-eclipses.png",
+    image: "./assets/images/201-el-amor-de-dios-no-esta-sujeto-a-eclipses.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -954,7 +954,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 7",
     question: "¿En qué te pareces hoy a Marta: cuidadoso de lo necesario, o preocupado por demasiadas cosas?",
     imageQuestion: "¿Eres hoy más Marta preocupada o en paz?",
-    image: "./assets/images/143-marta-te-preocupas-por-muchas-cosas.png",
+    image: "./assets/images/193-marta-te-preocupas-por-muchas-cosas.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -963,7 +963,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Confesiones de San Agustín · Libro II, capítulo 6",
     question: "¿Qué mal has hecho alguna vez no por lo que ganabas, sino por el simple gusto de transgredir?",
     imageQuestion: "¿Buscas el bien, o el gusto de pecar?",
-    image: "./assets/images/115-el-sabor-del-delito.png",
+    image: "./assets/images/165-el-sabor-del-delito.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1026,7 +1026,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo X",
     question: "¿Puedes imaginar hoy tus responsabilidades atendidas con el mismo cuidado sereno de un ángel, sin la ansiedad que sueles ponerle?",
     imageQuestion: "¿Puedes atender tus asuntos sin ansiedad?",
-    image: "./assets/images/127-cuidado-sin-inquietud-como-los-angeles.png",
+    image: "./assets/images/177-cuidado-sin-inquietud-como-los-angeles.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1035,7 +1035,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro II, capítulo 5",
     question: "¿Dónde estás tú, de verdad, cuando pasas el día entero pendiente de todo menos de tu propia alma?",
     imageQuestion: "¿Dónde estás cuando no estás contigo?",
-    image: "./assets/images/112-donde-estas-cuando-no-estas-contigo.png",
+    image: "./assets/images/162-donde-estas-cuando-no-estas-contigo.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1098,7 +1098,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Confesiones de San Agustín · Libro III, capítulo 8",
     question: "¿Qué cadena te has forjado tú mismo al amar una parte de tu vida como si fuera el todo?",
     imageQuestion: "¿Qué cadena te forjaste tú mismo?",
-    image: "./assets/images/119-soberbia-que-ama-una-parte-como-si-fuera-el-todo.png",
+    image: "./assets/images/169-soberbia-que-ama-una-parte-como-si-fuera-el-todo.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1161,7 +1161,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro I, capítulo 11",
     question: "¿En qué asunto ajeno te has metido esta semana, robándole la paz a tu propio corazón?",
     imageQuestion: "¿En qué te metes que no te pertenece?",
-    image: "./assets/images/105-paz-de-no-entrometerse.png",
+    image: "./assets/images/155-paz-de-no-entrometerse.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1206,7 +1206,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Confesiones de San Agustín · Libro VIII, capítulo 12",
     question: "¿Qué palabra de Dios, leída sin buscarla, te ha cambiado alguna vez el rumbo del día?",
     imageQuestion: "¿Qué palabra te cambió el rumbo?",
-    image: "./assets/images/121-toma-y-lee.png",
+    image: "./assets/images/171-toma-y-lee.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1242,7 +1242,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo III",
     question: "¿Qué significaría hoy para ti poseer tu alma en paz, en lugar de dejártela arrebatar por cada contrariedad?",
     imageQuestion: "¿Posees tu alma, o te la arrebatan?",
-    image: "./assets/images/133-en-vuestra-paciencia-poseereis-vuestras-almas.png",
+    image: "./assets/images/183-en-vuestra-paciencia-poseereis-vuestras-almas.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1260,7 +1260,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 8",
     question: "¿Odias tus defectos con paz, o con la misma violencia con la que juzgarías a otro?",
     imageQuestion: "¿Con qué ánimo miras tus defectos?",
-    image: "./assets/images/144-aborrecer-los-defectos-con-paz.png",
+    image: "./assets/images/194-aborrecer-los-defectos-con-paz.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1323,7 +1323,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro I, capítulo 20",
     question: "¿Te atreves hoy a cerrar la puerta del ruido exterior para quedarte a solas con Jesús?",
     imageQuestion: "¿Cierras la puerta para estar con Jesús?",
-    image: "./assets/images/110-cerrar-la-puerta-y-hallar-paz.png",
+    image: "./assets/images/160-cerrar-la-puerta-y-hallar-paz.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1343,7 +1343,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Confesiones de San Agustín · Libro IV, capítulo 6",
     question: "¿Qué cosa mortal tiene hoy presa tu alma, de tal modo que perderla te desgarraría por dentro?",
     imageQuestion: "¿Qué tiene presa tu alma?",
-    image: "./assets/images/117-presa-en-la-amistad-de-las-cosas-mortales.png",
+    image: "./assets/images/167-presa-en-la-amistad-de-las-cosas-mortales.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1460,7 +1460,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo X",
     question: "¿Qué asunto llevas hoy con tanta prisa que ya ni la razón ni el juicio te acompañan?",
     imageQuestion: "¿La prisa te está nublando el juicio?",
-    image: "./assets/images/128-trata-tus-asuntos-sin-precipitacion.png",
+    image: "./assets/images/178-trata-tus-asuntos-sin-precipitacion.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1487,7 +1487,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Confesiones de San Agustín · Libro X, capítulo 28",
     question: "¿Qué pensamiento va y viene sin descanso en tu cabeza, sin que por eso se mueva tu fe en Dios?",
     imageQuestion: "¿Qué pensamiento no te deja descansar?",
-    image: "./assets/images/120-el-ir-y-venir-de-mis-pensamientos.png",
+    image: "./assets/images/170-el-ir-y-venir-de-mis-pensamientos.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1496,7 +1496,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "La confianza en Dios · Capítulo 6",
     question: "Cuando sientes que Dios te ha abandonado, ¿puedes, como Jesús en la cruz, seguir confiando de todos modos?",
     imageQuestion: "¿Confías aunque sientas el abandono?",
-    image: "./assets/images/153-la-confianza-de-jesus-fue-puesta-a-prueba.png",
+    image: "./assets/images/203-la-confianza-de-jesus-fue-puesta-a-prueba.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1505,7 +1505,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 7",
     question: "¿Qué tarea de hoy podrías hacer igual de bien, pero sin la prisa que le estás poniendo?",
     imageQuestion: "¿Le quitas la prisa a tu tarea de hoy?",
-    image: "./assets/images/142-tratar-los-asuntos-sin-precipitacion.png",
+    image: "./assets/images/192-tratar-los-asuntos-sin-precipitacion.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1559,7 +1559,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Filotea: Introducción a la Vida Devota · Primera Parte, capítulo XII",
     question: "¿Qué espina, mezclada a una alegría reciente, te está costando aceptar como parte de esta vida?",
     imageQuestion: "¿Qué espina va mezclada con tu alegría?",
-    image: "./assets/images/129-la-rosa-entre-las-espinas.png",
+    image: "./assets/images/179-la-rosa-entre-las-espinas.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1779,7 +1779,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "Confesiones de San Agustín · Libro XIII, capítulo 9",
     question: "¿Hacia dónde te está llevando tu amor, y es ese el lugar donde de verdad quieres descansar?",
     imageQuestion: "¿Hacia dónde te lleva tu amor?",
-    image: "./assets/images/124-mi-peso-es-mi-amor.png",
+    image: "./assets/images/174-mi-peso-es-mi-amor.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1788,7 +1788,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "Filotea: Introducción a la Vida Devota · Primera Parte, capítulo III",
     question: "¿En qué área de tu vida diaria has pensado que la santidad simplemente no cabe?",
     imageQuestion: "¿Dónde crees que la santidad no cabe?",
-    image: "./assets/images/126-la-devocion-cabe-en-cualquier-vocacion.png",
+    image: "./assets/images/176-la-devocion-cabe-en-cualquier-vocacion.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1797,7 +1797,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 1",
     question: "¿De dónde vienen realmente los pensamientos que hoy agitan tu alma: de Dios, o de otra fuente?",
     imageQuestion: "¿De dónde viene tu pensamiento inquieto?",
-    image: "./assets/images/137-dios-es-el-principe-de-la-paz.png",
+    image: "./assets/images/187-dios-es-el-principe-de-la-paz.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1806,7 +1806,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "La confianza en Dios · Capítulo 3",
     question: "En medio de la crisis que estés viviendo hoy, ¿eliges acoger la paz de Dios o dejarte inquietar?",
     imageQuestion: "¿Acoges la paz en medio de la crisis?",
-    image: "./assets/images/147-maria-reina-de-la-paz.png",
+    image: "./assets/images/197-maria-reina-de-la-paz.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1815,7 +1815,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "La confianza en Dios · Prólogo",
     question: "Si tus miedos revelan lo que más temes perder, ¿qué te dicen los tuyos sobre dónde está tu corazón?",
     imageQuestion: "¿Qué tesoro temes perder de verdad?",
-    image: "./assets/images/146-nuestros-miedos-nos-definen.png",
+    image: "./assets/images/196-nuestros-miedos-nos-definen.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
