@@ -1850,7 +1850,94 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
 const feed = document.querySelector("#feed");
 feed.className = "feed";
 
-const RESUME_STORAGE_KEY = "nutre-tu-alma:resume-v1";
+// --- MOTOR DE FLUJO RÍTMICO DINÁMICO (CADENCIA TIKTOK ESPIRITUAL + ROTACIÓN DE AUTORES) ---
+const classifyDimension = (exp) => {
+  const s = (exp.source || "").toLowerCase();
+  if (s.includes("sacerdotes") || s.includes("virgen") || s.includes("maría")) return "mariana";
+  if (s.includes("combate") || s.includes("scúpoli")) return "combate";
+  if (s.includes("eucaristía") || s.includes("ratzinger")) return "eucaristia";
+  if (s.includes("amor a jesucristo") || s.includes("ligorio")) return "amor";
+  if (s.includes("teresita") || s.includes("confianza") || s.includes("paz interior") || s.includes("philippe")) return "confianza";
+  if (s.includes("pasión") || s.includes("olaizola")) return "pasion";
+  if (s.includes("imitación") || s.includes("kempis")) return "kempis";
+  if (s.includes("confesiones") || s.includes("agustín")) return "agustin";
+  if (s.includes("filotea") || s.includes("sales")) return "sales";
+  return "general";
+};
+
+const classifyTier = (exp) => {
+  const wc = exp.reading ? exp.reading.trim().split(/\s+/).length : 0;
+  if (wc <= 65) return "short";
+  if (wc <= 100) return "medium";
+  return "deep";
+};
+
+const buildRhythmicStream = (rawExperiences) => {
+  if (!rawExperiences || rawExperiences.length <= 3) return rawExperiences;
+
+  const shorts = [];
+  const mediums = [];
+  const deeps = [];
+
+  for (const exp of rawExperiences) {
+    const tier = classifyTier(exp);
+    if (tier === "short") shorts.push(exp);
+    else if (tier === "medium") mediums.push(exp);
+    else deeps.push(exp);
+  }
+
+  // Barajado determinista con semilla fija (LCG) para estabilidad de sesión
+  let seed = 19730513;
+  const pseudoRandom = () => {
+    seed = (seed * 1664525 + 1013904223) % 4294967296;
+    return seed / 4294967296;
+  };
+  const shuffle = (arr) => {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(pseudoRandom() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+  };
+  shuffle(shorts);
+  shuffle(mediums);
+  shuffle(deeps);
+
+  const stream = [];
+  const cadence = ["short", "medium", "short", "deep", "medium", "short", "medium"];
+  let lastDim = null;
+
+  while (shorts.length > 0 || mediums.length > 0 || deeps.length > 0) {
+    for (const targetTier of cadence) {
+      let pool = null;
+      if (targetTier === "short" && shorts.length > 0) pool = shorts;
+      else if (targetTier === "medium" && mediums.length > 0) pool = mediums;
+      else if (targetTier === "deep" && deeps.length > 0) pool = deeps;
+      else if (shorts.length > 0) pool = shorts;
+      else if (mediums.length > 0) pool = mediums;
+      else if (deeps.length > 0) pool = deeps;
+      else break;
+
+      let chosenIdx = 0;
+      for (let i = 0; i < pool.length; i++) {
+        if (classifyDimension(pool[i]) !== lastDim) {
+          chosenIdx = i;
+          break;
+        }
+      }
+
+      const item = pool.splice(chosenIdx, 1)[0];
+      lastDim = classifyDimension(item);
+      stream.push(item);
+    }
+  }
+
+  return stream;
+};
+
+// Se ejecuta el motor rítmico sobre todas las experiencias disponibles
+const dynamicExperiences = buildRhythmicStream(experiences);
+
+const RESUME_STORAGE_KEY = "nutre-tu-alma:resume-v2";
 const FULL_CYCLE_SIZE = 100;
 const QUESTION_HEADINGS = [
   "Para llevar al corazón",
@@ -1866,7 +1953,7 @@ const QUESTION_HEADINGS = [
 ];
 
 const escapeHtml = (value) =>
-  value.replace(/[&<>'\"]/g, (character) => ({
+  value.replace(/[&<>'"]/g, (character) => ({
     "&": "&amp;",
     "<": "&lt;",
     ">": "&gt;",
@@ -1876,7 +1963,7 @@ const escapeHtml = (value) =>
 
 const readingCard = (experience, topicNumber) => `
   <article class="card reading-card" data-content-id="${experience.id}" data-phase="reading" aria-label="Lectura ${topicNumber}">
-    <div class="topline"><span class="brand">Nutre tu Alma</span><span>${topicNumber} de ${experiences.length}</span></div>
+    <div class="topline"><span class="brand">Nutre tu Alma</span><span>${topicNumber} de ${dynamicExperiences.length}</span></div>
     <div class="card-main">
       <p class="card-type">Lectura · pausa breve</p>
       <div class="reading-text">${escapeHtml(experience.reading).replaceAll("\n\n", "<br><br>")}</div>
@@ -1911,7 +1998,7 @@ const imageCard = (experience, topicNumber) => `
     </div>
   </article>`;
 
-feed.innerHTML = experiences
+feed.innerHTML = dynamicExperiences
   .flatMap((experience, index) => [
     readingCard(experience, index + 1),
     questionCard(experience, index + 1),
@@ -1923,6 +2010,10 @@ const cards = [...feed.querySelectorAll(".card")];
 
 const loadResume = () => {
   try {
+    // Limpieza de versiones anteriores para asegurar reinicio a cero
+    if (localStorage.getItem("nutre-tu-alma:resume-v1")) {
+      localStorage.removeItem("nutre-tu-alma:resume-v1");
+    }
     return JSON.parse(localStorage.getItem(RESUME_STORAGE_KEY) || "null");
   } catch {
     return null;
@@ -1941,7 +2032,7 @@ const resumeIndex = () => {
   if (!saved.advanceOnResume) return savedIndex;
   if (savedIndex < cards.length - 1) return savedIndex + 1;
 
-  return experiences.length >= FULL_CYCLE_SIZE ? 0 : savedIndex;
+  return dynamicExperiences.length >= FULL_CYCLE_SIZE ? 0 : savedIndex;
 };
 
 const saveResume = (card) => {
@@ -2098,7 +2189,6 @@ const resumeObserver = new IntersectionObserver(
 cards.forEach((card) => resumeObserver.observe(card));
 
 // Mantiene la pantalla encendida únicamente mientras Nutre tu Alma está visible.
-// Algunos teléfonos pueden revocarlo en ahorro de batería o con poca batería.
 let screenWakeLock = null;
 
 const keepScreenAwake = async () => {
@@ -2110,7 +2200,7 @@ const keepScreenAwake = async () => {
       screenWakeLock = null;
     });
   } catch {
-    // El sistema decide no concederlo, por ejemplo, en ahorro de batería.
+    // El sistema decide no concederlo en ahorro de batería
   }
 };
 
