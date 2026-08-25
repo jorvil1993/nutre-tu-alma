@@ -1,4 +1,4 @@
-const CACHE_NAME = "nutre-tu-alma-runtime-v6";
+const CACHE_NAME = "nutre-tu-alma-runtime-v7";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -6,6 +6,8 @@ const APP_SHELL = [
   "./app.js",
   "./manifest.webmanifest",
   "./assets/app-icon.svg",
+  "./assets/icon-192.png",
+  "./assets/icon-512.png",
   "./assets/images/01-cristo-y-pedro.png",
   "./assets/images/02-virgen-y-nino.png",
   "./assets/images/03-virgen-consuela.png",

@@ -3,12 +3,26 @@
   "short_name": "Nutre tu Alma",
   "description": "Lectura, meditación e imagen para nutrir el alma y volver el corazón a Dios.",
   "lang": "es",
-  "start_url": "./",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#11130f",
   "theme_color": "#11130f",
   "orientation": "portrait-primary",
   "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
     {
       "src": "./assets/app-icon.svg",
       "sizes": "any",
