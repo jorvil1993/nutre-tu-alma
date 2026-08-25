@@ -2306,7 +2306,7 @@ const buildRhythmicStream = (rawExperiences) => {
 // Se ejecuta el motor rítmico sobre todas las experiencias disponibles
 const dynamicExperiences = buildRhythmicStream(experiences);
 
-const RESUME_STORAGE_KEY = "nutre-tu-alma:resume-v2";
+const RESUME_STORAGE_KEY = "nutre-tu-alma:resume-v3";
 const FULL_CYCLE_SIZE = 100;
 const QUESTION_HEADINGS = [
   "Para llevar al corazón",
@@ -2332,7 +2332,7 @@ const escapeHtml = (value) =>
 
 const readingCard = (experience, topicNumber) => `
   <article class="card reading-card" data-content-id="${experience.id}" data-phase="reading" aria-label="Lectura ${topicNumber}">
-    <div class="topline"><span class="brand">Nutre tu Alma</span><span>${topicNumber} de ${dynamicExperiences.length}</span></div>
+    <div class="topline"><span class="brand">Nutre tu Alma</span><span>Pausa espiritual</span></div>
     <div class="card-main">
       <p class="card-type">Lectura · pausa breve</p>
       <div class="reading-text">${escapeHtml(experience.reading).replaceAll("\n\n", "<br><br>")}</div>
@@ -2379,10 +2379,8 @@ const cards = [...feed.querySelectorAll(".card")];
 
 const loadResume = () => {
   try {
-    // Limpieza de versiones anteriores para asegurar reinicio a cero
-    if (localStorage.getItem("nutre-tu-alma:resume-v1")) {
-      localStorage.removeItem("nutre-tu-alma:resume-v1");
-    }
+    localStorage.removeItem("nutre-tu-alma:resume-v1");
+    localStorage.removeItem("nutre-tu-alma:resume-v2");
     return JSON.parse(localStorage.getItem(RESUME_STORAGE_KEY) || "null");
   } catch {
     return null;
