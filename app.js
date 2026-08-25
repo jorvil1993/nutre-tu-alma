@@ -945,6 +945,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     image: "./assets/images/50-olaizola-mirada-pedro.png",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
+  ...(window.CODEX_EXPERIENCES || []),
 ];
 
 const feed = document.querySelector("#feed");
