@@ -1844,7 +1844,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     imageQuestion: "¿Vives tu vocación con humildad y servicio generoso?",
     image: "./assets/images/151-sacerdotes-fidelidad-al-servicio.png",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
-  },,
+  },
   {
     id: "cc-013",
     reading: `A unas manos vacías llena el Señor, al cual le agrada dar al que no tiene y reconoce que lo que tiene es de Él y se lo devuelve. Este recibir y devolver hace crecer el tesoro que el Señor derrama en el alma pobre; y mientras más recibe más devuelve, gozándose el Señor en este comercio santo.`,
@@ -2221,6 +2221,7 @@ feed.className = "feed";
 
 // --- MOTOR DE FLUJO RÍTMICO DINÁMICO (CADENCIA TIKTOK ESPIRITUAL + ROTACIÓN DE AUTORES) ---
 const classifyDimension = (exp) => {
+  if (!exp) return "general";
   const s = (exp.source || "").toLowerCase();
   if (s.includes("sacerdotes") || s.includes("virgen") || s.includes("maría")) return "mariana";
   if (s.includes("combate") || s.includes("scúpoli")) return "combate";
@@ -2231,24 +2232,27 @@ const classifyDimension = (exp) => {
   if (s.includes("imitación") || s.includes("kempis")) return "kempis";
   if (s.includes("confesiones") || s.includes("agustín")) return "agustin";
   if (s.includes("filotea") || s.includes("sales")) return "sales";
+  if (s.includes("concepción") || s.includes("cabrera")) return "concepcion";
   return "general";
 };
 
 const classifyTier = (exp) => {
-  const wc = exp.reading ? exp.reading.trim().split(/\s+/).length : 0;
+  if (!exp || !exp.reading) return "short";
+  const wc = exp.reading.trim().split(/\s+/).length;
   if (wc <= 65) return "short";
   if (wc <= 100) return "medium";
   return "deep";
 };
 
 const buildRhythmicStream = (rawExperiences) => {
-  if (!rawExperiences || rawExperiences.length <= 3) return rawExperiences;
+  const validExperiences = (rawExperiences || []).filter((e) => e && e.reading && e.source);
+  if (validExperiences.length <= 3) return validExperiences;
 
   const shorts = [];
   const mediums = [];
   const deeps = [];
 
-  for (const exp of rawExperiences) {
+  for (const exp of validExperiences) {
     const tier = classifyTier(exp);
     if (tier === "short") shorts.push(exp);
     else if (tier === "medium") mediums.push(exp);
@@ -2295,15 +2299,16 @@ const buildRhythmicStream = (rawExperiences) => {
       }
 
       const item = pool.splice(chosenIdx, 1)[0];
-      lastDim = classifyDimension(item);
-      stream.push(item);
+      if (item) {
+        lastDim = classifyDimension(item);
+        stream.push(item);
+      }
     }
   }
 
   return stream;
 };
 
-// Se ejecuta el motor rítmico sobre todas las experiencias disponibles
 const dynamicExperiences = buildRhythmicStream(experiences);
 
 const RESUME_STORAGE_KEY = "nutre-tu-alma:resume-v3";
