@@ -2741,7 +2741,12 @@ let mouseGesture = null;
 
 feed.tabIndex = 0;
 
-// Precarga predictiva de imágenes adyacentes para que nunca parpadeen ni tarden al hacer scroll
+// --- SISTEMA DE PRECARGA Y BUFFER LOCAL DE 20 TARJETAS POR ADELANTADO ---
+const CACHE_NAME = "nutre-tu-alma-runtime-v10";
+const BUFFER_AHEAD_COUNT = 20;
+let isBuffering = false;
+let lastBufferedIndex = -1;
+
 const preloadedImages = new Set();
 const preloadImage = (src) => {
   if (!src || preloadedImages.has(src)) return;
@@ -2751,15 +2756,70 @@ const preloadImage = (src) => {
   img.src = src;
 };
 
+// Precarga inmediata de texturas en GPU para las 3 tarjetas siguientes y 2 anteriores
 const preloadAdjacentImages = (centerIndex) => {
   const indices = [centerIndex, centerIndex + 1, centerIndex + 2, centerIndex + 3, centerIndex - 1, centerIndex - 2];
   for (const idx of indices) {
     if (idx >= 0 && idx < cards.length) {
       const imgEl = cards[idx].querySelector("img");
-      if (imgEl && imgEl.getAttribute("src")) {
-        preloadImage(imgEl.getAttribute("src"));
-      }
+      const src = imgEl?.getAttribute("src");
+      if (src) preloadImage(src);
     }
+  }
+};
+
+// Buffer de descarga local en segundo plano: descarga y guarda en disco las siguientes 20 imágenes
+const bufferUpcomingImages = (currentIndex) => {
+  if (isBuffering && Math.abs(currentIndex - lastBufferedIndex) < 5) return;
+  lastBufferedIndex = currentIndex;
+  isBuffering = true;
+
+  const targetUrls = [];
+  // 3 anteriores por si el usuario retrocede
+  for (let i = currentIndex - 1; i >= 0 && targetUrls.length < 3; i--) {
+    const src = cards[i]?.querySelector("img")?.getAttribute("src");
+    if (src && !targetUrls.includes(src)) targetUrls.push(src);
+  }
+  // Próximas 20 imágenes por adelantado
+  for (let i = currentIndex; i < cards.length && targetUrls.length < BUFFER_AHEAD_COUNT + 3; i++) {
+    const src = cards[i]?.querySelector("img")?.getAttribute("src");
+    if (src && !targetUrls.includes(src)) targetUrls.push(src);
+  }
+
+  const runQueue = async () => {
+    try {
+      let cache = null;
+      if ("caches" in window) {
+        cache = await caches.open(CACHE_NAME);
+      }
+
+      for (const url of targetUrls) {
+        try {
+          if (cache) {
+            const alreadyCached = await cache.match(url);
+            if (alreadyCached) continue;
+            const response = await fetch(url, { priority: "low" });
+            if (response && response.status === 200) {
+              await cache.put(url, response.clone());
+            }
+          } else {
+            await fetch(url, { priority: "low" });
+          }
+        } catch {
+          // Ignorar silenciosamente errores de red transitorios
+        }
+        // Pequeña pausa entre descargas para no saturar la red móvil ni la CPU
+        await new Promise((resolve) => setTimeout(resolve, 90));
+      }
+    } finally {
+      isBuffering = false;
+    }
+  };
+
+  if ("requestIdleCallback" in window) {
+    requestIdleCallback(() => runQueue());
+  } else {
+    setTimeout(runQueue, 150);
   }
 };
 
@@ -2772,6 +2832,9 @@ const goToCard = (requestedIndex, smooth = true) => {
     block: "start",
   });
   preloadAdjacentImages(targetIndex);
+  if (Math.abs(targetIndex - lastBufferedIndex) >= 5) {
+    bufferUpcomingImages(targetIndex);
+  }
 };
 
 // Rueda del ratón en escritorio
@@ -2822,6 +2885,7 @@ feed.addEventListener("keydown", (event) => {
 requestAnimationFrame(() => {
   cards[restoreIndex]?.scrollIntoView({ block: "start" });
   preloadAdjacentImages(restoreIndex);
+  bufferUpcomingImages(restoreIndex);
   requestAnimationFrame(() => {
     resumeRestored = true;
   });
@@ -2845,6 +2909,9 @@ const resumeObserver = new IntersectionObserver(
       activeCardIndex = cards.indexOf(activeCard);
       debouncedSaveResume(activeCard);
       preloadAdjacentImages(activeCardIndex);
+      if (Math.abs(activeCardIndex - lastBufferedIndex) >= 5) {
+        bufferUpcomingImages(activeCardIndex);
+      }
     }
   },
   { root: feed, threshold: 0.6 },
