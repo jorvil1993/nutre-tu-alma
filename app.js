@@ -2674,7 +2674,7 @@ const questionCard = (experience, topicNumber) => `
 
 const imageCard = (experience, topicNumber) => `
   <article class="card image-card" data-content-id="${experience.id}" data-phase="image" aria-label="Imagen de contemplación ${topicNumber}">
-    <img src="${experience.image}" alt="${escapeHtml(experience.imageAlt)}" />
+    <img src="${experience.image}" alt="${escapeHtml(experience.imageAlt)}" decoding="async" />
     <div class="image-overlay">
       <div>
         <div class="topline"><span class="brand">Nutre tu Alma</span><span>Contempla</span></div>
@@ -2735,96 +2735,46 @@ const restoreIndex = resumeIndex();
 let resumeRestored = false;
 let activeCardIndex = restoreIndex;
 
-const PAGE_DURATION = 220;
-const SWIPE_DISTANCE = 44;
-const SWIPE_VELOCITY = 0.35;
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-let isPaging = false;
-let pagingFrame = null;
-let gesture = null;
 let lastWheelAt = 0;
+let mouseGesture = null;
 
 feed.tabIndex = 0;
 
-const cardScrollTop = (index) => {
-  const feedBounds = feed.getBoundingClientRect();
-  const cardBounds = cards[index].getBoundingClientRect();
-  return feed.scrollTop + cardBounds.top - feedBounds.top;
+// Precarga predictiva de imágenes adyacentes para que nunca parpadeen ni tarden al hacer scroll
+const preloadedImages = new Set();
+const preloadImage = (src) => {
+  if (!src || preloadedImages.has(src)) return;
+  preloadedImages.add(src);
+  const img = new Image();
+  img.decoding = "async";
+  img.src = src;
 };
 
-const goToCard = (requestedIndex) => {
-  const targetIndex = Math.max(0, Math.min(cards.length - 1, requestedIndex));
-  if (targetIndex === activeCardIndex || isPaging) return;
-
-  const startTop = feed.scrollTop;
-  const targetTop = cardScrollTop(targetIndex);
-  activeCardIndex = targetIndex;
-
-  if (reduceMotion) {
-    feed.scrollTop = targetTop;
-    saveResume(cards[targetIndex]);
-    return;
-  }
-
-  isPaging = true;
-  feed.classList.add("is-paging");
-  const startedAt = performance.now();
-  const easeOutCubic = (progress) => 1 - (1 - progress) ** 3;
-
-  const animate = (now) => {
-    const progress = Math.min(1, (now - startedAt) / PAGE_DURATION);
-    feed.scrollTop = startTop + (targetTop - startTop) * easeOutCubic(progress);
-
-    if (progress < 1) {
-      pagingFrame = requestAnimationFrame(animate);
-      return;
+const preloadAdjacentImages = (centerIndex) => {
+  const indices = [centerIndex, centerIndex + 1, centerIndex + 2, centerIndex + 3, centerIndex - 1, centerIndex - 2];
+  for (const idx of indices) {
+    if (idx >= 0 && idx < cards.length) {
+      const imgEl = cards[idx].querySelector("img");
+      if (imgEl && imgEl.getAttribute("src")) {
+        preloadImage(imgEl.getAttribute("src"));
+      }
     }
-
-    feed.scrollTop = targetTop;
-    feed.classList.remove("is-paging");
-    isPaging = false;
-    pagingFrame = null;
-    saveResume(cards[targetIndex]);
-  };
-
-  pagingFrame = requestAnimationFrame(animate);
+  }
 };
 
-const finishGesture = (event) => {
-  if (!gesture || event.pointerId !== gesture.pointerId) return;
-
-  const distance = event.clientY - gesture.startY;
-  const elapsed = Math.max(1, performance.now() - gesture.startedAt);
-  const velocity = Math.abs(distance) / elapsed;
-  const shouldPage = Math.abs(distance) >= SWIPE_DISTANCE || velocity >= SWIPE_VELOCITY;
-
-  if (shouldPage) goToCard(activeCardIndex + (distance < 0 ? 1 : -1));
-  gesture = null;
+const goToCard = (requestedIndex, smooth = true) => {
+  const targetIndex = Math.max(0, Math.min(cards.length - 1, requestedIndex));
+  if (targetIndex === activeCardIndex) return;
+  activeCardIndex = targetIndex;
+  cards[targetIndex]?.scrollIntoView({
+    behavior: smooth && !reduceMotion ? "smooth" : "auto",
+    block: "start",
+  });
+  preloadAdjacentImages(targetIndex);
 };
 
-feed.addEventListener("pointerdown", (event) => {
-  if (event.pointerType === "mouse" && event.button !== 0) return;
-  if (isPaging) return;
-
-  feed.focus({ preventScroll: true });
-  gesture = { pointerId: event.pointerId, startY: event.clientY, startedAt: performance.now() };
-  feed.setPointerCapture?.(event.pointerId);
-});
-
-feed.addEventListener(
-  "pointermove",
-  (event) => {
-    if (!gesture || event.pointerId !== gesture.pointerId) return;
-    if (Math.abs(event.clientY - gesture.startY) > 8) event.preventDefault();
-  },
-  { passive: false },
-);
-
-feed.addEventListener("pointerup", finishGesture);
-feed.addEventListener("pointercancel", () => {
-  gesture = null;
-});
-
+// Rueda del ratón en escritorio
 feed.addEventListener(
   "wheel",
   (event) => {
@@ -2832,15 +2782,33 @@ feed.addEventListener(
     event.preventDefault();
 
     const now = performance.now();
-    if (isPaging || now - lastWheelAt < PAGE_DURATION + 80) return;
+    if (now - lastWheelAt < 260) return;
     lastWheelAt = now;
     goToCard(activeCardIndex + (event.deltaY > 0 ? 1 : -1));
   },
   { passive: false },
 );
 
+// Arrastre con ratón en escritorio (los dedos en móvil usan scroll táctil nativo pan-y a 120Hz)
+feed.addEventListener("pointerdown", (event) => {
+  if (event.pointerType !== "mouse" || event.button !== 0) return;
+  feed.focus({ preventScroll: true });
+  mouseGesture = { startY: event.clientY, startedAt: performance.now() };
+});
+
+window.addEventListener("pointerup", (event) => {
+  if (!mouseGesture || event.pointerType !== "mouse") return;
+  const distance = event.clientY - mouseGesture.startY;
+  const elapsed = Math.max(1, performance.now() - mouseGesture.startedAt);
+  const velocity = Math.abs(distance) / elapsed;
+  if (Math.abs(distance) >= 40 || velocity >= 0.3) {
+    goToCard(activeCardIndex + (distance < 0 ? 1 : -1));
+  }
+  mouseGesture = null;
+});
+
 feed.addEventListener("keydown", (event) => {
-  if (event.key === "ArrowDown" || event.key === "PageDown") {
+  if (event.key === "ArrowDown" || event.key === "PageDown" || event.key === " ") {
     event.preventDefault();
     goToCard(activeCardIndex + 1);
   }
@@ -2853,10 +2821,19 @@ feed.addEventListener("keydown", (event) => {
 
 requestAnimationFrame(() => {
   cards[restoreIndex]?.scrollIntoView({ block: "start" });
+  preloadAdjacentImages(restoreIndex);
   requestAnimationFrame(() => {
     resumeRestored = true;
   });
 });
+
+let saveResumeTimeout = null;
+const debouncedSaveResume = (card) => {
+  if (saveResumeTimeout) clearTimeout(saveResumeTimeout);
+  saveResumeTimeout = setTimeout(() => {
+    saveResume(card);
+  }, 180);
+};
 
 const resumeObserver = new IntersectionObserver(
   (entries) => {
@@ -2866,10 +2843,11 @@ const resumeObserver = new IntersectionObserver(
       .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0]?.target;
     if (activeCard) {
       activeCardIndex = cards.indexOf(activeCard);
-      saveResume(activeCard);
+      debouncedSaveResume(activeCard);
+      preloadAdjacentImages(activeCardIndex);
     }
   },
-  { root: feed, threshold: 0.68 },
+  { root: feed, threshold: 0.6 },
 );
 
 cards.forEach((card) => resumeObserver.observe(card));

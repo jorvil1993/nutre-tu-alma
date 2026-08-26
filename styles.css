@@ -29,12 +29,9 @@ button {
   overflow-y: auto;
   overscroll-behavior-y: contain;
   scroll-snap-type: y mandatory;
-  touch-action: pan-x;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
   scrollbar-width: none;
-}
-
-.feed.is-paging {
-  scroll-snap-type: none;
 }
 
 .feed::-webkit-scrollbar {
@@ -43,6 +40,7 @@ button {
 
 .card {
   position: relative;
+  height: 100dvh;
   min-height: 100dvh;
   padding: max(1.45rem, env(safe-area-inset-top)) 1.4rem max(1.65rem, env(safe-area-inset-bottom));
   display: flex;
@@ -52,6 +50,8 @@ button {
   scroll-snap-align: start;
   scroll-snap-stop: always;
   overflow: hidden;
+  background: #11130f;
+  contain: layout paint;
 }
 
 .card::before {
@@ -150,7 +150,7 @@ button {
 
 .image-card {
   padding: 0;
-  background: #050505;
+  background: #0b0c0a;
 }
 
 .image-card::before {
@@ -162,6 +162,10 @@ button {
   height: 100dvh;
   object-fit: cover;
   display: block;
+  background: #0b0c0a;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
 }
 
 .image-overlay {

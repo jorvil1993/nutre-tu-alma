@@ -1,4 +1,4 @@
-const CACHE_NAME = "nutre-tu-alma-runtime-v9";
+const CACHE_NAME = "nutre-tu-alma-runtime-v10";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -33,6 +33,26 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+
+  const url = new URL(event.request.url);
+
+  // Imágenes: Estrategia Cache-First (instantánea desde el celular con cero latencia)
+  if (url.pathname.includes("/assets/images/")) {
+    event.respondWith(
+      caches.match(event.request).then((cached) => {
+        if (cached) return cached;
+        return fetch(event.request).then((response) => {
+          if (!response || response.status !== 200) return response;
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          return response;
+        });
+      }),
+    );
+    return;
+  }
+
+  // Código y Shell (HTML, JS, CSS): Network-First para recibir actualizaciones de inmediato
   event.respondWith(
     fetch(event.request)
       .then((response) => {
@@ -44,3 +64,4 @@ self.addEventListener("fetch", (event) => {
       .catch(() => caches.match(event.request)),
   );
 });
+
