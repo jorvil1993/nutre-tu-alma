@@ -119,7 +119,7 @@
       "page": null,
       "owner": "Codex",
       "status": "published",
-      "image": "01-cristo-y-pedro.png"
+      "image": "01-cristo-y-pedro.webp"
     },
     {
       "number": 2,
@@ -129,7 +129,7 @@
       "page": null,
       "owner": "Codex",
       "status": "published",
-      "image": "02-virgen-y-nino.png"
+      "image": "02-virgen-y-nino.webp"
     },
     {
       "number": 3,
@@ -139,7 +139,7 @@
       "page": null,
       "owner": "Codex",
       "status": "published",
-      "image": "01-cristo-y-pedro.png"
+      "image": "01-cristo-y-pedro.webp"
     },
     {
       "number": 4,
@@ -149,7 +149,7 @@
       "page": null,
       "owner": "Codex",
       "status": "published",
-      "image": "03-virgen-consuela.png"
+      "image": "03-virgen-consuela.webp"
     },
     {
       "number": 5,
@@ -159,7 +159,7 @@
       "page": null,
       "owner": "Codex",
       "status": "published",
-      "image": "04-agustin-corazon-inquieto.png"
+      "image": "04-agustin-corazon-inquieto.webp"
     },
     {
       "number": 6,
@@ -169,7 +169,7 @@
       "page": null,
       "owner": "Codex",
       "status": "published",
-      "image": "05-manos-confianza.png"
+      "image": "05-manos-confianza.webp"
     },
     {
       "number": 7,
@@ -179,7 +179,7 @@
       "page": null,
       "owner": "Codex",
       "status": "published",
-      "image": "06-mana-desierto.png"
+      "image": "06-mana-desierto.webp"
     },
     {
       "number": 8,
@@ -189,7 +189,7 @@
       "page": null,
       "owner": "Codex",
       "status": "published",
-      "image": "07-fariseo-publicano.png"
+      "image": "07-fariseo-publicano.webp"
     },
     {
       "number": 9,
@@ -199,7 +199,7 @@
       "page": null,
       "owner": "Codex",
       "status": "published",
-      "image": "08-padre-misericordioso.png"
+      "image": "08-padre-misericordioso.webp"
     },
     {
       "number": 10,
@@ -216,7 +216,7 @@
       "imageQuestion": "¿Te encierras en el desánimo o vuelves a Dios?",
       "imagePrompt": "A breathtaking vertical 9:16 classical Catholic sacred oil painting in the style of Rembrandt, Caravaggio and Bartolomé Esteban Murillo. A penitent young man is kneeling on the ground in humble repentance, head bowed, hands placed over his heart with deep sorrow and sincerity. Jesus Christ, dressed in soft off-white and deep crimson robes, stands before him, gently bending down with immense tenderness, placing a warm, forgiving hand under the man's arm to lift him up with divine mercy and love. Chiaroscuro candlelight and soft celestial glow illuminating the figures against a dark, quiet interior stone background. Rich textured oil on canvas, timeless baroque devotional atmosphere, solemn, dignified, and emotionally moving.",
       "imageProvider": "Codex CLI",
-      "image": "10-combate-caida-desanimo.png"
+      "image": "10-combate-caida-desanimo.webp"
     },
     {
       "number": 11,
@@ -233,7 +233,7 @@
       "imageQuestion": "¿Reconoces que todo bien viene de Dios?",
       "imagePrompt": "A 17th century baroque Catholic sacred oil painting in the style of Rembrandt and Murillo. A humble Christian pilgrim kneeling with open hands before a beam of heavenly golden light breaking through the darkness. Deep chiaroscuro, earthy textures, warm amber glow, fine canvas texture, reverence.",
       "imageProvider": "Codex CLI",
-      "image": "11-combate-gracia-origen.png"
+      "image": "11-combate-gracia-origen.webp"
     },
     {
       "number": 12,
@@ -250,7 +250,7 @@
       "imageQuestion": "¿Confías en que para Dios nada es imposible?",
       "imagePrompt": "A classical renaissance Catholic devotional painting in the style of Fra Angelico and Raphael. The Annunciation scene, the Archangel Gabriel appearing to the Virgin Mary in humble prayer. Sacred golden light, delicate classical draping, soft peaceful expressions, authentic historic tempera and oil on wood.",
       "imageProvider": "Codex CLI",
-      "image": "12-combate-confianza-medios.png"
+      "image": "12-combate-confianza-medios.webp"
     },
     {
       "number": 13,
@@ -267,7 +267,7 @@
       "imageQuestion": "¿Aceptas tu cruz con la paz de Getsemaní?",
       "imagePrompt": "A dramatic 17th century chiaroscuro sacred oil painting in the style of Caravaggio. Jesus Christ praying in the Garden of Gethsemane, kneeling among ancient olive trees, looking up with tears and surrender towards an angel bearing a golden chalice of light. Somber nighttime, intense atmospheric emotion.",
       "imageProvider": "Codex CLI",
-      "image": "13-combate-paciencia-getsemani.png"
+      "image": "13-combate-paciencia-getsemani.webp"
     },
     {
       "number": 14,
@@ -284,7 +284,7 @@
       "imageQuestion": "¿Guardas silencio para proteger tu alma?",
       "imagePrompt": "A contemplative classical baroque oil painting of a Carthusian or Benedictine monk in a candlelit cell, placing a finger gently over his lips in sacred recollection and silent prayer. Deep shadows, warm candlelight illuminating his peaceful countenance, museum oil painting texture.",
       "imageProvider": "Codex CLI",
-      "image": "14-combate-guardar-lengua.png"
+      "image": "14-combate-guardar-lengua.webp"
     },
     {
       "number": 15,
@@ -301,7 +301,7 @@
       "imageQuestion": "¿Mantienes el esfuerzo diario en la oración?",
       "imagePrompt": "A classical 17th century marine oil painting by Rembrandt depicting the disciples in the boat on the Sea of Galilee rowing against the storm, with Christ asleep in the stern. Golden light breaking through storm clouds, rich textured ocean waves, authentic aged varnish.",
       "imageProvider": "Codex CLI",
-      "image": "15-combate-remar-constancia.png"
+      "image": "15-combate-remar-constancia.webp"
     },
     {
       "number": 16,
@@ -318,7 +318,7 @@
       "imageQuestion": "¿Tienes paciencia con tus progresos espirituales?",
       "imagePrompt": "A gentle devotional oil painting in the style of Millet and Zurbarán. A biblical sower tending a tender olive sprout in early morning sunlight, hills of Galilee in soft atmospheric background. Warm natural earth tones, textured linen canvas, reverent pastoral beauty.",
       "imageProvider": "Codex CLI",
-      "image": "16-combate-crecimiento-paciente.png"
+      "image": "16-combate-crecimiento-paciente.webp"
     },
     {
       "number": 17,
@@ -335,7 +335,7 @@
       "imageQuestion": "¿Empiezas tu día abriendo el corazón a Dios?",
       "imagePrompt": "A radiant 17th century devotional oil painting of a Christian soul at dawn by a stone window, hands joined in earnest morning prayer before a crucifix, morning golden rays filling the quiet room. Soft classical lighting, warm rich oil colors.",
       "imageProvider": "Codex CLI",
-      "image": "17-combate-llave-oracion.png"
+      "image": "17-combate-llave-oracion.webp"
     },
     {
       "number": 18,
@@ -352,7 +352,7 @@
       "imageQuestion": "¿Ofreces tu jornada unido al sacrificio de Cristo?",
       "imagePrompt": "A solemn baroque Catholic painting depicting a priest and altar server offering the holy sacrifice at a candlelit stone altar, with the shadowy vision of the Crucified Lord above the chalice. Rich deep reds, glowing candles, gold chalice reflections.",
       "imageProvider": "Codex CLI",
-      "image": "18-combate-ofrecimiento-obras.png"
+      "image": "18-combate-ofrecimiento-obras.webp"
     },
     {
       "number": 19,
@@ -369,7 +369,7 @@
       "imageQuestion": "¿Buscas a Dios por Él mismo o por sus consuelos?",
       "imagePrompt": "A solitary contemplative oil painting of Saint John of the Cross meditating in a dark quiet cell before a simple wooden cross, illuminated by a single glowing candle flame. Chiaroscuro depth, authentic aged oil painting patina.",
       "imageProvider": "Codex CLI",
-      "image": "19-combate-dios-dulzuras.png"
+      "image": "19-combate-dios-dulzuras.webp"
     },
     {
       "number": 20,
@@ -386,7 +386,7 @@
       "imageQuestion": "¿Contemplas el amor de Cristo en la cruz?",
       "imagePrompt": "A classical devotional oil painting in the style of Velázquez depicting Christ on the Cross against a dark background, bathed in serene celestial light, peaceful and sorrowful majesty. Authentic museum oil on canvas texture.",
       "imageProvider": "Codex CLI",
-      "image": "20-ligorio-hora-redentor.png"
+      "image": "20-ligorio-hora-redentor.webp"
     },
     {
       "number": 21,
@@ -403,7 +403,7 @@
       "imageQuestion": "¿Recibes la Eucaristía con amor ardiente?",
       "imagePrompt": "A baroque masterpiece painting depicting Saint Alphonsus Liguori or Saint Philip Neri in ecstatic adoration before the Blessed Sacrament in a golden monstrance surrounded by candlelight. Luminous gold, deep shadows, devotional intimacy.",
       "imageProvider": "Codex CLI",
-      "image": "21-ligorio-union-eucaristia.png"
+      "image": "21-ligorio-union-eucaristia.webp"
     },
     {
       "number": 22,
@@ -420,7 +420,7 @@
       "imageQuestion": "¿Aceptas las molestias diarias por amor a Cristo?",
       "imagePrompt": "A moving classical Catholic oil painting of a martyr or devout saint in prayer holding a wooden cross, looking up to heaven with peaceful joy amidst trials. Rich warm colors, soft chiaroscuro, historic devotional elegance.",
       "imageProvider": "Codex CLI",
-      "image": "22-ligorio-amar-padecer.png"
+      "image": "22-ligorio-amar-padecer.webp"
     },
     {
       "number": 23,
@@ -437,7 +437,7 @@
       "imageQuestion": "¿Respondes a la aspereza con dulzura y caridad?",
       "imagePrompt": "A 17th century painting of the Good Samaritan bandaging the wounds of the traveler on the road to Jericho. Warm golden sunset light, compassionate gentle expressions, classic oil on canvas texture.",
       "imageProvider": "Codex CLI",
-      "image": "23-ligorio-caridad-benigna.png"
+      "image": "23-ligorio-caridad-benigna.webp"
     },
     {
       "number": 24,
@@ -454,7 +454,7 @@
       "imageQuestion": "¿Te alegras con el bien del prójimo?",
       "imagePrompt": "A renaissance religious painting depicting two Christian disciples embracing in sincere brotherly charity and mutual joy before a stone chapel. Harmonious balanced composition, soft luminous drapery, classic fine art.",
       "imageProvider": "Codex CLI",
-      "image": "24-ligorio-gozo-bien-ajeno.png"
+      "image": "24-ligorio-gozo-bien-ajeno.webp"
     },
     {
       "number": 25,
@@ -471,7 +471,7 @@
       "imageQuestion": "¿Haces el bien para ser visto por Dios solo?",
       "imagePrompt": "A classical devotional painting of a devout woman giving secret alms to a poor beggar in a quiet street alcove, looking toward heaven. Gentle warm lighting, humble postures, authentic oil on linen.",
       "imageProvider": "Codex CLI",
-      "image": "25-ligorio-humildad-oculta.png"
+      "image": "25-ligorio-humildad-oculta.webp"
     },
     {
       "number": 26,
@@ -488,7 +488,7 @@
       "imageQuestion": "¿Amas a Dios o solo a sus dones?",
       "imagePrompt": "A solitary 17th century painting of Saint Francis of Assisi kneeling on mount La Verna in total surrender under a starry night sky, hands outstretched in pure love of God. Deep spiritual atmosphere, velvety darks.",
       "imageProvider": "Codex CLI",
-      "image": "26-ligorio-desprendimiento-puro.png"
+      "image": "26-ligorio-desprendimiento-puro.webp"
     },
     {
       "number": 27,
@@ -505,7 +505,7 @@
       "imageQuestion": "¿Frenas la ira imitando el silencio de Cristo?",
       "imagePrompt": "A dramatic baroque masterpiece painting of Christ before Caiaphas and the soldiers, standing in serene, majestic silence while being mocked. Rich chiaroscuro, torchlight reflections, deep crimson robes.",
       "imageProvider": "Codex CLI",
-      "image": "27-ligorio-mansedumbre-injurias.png"
+      "image": "27-ligorio-mansedumbre-injurias.webp"
     },
     {
       "number": 28,
@@ -522,7 +522,7 @@
       "imageQuestion": "¿Pides la gracia de perseverar hasta el fin?",
       "imagePrompt": "A serene classical painting of an elderly holy monk nearing the end of his life, peacefully looking at a crucifix held in his hands with hope and trust in eternal life. Warm twilight rays, holy peace.",
       "imageProvider": "Codex CLI",
-      "image": "28-ligorio-perseverancia-final.png"
+      "image": "28-ligorio-perseverancia-final.webp"
     },
     {
       "number": 29,
@@ -539,7 +539,7 @@
       "imageQuestion": "¿Te dejas amar por Dios en tu pequeñez?",
       "imagePrompt": "A delicate 19th century devotional painting in the style of Bouguereau depicting Saint Thérèse of Lisieux holding roses and a crucifix, bathed in soft divine golden light. Tender, humble, radiant devotion.",
       "imageProvider": "Codex CLI",
-      "image": "29-teresita-santidad-pequenez.png"
+      "image": "29-teresita-santidad-pequenez.webp"
     },
     {
       "number": 30,
@@ -556,7 +556,7 @@
       "imageQuestion": "¿Te abandonas como un niño en los brazos de Dios?",
       "imagePrompt": "A tender classical Catholic painting depicting Christ holding a small resting child against His chest, while guiding the disciples. Warm pastoral landscape, peaceful expressions, rich oil glazes.",
       "imageProvider": "Codex CLI",
-      "image": "30-teresita-ascensor-brazos.png"
+      "image": "30-teresita-ascensor-brazos.webp"
     },
     {
       "number": 31,
@@ -573,7 +573,7 @@
       "imageQuestion": "¿Tienes una confianza audaz en la misericordia?",
       "imagePrompt": "A magnificent classical baroque oil painting of the Return of the Prodigal Son in the style of Rembrandt. The loving father embracing his kneeling ragged son with profound compassion and forgiveness. Golden glowing light, deep emotional gravity.",
       "imageProvider": "Codex CLI",
-      "image": "31-teresita-confianza-audaz.png"
+      "image": "31-teresita-confianza-audaz.webp"
     },
     {
       "number": 32,
@@ -590,7 +590,7 @@
       "imageQuestion": "¿Esperas todo de la gracia de Jesucristo?",
       "imagePrompt": "A classical devotional painting of Saint Peter kneeling beside the sea of Tiberias, looking up to the Risen Christ with humble devotion: 'Lord, you know everything, you know that I love you'. Warm dawn light over the waters.",
       "imageProvider": "Codex CLI",
-      "image": "32-teresita-aceptar-flaqueza.png"
+      "image": "32-teresita-aceptar-flaqueza.webp"
     },
     {
       "number": 33,
@@ -607,7 +607,7 @@
       "imageQuestion": "¿Abres tu corazón vacío para que Dios lo llene?",
       "imagePrompt": "A devotional oil painting depicting the Sacred Heart of Jesus radiating golden light of mercy towards a kneeling soul in a quiet stone chapel. Rich warm reds and deep golds, reverent baroque composition.",
       "imageProvider": "Codex CLI",
-      "image": "33-teresita-amor-misericordioso.png"
+      "image": "33-teresita-amor-misericordioso.webp"
     },
     {
       "number": 34,
@@ -624,7 +624,7 @@
       "imageQuestion": "¿Es tu oración un impulso de amor hacia Dios?",
       "imagePrompt": "A classical oil painting of Saint Thérèse of the Child Jesus praying in the cloister garden at twilight, looking upward with serene love. Soft atmospheric lighting, roses, fine canvas texture.",
       "imageProvider": "Codex CLI",
-      "image": "34-teresita-oracion-impulso.png"
+      "image": "34-teresita-oracion-impulso.webp"
     },
     {
       "number": 35,
@@ -641,7 +641,7 @@
       "imageQuestion": "¿Vives el momento presente confiado en Dios?",
       "imagePrompt": "A peaceful renaissance landscape painting with a pilgrim walking along a quiet path at sunset, guided by a guardian angel pointing forward with serene trust. Warm golden skies, gentle harmonious beauty.",
       "imageProvider": "Codex CLI",
-      "image": "35-teresita-momento-presente.png"
+      "image": "35-teresita-momento-presente.webp"
     },
     {
       "number": 36,
@@ -658,7 +658,7 @@
       "imageQuestion": "¿Miras a los demás con la paciencia de Cristo?",
       "imagePrompt": "A 17th century religious painting of Saint Vincent de Paul or Saint Elizabeth of Hungary gently tending to the sick and poor with deep reverence and tenderness. Rich candlelight, classical drapery.",
       "imageProvider": "Codex CLI",
-      "image": "36-teresita-caridad-hermano.png"
+      "image": "36-teresita-caridad-hermano.webp"
     },
     {
       "number": 37,
@@ -675,7 +675,7 @@
       "imageQuestion": "¿Vives el amor como el centro de tu vida?",
       "imagePrompt": "An allegorical baroque sacred painting depicting the fire of Divine Love illuminating the Church, with saints and angels adoring the Trinity. Heavenly golden radiance, classical composition.",
       "imageProvider": "Codex CLI",
-      "image": "37-teresita-ser-el-amor.png"
+      "image": "37-teresita-ser-el-amor.webp"
     },
     {
       "number": 38,
@@ -692,7 +692,7 @@
       "imageQuestion": "¿Reconoces la presencia viva de Dios en el Sagrario?",
       "imagePrompt": "A classical painting of a Catholic church interior at dusk, a glowing red sanctuary lamp beside a magnificent baroque golden tabernacle, radiating sacred stillness and holy mystery.",
       "imageProvider": "Codex CLI",
-      "image": "38-ratzinger-presencia-viva.png"
+      "image": "38-ratzinger-presencia-viva.webp"
     },
     {
       "number": 39,
@@ -709,7 +709,7 @@
       "imageQuestion": "¿Buscas el silencio del Sagrario en medio del ruido?",
       "imagePrompt": "A 17th century painting of a devout believer kneeling in quiet adoration before the altar in a grand candlelit cathedral. Deep reverent shadows, warm golden illumination, peaceful solemnity.",
       "imageProvider": "Codex CLI",
-      "image": "39-ratzinger-cercania-sagrario.png"
+      "image": "39-ratzinger-cercania-sagrario.webp"
     },
     {
       "number": 40,
@@ -726,7 +726,7 @@
       "imageQuestion": "¿Crees que el amor de Cristo vence toda muerte?",
       "imagePrompt": "A masterwork baroque oil painting of the Last Supper by Philippe de Champaigne. Jesus Christ breaking the bread in sacred solemnity, surrounded by the apostles in candlelight, intense theological depth.",
       "imageProvider": "Codex CLI",
-      "image": "40-ratzinger-amor-fuerte-muerte.png"
+      "image": "40-ratzinger-amor-fuerte-muerte.webp"
     },
     {
       "number": 41,
@@ -743,7 +743,7 @@
       "imageQuestion": "¿Acudes a los sacramentos con sed de Dios?",
       "imagePrompt": "A classical Catholic painting in the style of Rubens depicting the Piercing of the Side of Christ on the Cross, with Saint John and the Virgin Mary gazing in adoration and sorrow. Sacred chiaroscuro.",
       "imageProvider": "Codex CLI",
-      "image": "41-ratzinger-costado-abierto.png"
+      "image": "41-ratzinger-costado-abierto.webp"
     },
     {
       "number": 42,
@@ -760,7 +760,7 @@
       "imageQuestion": "¿Permites que Cristo te transforme en la Comunión?",
       "imagePrompt": "A devotional classical painting depicting a devout communicant receiving Holy Communion from a saintly bishop in a sacred sanctuary. Luminous golden aura around the Host, solemn reverence.",
       "imageProvider": "Codex CLI",
-      "image": "42-ratzinger-comunion-transformacion.png"
+      "image": "42-ratzinger-comunion-transformacion.webp"
     },
     {
       "number": 43,
@@ -777,7 +777,7 @@
       "imageQuestion": "¿Adoras con reverencia al Señor eucarístico?",
       "imagePrompt": "A baroque painting of angels and faithful kneeling in adoration before the exposed Blessed Sacrament on a candlelit high altar. Warm radiant gold, incense smoke in beams of celestial light.",
       "imageProvider": "Codex CLI",
-      "image": "43-ratzinger-adoracion-eucaristica.png"
+      "image": "43-ratzinger-adoracion-eucaristica.webp"
     },
     {
       "number": 44,
@@ -794,7 +794,7 @@
       "imageQuestion": "¿Das testimonio de Cristo en tu vida pública?",
       "imagePrompt": "A historic 18th century European painting of a solemn Corpus Christi procession through a town square, a priest carrying the golden monstrance under a canopy with people kneeling with flowers. Classic rich oil style.",
       "imageProvider": "Codex CLI",
-      "image": "44-ratzinger-corpus-cristi-fe.png"
+      "image": "44-ratzinger-corpus-cristi-fe.webp"
     },
     {
       "number": 45,
@@ -811,7 +811,7 @@
       "imageQuestion": "¿Vives el misterio de la Misa con santo asombro?",
       "imagePrompt": "A magnificent classical painting of the Consecration at Mass, the priest elevating the sacred Host while a celestial golden light descends upon the altar. Chiaroscuro candlelight, solemn awe.",
       "imageProvider": "Codex CLI",
-      "image": "45-ratzinger-milagro-transustanciacion.png"
+      "image": "45-ratzinger-milagro-transustanciacion.webp"
     },
     {
       "number": 46,
@@ -828,7 +828,7 @@
       "imageQuestion": "¿Construyes unidad y fraternidad con los demás?",
       "imagePrompt": "An early Christian sacred painting depicting the breaking of bread among early believers gathered in unity in a catacomb chapel. Warm candlelight, peaceful fraternal communion, ancient reverence.",
       "imageProvider": "Codex CLI",
-      "image": "46-ratzinger-comunidad-unidad.png"
+      "image": "46-ratzinger-comunidad-unidad.webp"
     },
     {
       "number": 47,
@@ -845,7 +845,7 @@
       "imageQuestion": "¿Te inclinas para servir con humildad al prójimo?",
       "imagePrompt": "A classical Renaissance painting in the style of Tintoretto depicting Jesus washing Saint Peter's feet. Warm candlelit upper room, Christ kneeling with towel and basin, Peter's gesture of awe and humility.",
       "imageProvider": "Codex CLI",
-      "image": "47-olaizola-lavatorio-pies.png"
+      "image": "47-olaizola-lavatorio-pies.webp"
     },
     {
       "number": 48,
@@ -862,7 +862,7 @@
       "imageQuestion": "¿Perseveras en la oración en tus horas difíciles?",
       "imagePrompt": "A dramatic baroque masterpiece of Christ in agony in the Garden of Gethsemane under moonlight. Jesus prostrate upon a stone rock, hands clasped in agonizing prayer, distant disciples asleep in soft darkness.",
       "imageProvider": "Codex CLI",
-      "image": "48-olaizola-getsemani-oracion.png"
+      "image": "48-olaizola-getsemani-oracion.webp"
     },
     {
       "number": 49,
@@ -879,7 +879,7 @@
       "imageQuestion": "¿Reconoces que Cristo te sigue llamando amigo?",
       "imagePrompt": "A powerful chiaroscuro oil painting in the style of Caravaggio depicting Judas betraying Christ with a kiss in the Garden of Olives. Torchlight illuminating the compassionate face of Jesus looking into Judas' eyes.",
       "imageProvider": "Codex CLI",
-      "image": "49-olaizola-beso-judas.png"
+      "image": "49-olaizola-beso-judas.webp"
     },
     {
       "number": 50,
@@ -896,7 +896,7 @@
       "imageQuestion": "¿Dejas que la mirada de Jesús renueve tu corazón?",
       "imagePrompt": "A moving classical painting of Saint Peter weeping bitterly in the courtyard, clutching his cloak with tears of repentance while Christ is led past in the background. Atmospheric night lighting, emotional depth.",
       "imageProvider": "Codex CLI",
-      "image": "50-olaizola-mirada-pedro.png"
+      "image": "50-olaizola-mirada-pedro.webp"
     },
     {
       "number": 51,
@@ -913,7 +913,7 @@
       "imageQuestion": "¿Vives en la verdad de Dios ante las presiones del mundo?",
       "imagePrompt": "A magnificent classical oil painting of Christ before Pontius Pilate (Ecce Homo). Christ in bound hands and crown of thorns standing in regal dignity while Pilate gestures from his throne. Masterful light and shadow.",
       "imageProvider": "Codex CLI",
-      "image": "51-olaizola-silencio-pilato.png"
+      "image": "51-olaizola-silencio-pilato.webp"
     },
     {
       "number": 52,
@@ -930,7 +930,7 @@
       "imageQuestion": "¿Ayudas a cargar la cruz del prójimo con amor?",
       "imagePrompt": "A classical religious oil painting depicting Simon of Cyrene helping Jesus carry the heavy wooden cross on the Via Dolorosa. Jesus looking at Simon with grateful divine love, dust and crowd in soft background.",
       "imageProvider": "Codex CLI",
-      "image": "52-olaizola-simon-cirineo.png"
+      "image": "52-olaizola-simon-cirineo.webp"
     },
     {
       "number": 53,
@@ -947,7 +947,7 @@
       "imageQuestion": "¿Acudes a María como Madre al pie de la Cruz?",
       "imagePrompt": "A solemn and deeply reverent classical painting of the Stabat Mater. The Virgin Mary and Saint John standing at the foot of the Cross on Calvary at eclipse darkness. Rich textured oil painting, profound sorrow and peace.",
       "imageProvider": "Codex CLI",
-      "image": "53-olaizola-pie-de-la-cruz.png"
+      "image": "53-olaizola-pie-de-la-cruz.webp"
     },
     {
       "number": 54,
@@ -964,7 +964,7 @@
       "imageQuestion": "¿Vives con el deseo de cumplir la voluntad de Dios?",
       "imagePrompt": "A majestic devotional baroque painting of Christ on the Cross at the moment of expiration, head peacefully bowed, divine light piercing dark storm clouds over Jerusalem. Timeless sacred oil on canvas masterpiece.",
       "imageProvider": "Codex CLI",
-      "image": "54-olaizola-todo-cumplido.png"
+      "image": "54-olaizola-todo-cumplido.webp"
     },
     {
       "number": 55,
@@ -981,7 +981,7 @@
       "imageQuestion": "¿Desconfías de tus fuerzas para confiar en Dios?",
       "imagePrompt": "A 17th century baroque sacred oil painting of a Christian knight kneeling before a glowing crucifix at dusk, laying down his sword with deep humility. Soft amber candlelight, dark stone arches, fine aged oil texture.",
       "imageProvider": "Codex CLI",
-      "image": "55-combate-desconfianza-propia.png"
+      "image": "55-combate-desconfianza-propia.webp"
     },
     {
       "number": 56,
@@ -998,7 +998,7 @@
       "imageQuestion": "¿Acudes a la misericordia tras una caída?",
       "imagePrompt": "A classical baroque painting in the style of Rembrandt depicting the Prodigal Son embracing his father in tender reconciliation, illuminated by warm celestial rays breaking through deep shadows.",
       "imageProvider": "Codex CLI",
-      "image": "56-combate-reaccion-caida.png"
+      "image": "56-combate-reaccion-caida.webp"
     },
     {
       "number": 57,
@@ -1015,7 +1015,7 @@
       "imageQuestion": "¿Combates con paciencia tu defecto principal?",
       "imagePrompt": "A dramatic chiaroscuro masterpiece in the style of Caravaggio depicting David facing Goliath with humble trust in the Lord of Hosts. Night battleground, torchlight highlights, intense devotion.",
       "imageProvider": "Codex CLI",
-      "image": "57-combate-enemigo-principal.png"
+      "image": "57-combate-enemigo-principal.webp"
     },
     {
       "number": 58,
@@ -1032,7 +1032,7 @@
       "imageQuestion": "¿Elevas tu corazón a Jesús en la prueba?",
       "imagePrompt": "A contemplative oil painting of Saint Benedict in prayer in a mountain hermitage, raising a cross towards a radiant light in the sky, serene and steadfast countenance.",
       "imageProvider": "Codex CLI",
-      "image": "58-combate-elevar-corazon.png"
+      "image": "58-combate-elevar-corazon.webp"
     },
     {
       "number": 59,
@@ -1049,7 +1049,7 @@
       "imageQuestion": "¿Vuelves con serenidad a la presencia de Dios?",
       "imagePrompt": "A quiet 17th century devotional oil painting of a Carthusian monk at a wooden desk with a skull and Bible, illuminated by morning sunlight entering an open cell window.",
       "imageProvider": "Codex CLI",
-      "image": "59-combate-vencer-distracciones.png"
+      "image": "59-combate-vencer-distracciones.webp"
     },
     {
       "number": 60,
@@ -1066,7 +1066,7 @@
       "imageQuestion": "¿Proteges la paz interior de tu alma?",
       "imagePrompt": "A serene devotional painting of the Sacred Heart of Jesus radiating golden peace and blessing over a calm lake at twilight, classical soft glazing.",
       "imageProvider": "Codex CLI",
-      "image": "60-combate-paz-corazon.png"
+      "image": "60-combate-paz-corazon.webp"
     },
     {
       "number": 61,
@@ -1083,7 +1083,7 @@
       "imageQuestion": "¿Revisas tu día con agradecimiento y confianza?",
       "imagePrompt": "A warm devotional painting in the style of Murillo of a devout family in nighttime prayer around a hearth, hands folded before an image of the Holy Family.",
       "imageProvider": "Codex CLI",
-      "image": "61-combate-examen-conciencia.png"
+      "image": "61-combate-examen-conciencia.webp"
     },
     {
       "number": 62,
@@ -1100,7 +1100,7 @@
       "imageQuestion": "¿Reconoces con gozo que todo bien viene de Dios?",
       "imagePrompt": "A magnificent painting in the style of Fra Angelico depicting the Virgin Mary at the Annunciation: 'Ecce ancilla Domini', surrounded by delicate golden light and white lilies.",
       "imageProvider": "Codex CLI",
-      "image": "62-combate-humildad-verdadera.png"
+      "image": "62-combate-humildad-verdadera.webp"
     },
     {
       "number": 63,
@@ -1117,7 +1117,7 @@
       "imageQuestion": "¿Pones tu mirada en los bienes eternos?",
       "imagePrompt": "A classical memento mori oil painting of Saint Jerome meditating in his cave with the Holy Scriptures, a cross, and an hourglass glowing in gentle candlelight.",
       "imageProvider": "Codex CLI",
-      "image": "63-combate-mirada-eternidad.png"
+      "image": "63-combate-mirada-eternidad.webp"
     },
     {
       "number": 64,
@@ -1134,7 +1134,7 @@
       "imageQuestion": "¿Pides el don sagrado de la perseverancia?",
       "imagePrompt": "A baroque masterpiece of the Apostles gathered in the Upper Room at Pentecost with the Virgin Mary, tongues of fire and radiant golden light descending.",
       "imageProvider": "Codex CLI",
-      "image": "64-combate-perseverancia-don.png"
+      "image": "64-combate-perseverancia-don.webp"
     },
     {
       "number": 65,
@@ -1151,7 +1151,7 @@
       "imageQuestion": "¿Te alegras sinceramente del bien ajeno?",
       "imagePrompt": "A gentle renaissance painting depicting the Visitation of Mary to Saint Elizabeth, warm embraces, golden hills of Judea, soft joyful light.",
       "imageProvider": "Codex CLI",
-      "image": "65-ligorio-caridad-no-envidiosa.png"
+      "image": "65-ligorio-caridad-no-envidiosa.webp"
     },
     {
       "number": 66,
@@ -1168,7 +1168,7 @@
       "imageQuestion": "¿Consultas a Dios antes de tomar decisiones?",
       "imagePrompt": "A 17th century painting of Saint Joseph in his workshop, pausing in contemplation while contemplating the sleeping Infant Jesus in sacred peace.",
       "imageProvider": "Codex CLI",
-      "image": "66-ligorio-caridad-prudente.png"
+      "image": "66-ligorio-caridad-prudente.webp"
     },
     {
       "number": 67,
@@ -1185,7 +1185,7 @@
       "imageQuestion": "¿Buscas agradar a Dios en lo oculto?",
       "imagePrompt": "A deeply moving oil painting of Saint Francis of Assisi kissing the wounds of Christ in the quiet forest of La Verna, illuminated by a beam of heavenly radiance.",
       "imageProvider": "Codex CLI",
-      "image": "67-ligorio-caridad-no-se-engrie.png"
+      "image": "67-ligorio-caridad-no-se-engrie.webp"
     },
     {
       "number": 68,
@@ -1202,7 +1202,7 @@
       "imageQuestion": "¿Buscas a Cristo por encima de todo honor?",
       "imagePrompt": "A baroque painting of Saint Ignatius of Loyola at Manresa, kneeling before a simple cross and offering his life with the motto 'Ad maiorem Dei gloriam'.",
       "imageProvider": "Codex CLI",
-      "image": "68-ligorio-caridad-no-ambiciosa.png"
+      "image": "68-ligorio-caridad-no-ambiciosa.webp"
     },
     {
       "number": 69,
@@ -1219,7 +1219,7 @@
       "imageQuestion": "¿Te desprendes de ti mismo para servir al prójimo?",
       "imagePrompt": "A classical religious painting of the Good Samaritan binding the wounds of the traveler on the road to Jericho, rich warm oil tones, deep compassion.",
       "imageProvider": "Codex CLI",
-      "image": "69-ligorio-caridad-servidora.png"
+      "image": "69-ligorio-caridad-servidora.webp"
     },
     {
       "number": 70,
@@ -1236,7 +1236,7 @@
       "imageQuestion": "¿Respondes con mansedumbre ante la ofensa?",
       "imagePrompt": "A solemn oil painting of Christ Crowned with Thorns (Ecce Homo), bearing the purple cloak and reed with infinite sweetness and majesty.",
       "imageProvider": "Codex CLI",
-      "image": "70-ligorio-caridad-no-se-irrita.png"
+      "image": "70-ligorio-caridad-no-se-irrita.webp"
     },
     {
       "number": 71,
@@ -1253,7 +1253,7 @@
       "imageQuestion": "¿Miras a tu prójimo con benevolencia y misericordia?",
       "imagePrompt": "A devotional painting of Saint John the Apostle comforting the Virgin Mary at sunset, expressions of deep tenderness, harmony and peace.",
       "imageProvider": "Codex CLI",
-      "image": "71-ligorio-caridad-no-piensa-mal.png"
+      "image": "71-ligorio-caridad-no-piensa-mal.webp"
     },
     {
       "number": 72,
@@ -1270,7 +1270,7 @@
       "imageQuestion": "¿Deseas con ardor que todos conozcan a Dios?",
       "imagePrompt": "A powerful painting of Saint Paul preaching in Athens, pointing to the skies with apostolic fire, surrounded by seekers in classical drapery.",
       "imageProvider": "Codex CLI",
-      "image": "72-ligorio-gozo-en-la-verdad.png"
+      "image": "72-ligorio-gozo-en-la-verdad.webp"
     },
     {
       "number": 73,
@@ -1287,7 +1287,7 @@
       "imageQuestion": "¿Abrazas tu cruz por amor a Jesús?",
       "imagePrompt": "A dramatic chiaroscuro painting of Saint Teresa of Ávila in ecstatic transverberation, an angel with a golden dart of divine love touching her heart.",
       "imageProvider": "Codex CLI",
-      "image": "73-ligorio-caridad-todo-lo-sufre.png"
+      "image": "73-ligorio-caridad-todo-lo-sufre.webp"
     },
     {
       "number": 74,
@@ -1304,7 +1304,7 @@
       "imageQuestion": "¿Confías plenamente en las promesas del Señor?",
       "imagePrompt": "A luminous classical oil painting of Abraham looking up at the starry night sky with hands clasped in faithful wonder and surrender.",
       "imageProvider": "Codex CLI",
-      "image": "74-ligorio-caridad-todo-lo-espera.png"
+      "image": "74-ligorio-caridad-todo-lo-espera.webp"
     },
     {
       "number": 75,
@@ -1321,7 +1321,7 @@
       "imageQuestion": "¿Crees en la llamada de Dios a la santidad?",
       "imagePrompt": "A delicate 19th century painting of Saint Thérèse scattering rose petals at the foot of a large garden crucifix in the convent cloister.",
       "imageProvider": "Codex CLI",
-      "image": "75-teresita-llamada-universal.png"
+      "image": "75-teresita-llamada-universal.webp"
     },
     {
       "number": 76,
@@ -1338,7 +1338,7 @@
       "imageQuestion": "¿Vives con la alegre libertad de los hijos de Dios?",
       "imagePrompt": "A pastoral biblical painting of Jesus surrounded by smiling children blessing them in the warm sunlight of Galilee.",
       "imageProvider": "Codex CLI",
-      "image": "76-teresita-alegre-pequenez.png"
+      "image": "76-teresita-alegre-pequenez.webp"
     },
     {
       "number": 77,
@@ -1355,7 +1355,7 @@
       "imageQuestion": "¿Tienes una esperanza audaz en la misericordia?",
       "imagePrompt": "A magnificent painting in the style of Rembrandt of the Prodigal Son received into his father's golden embrace with tears of joy.",
       "imageProvider": "Codex CLI",
-      "image": "77-teresita-audacia-esperanza.png"
+      "image": "77-teresita-audacia-esperanza.webp"
     },
     {
       "number": 78,
@@ -1372,7 +1372,7 @@
       "imageQuestion": "¿Buscas que tus deseos coincidan con el querer de Dios?",
       "imagePrompt": "A tranquil painting of the Virgin Mary at prayer in Nazareth, morning light streaming through a stone archway, profound serenity.",
       "imageProvider": "Codex CLI",
-      "image": "78-teresita-purificar-deseo.png"
+      "image": "78-teresita-purificar-deseo.webp"
     },
     {
       "number": 79,
@@ -1389,7 +1389,7 @@
       "imageQuestion": "¿Te consagras al Amor Misericordioso de Dios?",
       "imagePrompt": "A baroque painting of the Sacred Heart of Jesus surrounded by rays of celestial gold, offering His wounded hands of mercy to the world.",
       "imageProvider": "Codex CLI",
-      "image": "79-teresita-ofrecimiento-misericordia.png"
+      "image": "79-teresita-ofrecimiento-misericordia.webp"
     },
     {
       "number": 80,
@@ -1406,7 +1406,7 @@
       "imageQuestion": "¿Perseveras en la fe aun en la aridez espiritual?",
       "imagePrompt": "A solitary painting of Christ in the wilderness at dawn, surrounded by vast desert mountains, peaceful and unwavering in prayer.",
       "imageProvider": "Codex CLI",
-      "image": "80-teresita-fe-pura-noche.png"
+      "image": "80-teresita-fe-pura-noche.webp"
     },
     {
       "number": 81,
@@ -1423,7 +1423,7 @@
       "imageQuestion": "¿Santificas los pequeños detalles de tu día?",
       "imagePrompt": "A warm devotional painting of the Holy Family in Nazareth: Jesus sweeping the floor, Mary sewing, and Joseph working wood with reverent joy.",
       "imageProvider": "Codex CLI",
-      "image": "81-teresita-fidelidad-pequenas-cosas.png"
+      "image": "81-teresita-fidelidad-pequenas-cosas.webp"
     },
     {
       "number": 82,
@@ -1440,7 +1440,7 @@
       "imageQuestion": "¿Amas al hermano difícil con la paciencia de Cristo?",
       "imagePrompt": "A 17th century painting of Saint Martin of Tours dividing his military cloak with his sword to clothe a cold beggar at the gates of Amiens.",
       "imageProvider": "Codex CLI",
-      "image": "82-teresita-caridad-comunitaria.png"
+      "image": "82-teresita-caridad-comunitaria.webp"
     },
     {
       "number": 83,
@@ -1457,7 +1457,7 @@
       "imageQuestion": "¿Confías en la intercesión amorosa de los santos?",
       "imagePrompt": "A heavenly painting of Saint Thérèse smiling from clouds of light, showering red and pink roses upon the earth below.",
       "imageProvider": "Codex CLI",
-      "image": "83-teresita-lluvia-rosas.png"
+      "image": "83-teresita-lluvia-rosas.webp"
     },
     {
       "number": 84,
@@ -1474,7 +1474,7 @@
       "imageQuestion": "¿Te abandonas como un niño en las manos del Padre?",
       "imagePrompt": "A tender classical painting of a father holding his young daughter as they watch the sunset over peaceful wheat fields, golden twilight.",
       "imageProvider": "Codex CLI",
-      "image": "84-teresita-camino-confianza.png"
+      "image": "84-teresita-camino-confianza.webp"
     },
     {
       "number": 85,
@@ -1491,7 +1491,7 @@
       "imageQuestion": "¿Vives la Misa como presencia viva del sacrificio de Cristo?",
       "imagePrompt": "A solemn painting of a medieval stone altar illuminated by candlelight, a golden chalice and crucifix glowing with sacred mystery.",
       "imageProvider": "Codex CLI",
-      "image": "85-ratzinger-memorial-pascua.png"
+      "image": "85-ratzinger-memorial-pascua.webp"
     },
     {
       "number": 86,
@@ -1508,7 +1508,7 @@
       "imageQuestion": "¿Recibes a Cristo con veneración en la comunión?",
       "imagePrompt": "A classical depiction of the Supper at Emmaus in the style of Caravaggio: the moment Christ breaks the bread and the disciples recognize Him in wonder.",
       "imageProvider": "Codex CLI",
-      "image": "86-ratzinger-fraccion-pan.png"
+      "image": "86-ratzinger-fraccion-pan.webp"
     },
     {
       "number": 87,
@@ -1525,7 +1525,7 @@
       "imageQuestion": "¿Buscas la reconciliación antes de acercarte al altar?",
       "imagePrompt": "A moving painting of two early Christians embracing in tearful forgiveness in a candlelit Roman catacomb before the Eucharistic liturgy.",
       "imageProvider": "Codex CLI",
-      "image": "87-ratzinger-reconciliacion-comunion.png"
+      "image": "87-ratzinger-reconciliacion-comunion.webp"
     },
     {
       "number": 88,
@@ -1542,7 +1542,7 @@
       "imageQuestion": "¿Permites que la Eucaristía renueve todas tus obras?",
       "imagePrompt": "An allegorical baroque painting of the Eucharistic Triumph, rays of golden light emanating from the Monstrance over the earth and stars.",
       "imageProvider": "Codex CLI",
-      "image": "88-ratzinger-transformacion-creacion.png"
+      "image": "88-ratzinger-transformacion-creacion.webp"
     },
     {
       "number": 89,
@@ -1559,7 +1559,7 @@
       "imageQuestion": "¿Escuchas la voz de Dios en el silencio sagrado?",
       "imagePrompt": "A serene painting of an ancient monastic choir praying in solemn silence in the twilight of a Romanesque abbey, golden candle flames.",
       "imageProvider": "Codex CLI",
-      "image": "89-ratzinger-silencio-liturgico.png"
+      "image": "89-ratzinger-silencio-liturgico.webp"
     },
     {
       "number": 90,
@@ -1576,7 +1576,7 @@
       "imageQuestion": "¿Vives el domingo como fiesta de la Resurrección?",
       "imagePrompt": "A radiant painting of the Risen Christ appearing at dawn in white robes of light to Mary Magdalene and the holy women in the garden.",
       "imageProvider": "Codex CLI",
-      "image": "90-ratzinger-domingo-resurreccion.png"
+      "image": "90-ratzinger-domingo-resurreccion.webp"
     },
     {
       "number": 91,
@@ -1593,7 +1593,7 @@
       "imageQuestion": "¿Reconoces a Cristo presente en los pobres?",
       "imagePrompt": "A masterwork in the style of Murillo depicting Saint Elizabeth of Hungary washing the feet of the poor and sharing loaves of blessed bread.",
       "imageProvider": "Codex CLI",
-      "image": "91-ratzinger-eucaristia-y-caridad.png"
+      "image": "91-ratzinger-eucaristia-y-caridad.webp"
     },
     {
       "number": 92,
@@ -1610,7 +1610,7 @@
       "imageQuestion": "¿Sientes la llamada de compartir la alegría del Evangelio?",
       "imagePrompt": "A dynamic classical oil painting of Saint Francis Xavier preaching the Gospel on the shores of the Orient with a glowing crucifix in hand.",
       "imageProvider": "Codex CLI",
-      "image": "92-ratzinger-mision-evangelizadora.png"
+      "image": "92-ratzinger-mision-evangelizadora.webp"
     },
     {
       "number": 93,
@@ -1627,7 +1627,7 @@
       "imageQuestion": "¿Caminas como peregrino hacia la patria del cielo?",
       "imagePrompt": "A luminous painting of pilgrims walking toward a distant golden heavenly Jerusalem glowing upon a mountaintop at sunrise.",
       "imageProvider": "Codex CLI",
-      "image": "93-ratzinger-esperanza-cielo.png"
+      "image": "93-ratzinger-esperanza-cielo.webp"
     },
     {
       "number": 94,
@@ -1644,7 +1644,7 @@
       "imageQuestion": "¿Acoges a Jesús con el corazón dócil de María?",
       "imagePrompt": "A magnificent painting of the Virgin Mary in adoration before the Infant Jesus sleeping on straw, surrounded by heavenly light and cherubim.",
       "imageProvider": "Codex CLI",
-      "image": "94-ratzinger-maria-mujer-eucaristica.png"
+      "image": "94-ratzinger-maria-mujer-eucaristica.webp"
     },
     {
       "number": 95,
@@ -1661,7 +1661,7 @@
       "imageQuestion": "¿Ofreces a Dios lo mejor de tu vida sin calcular?",
       "imagePrompt": "A warm classical painting of Mary of Bethany pouring nard ointment from an alabaster jar over Christ's feet, surrounded by the apostles in candlelight.",
       "imageProvider": "Codex CLI",
-      "image": "95-olaizola-uncion-betania.png"
+      "image": "95-olaizola-uncion-betania.webp"
     },
     {
       "number": 96,
@@ -1678,7 +1678,7 @@
       "imageQuestion": "¿Vives el mandamiento del amor fraterno en el servicio?",
       "imagePrompt": "A renaissance painting of Jesus girded with a linen towel washing Saint Peter's feet with immense tenderness in the candlelit Upper Room.",
       "imageProvider": "Codex CLI",
-      "image": "96-olaizola-mandamiento-nuevo.png"
+      "image": "96-olaizola-mandamiento-nuevo.webp"
     },
     {
       "number": 97,
@@ -1695,7 +1695,7 @@
       "imageQuestion": "¿Mantienes la fe y la serenidad en las horas oscuras?",
       "imagePrompt": "A dramatic nocturnal oil painting of Christ standing dignified amid Roman torches in Gethsemane while shadows scatter, deep chiaroscuro.",
       "imageProvider": "Codex CLI",
-      "image": "97-olaizola-prendimiento-serenidad.png"
+      "image": "97-olaizola-prendimiento-serenidad.webp"
     },
     {
       "number": 98,
@@ -1712,7 +1712,7 @@
       "imageQuestion": "¿Das testimonio valiente de la verdad ante los hombres?",
       "imagePrompt": "A majestic painting of Christ standing bound before Caiaphas and the Sanhedrin, eyes raised with serene heavenly authority.",
       "imageProvider": "Codex CLI",
-      "image": "98-olaizola-juicio-caifas.png"
+      "image": "98-olaizola-juicio-caifas.webp"
     },
     {
       "number": 99,
@@ -1729,7 +1729,7 @@
       "imageQuestion": "¿Dejas que el perdón de Cristo renueve tu amor?",
       "imagePrompt": "A moving painting of Saint Peter in the courtyard at dawn, looking into the distance with tears of repentance, roosters crowing in mist.",
       "imageProvider": "Codex CLI",
-      "image": "99-olaizola-llanto-perdon-pedro.png"
+      "image": "99-olaizola-llanto-perdon-pedro.webp"
     },
     {
       "number": 100,
@@ -1746,7 +1746,7 @@
       "imageQuestion": "¿Contemplas la mansedumbre de Cristo coronado de espinas?",
       "imagePrompt": "A powerful devotional oil painting in the style of Guido Reni depicting Christ crowned with thorns, head raised to heaven in silent intercession.",
       "imageProvider": "Codex CLI",
-      "image": "100-olaizola-corona-espinas.png"
+      "image": "100-olaizola-corona-espinas.webp"
     },
     {
       "number": 101,
@@ -1763,7 +1763,7 @@
       "imageQuestion": "¿Transformas tu devoción en conversión sincera?",
       "imagePrompt": "A classical depiction of Jesus on the Via Dolorosa turning with compassion to comfort the weeping holy women of Jerusalem.",
       "imageProvider": "Codex CLI",
-      "image": "101-olaizola-mujeres-jerusalen.png"
+      "image": "101-olaizola-mujeres-jerusalen.webp"
     },
     {
       "number": 102,
@@ -1780,7 +1780,7 @@
       "imageQuestion": "¿Confías en que la misericordia de Dios siempre está abierta?",
       "imagePrompt": "A masterpiece painting of the Crucifixion on Golgotha: Christ looking with heavenly peace at Dismas, darkness and gold celestial break.",
       "imageProvider": "Codex CLI",
-      "image": "102-olaizola-buen-ladron-paraiso.png"
+      "image": "102-olaizola-buen-ladron-paraiso.webp"
     },
     {
       "number": 103,
@@ -1797,7 +1797,7 @@
       "imageQuestion": "¿Sacias la sed de Cristo con tu amor y oración?",
       "imagePrompt": "A deeply moving painting of the Crucified Christ against a dark sky, divine light illuminating His sacred face in holy expiration.",
       "imageProvider": "Codex CLI",
-      "image": "103-olaizola-tengo-sed.png"
+      "image": "103-olaizola-tengo-sed.webp"
     },
     {
       "number": 104,
@@ -1814,7 +1814,7 @@
       "imageQuestion": "¿Esperas con fe viva en las horas de silencio?",
       "imagePrompt": "A serene classical painting of the Pieta and the Holy Sepulchre at twilight, angels keeping vigil around the stone tomb with quiet hope.",
       "imageProvider": "Codex CLI",
-      "image": "104-olaizola-sepulcro-esperanza.png"
+      "image": "104-olaizola-sepulcro-esperanza.webp"
     },
     {
       "number": 155,
@@ -1824,7 +1824,7 @@
       "page": 10,
       "owner": "Claude",
       "status": "published",
-      "image": "155-paz-de-no-entrometerse.png"
+      "image": "155-paz-de-no-entrometerse.webp"
     },
     {
       "number": 156,
@@ -1834,7 +1834,7 @@
       "page": 30,
       "owner": "Claude",
       "status": "published",
-      "image": "156-paz-consigo-y-con-los-otros.png"
+      "image": "156-paz-consigo-y-con-los-otros.webp"
     },
     {
       "number": 157,
@@ -1844,7 +1844,7 @@
       "page": 11,
       "owner": "Claude",
       "status": "published",
-      "image": "157-nave-sin-timon.png"
+      "image": "157-nave-sin-timon.webp"
     },
     {
       "number": 158,
@@ -1854,7 +1854,7 @@
       "page": 22,
       "owner": "Claude",
       "status": "published",
-      "image": "158-hoy-el-hombre-manana-no-parece.png"
+      "image": "158-hoy-el-hombre-manana-no-parece.webp"
     },
     {
       "number": 159,
@@ -1864,7 +1864,7 @@
       "page": 31,
       "owner": "Claude",
       "status": "published",
-      "image": "159-solo-dios-llena-el-alma.png"
+      "image": "159-solo-dios-llena-el-alma.webp"
     },
     {
       "number": 160,
@@ -1874,7 +1874,7 @@
       "page": 19,
       "owner": "Claude",
       "status": "published",
-      "image": "160-cerrar-la-puerta-y-hallar-paz.png"
+      "image": "160-cerrar-la-puerta-y-hallar-paz.webp"
     },
     {
       "number": 161,
@@ -1884,7 +1884,7 @@
       "page": 63,
       "owner": "Claude",
       "status": "published",
-      "image": "161-solo-en-ti-descansa-mi-corazon.png"
+      "image": "161-solo-en-ti-descansa-mi-corazon.webp"
     },
     {
       "number": 162,
@@ -1894,7 +1894,7 @@
       "page": 31,
       "owner": "Claude",
       "status": "published",
-      "image": "162-donde-estas-cuando-no-estas-contigo.png"
+      "image": "162-donde-estas-cuando-no-estas-contigo.webp"
     },
     {
       "number": 163,
@@ -1904,7 +1904,7 @@
       "page": 65,
       "owner": "Claude",
       "status": "published",
-      "image": "163-cuatro-cosas-que-causan-paz.png"
+      "image": "163-cuatro-cosas-que-causan-paz.webp"
     },
     {
       "number": 164,
@@ -1914,7 +1914,7 @@
       "page": 71,
       "owner": "Claude",
       "status": "published",
-      "image": "164-donde-esta-tu-fe.png"
+      "image": "164-donde-esta-tu-fe.webp"
     },
     {
       "number": 165,
@@ -1924,7 +1924,7 @@
       "page": 27,
       "owner": "Claude",
       "status": "published",
-      "image": "165-el-sabor-del-delito.png"
+      "image": "165-el-sabor-del-delito.webp"
     },
     {
       "number": 166,
@@ -1934,7 +1934,7 @@
       "page": 1,
       "owner": "Claude",
       "status": "published",
-      "image": "166-corazon-inquieto-hasta-que-descanse.png"
+      "image": "166-corazon-inquieto-hasta-que-descanse.webp"
     },
     {
       "number": 167,
@@ -1944,7 +1944,7 @@
       "page": 94,
       "owner": "Claude",
       "status": "published",
-      "image": "167-presa-en-la-amistad-de-las-cosas-mortales.png"
+      "image": "167-presa-en-la-amistad-de-las-cosas-mortales.webp"
     },
     {
       "number": 168,
@@ -1954,7 +1954,7 @@
       "page": 135,
       "owner": "Claude",
       "status": "published",
-      "image": "168-arrojate-con-confianza.png"
+      "image": "168-arrojate-con-confianza.webp"
     },
     {
       "number": 169,
@@ -1964,7 +1964,7 @@
       "page": 57,
       "owner": "Claude",
       "status": "published",
-      "image": "169-soberbia-que-ama-una-parte-como-si-fuera-el-todo.png"
+      "image": "169-soberbia-que-ama-una-parte-como-si-fuera-el-todo.webp"
     },
     {
       "number": 170,
@@ -1974,7 +1974,7 @@
       "page": 214,
       "owner": "Claude",
       "status": "published",
-      "image": "170-el-ir-y-venir-de-mis-pensamientos.png"
+      "image": "170-el-ir-y-venir-de-mis-pensamientos.webp"
     },
     {
       "number": 171,
@@ -1984,7 +1984,7 @@
       "page": 136,
       "owner": "Claude",
       "status": "published",
-      "image": "171-toma-y-lee.png"
+      "image": "171-toma-y-lee.webp"
     },
     {
       "number": 172,
@@ -1994,7 +1994,7 @@
       "page": 110,
       "owner": "Claude",
       "status": "published",
-      "image": "172-la-mano-oculta-de-tu-providencia.png"
+      "image": "172-la-mano-oculta-de-tu-providencia.webp"
     },
     {
       "number": 173,
@@ -2004,7 +2004,7 @@
       "page": 193,
       "owner": "Claude",
       "status": "published",
-      "image": "173-temo-la-adversidad-en-medio-de-la-prosperidad.png"
+      "image": "173-temo-la-adversidad-en-medio-de-la-prosperidad.webp"
     },
     {
       "number": 174,
@@ -2014,7 +2014,7 @@
       "page": 270,
       "owner": "Claude",
       "status": "published",
-      "image": "174-mi-peso-es-mi-amor.png"
+      "image": "174-mi-peso-es-mi-amor.webp"
     },
     {
       "number": 175,
@@ -2024,7 +2024,7 @@
       "page": 4,
       "owner": "Claude",
       "status": "published",
-      "image": "175-la-devocion-es-la-dulzura-de-las-dulzuras.png"
+      "image": "175-la-devocion-es-la-dulzura-de-las-dulzuras.webp"
     },
     {
       "number": 176,
@@ -2034,7 +2034,7 @@
       "page": 6,
       "owner": "Claude",
       "status": "published",
-      "image": "176-la-devocion-cabe-en-cualquier-vocacion.png"
+      "image": "176-la-devocion-cabe-en-cualquier-vocacion.webp"
     },
     {
       "number": 177,
@@ -2044,7 +2044,7 @@
       "page": 93,
       "owner": "Claude",
       "status": "published",
-      "image": "177-cuidado-sin-inquietud-como-los-angeles.png"
+      "image": "177-cuidado-sin-inquietud-como-los-angeles.webp"
     },
     {
       "number": 178,
@@ -2054,7 +2054,7 @@
       "page": 93,
       "owner": "Claude",
       "status": "published",
-      "image": "178-trata-tus-asuntos-sin-precipitacion.png"
+      "image": "178-trata-tus-asuntos-sin-precipitacion.webp"
     },
     {
       "number": 179,
@@ -2064,7 +2064,7 @@
       "page": 52,
       "owner": "Claude",
       "status": "published",
-      "image": "179-la-rosa-entre-las-espinas.png"
+      "image": "179-la-rosa-entre-las-espinas.webp"
     },
     {
       "number": 180,
@@ -2074,7 +2074,7 @@
       "page": 90,
       "owner": "Claude",
       "status": "published",
-      "image": "180-la-dulzura-con-nosotros-mismos.png"
+      "image": "180-la-dulzura-con-nosotros-mismos.webp"
     },
     {
       "number": 181,
@@ -2084,7 +2084,7 @@
       "page": 90,
       "owner": "Claude",
       "status": "published",
-      "image": "181-el-arrepentimiento-tranquilo-y-firme.png"
+      "image": "181-el-arrepentimiento-tranquilo-y-firme.webp"
     },
     {
       "number": 182,
@@ -2094,7 +2094,7 @@
       "page": 75,
       "owner": "Claude",
       "status": "published",
-      "image": "182-quejate-tan-poco-como-puedas.png"
+      "image": "182-quejate-tan-poco-como-puedas.webp"
     },
     {
       "number": 183,
@@ -2104,7 +2104,7 @@
       "page": 68,
       "owner": "Claude",
       "status": "published",
-      "image": "183-en-vuestra-paciencia-poseereis-vuestras-almas.png"
+      "image": "183-en-vuestra-paciencia-poseereis-vuestras-almas.webp"
     },
     {
       "number": 184,
@@ -2114,7 +2114,7 @@
       "page": 68,
       "owner": "Claude",
       "status": "published",
-      "image": "184-no-limites-tu-paciencia.png"
+      "image": "184-no-limites-tu-paciencia.webp"
     },
     {
       "number": 185,
@@ -2124,7 +2124,7 @@
       "page": 57,
       "owner": "Claude",
       "status": "published",
-      "image": "185-la-paz-camino-hacia-la-vida-eterna.png"
+      "image": "185-la-paz-camino-hacia-la-vida-eterna.webp"
     },
     {
       "number": 186,
@@ -2134,7 +2134,7 @@
       "page": 58,
       "owner": "Claude",
       "status": "published",
-      "image": "186-el-alma-libre-y-desprendida.png"
+      "image": "186-el-alma-libre-y-desprendida.webp"
     },
     {
       "number": 187,
@@ -2144,7 +2144,7 @@
       "page": 59,
       "owner": "Claude",
       "status": "published",
-      "image": "187-dios-es-el-principe-de-la-paz.png"
+      "image": "187-dios-es-el-principe-de-la-paz.webp"
     },
     {
       "number": 188,
@@ -2154,7 +2154,7 @@
       "page": 59,
       "owner": "Claude",
       "status": "published",
-      "image": "188-las-tres-cosas-que-dan-la-paz.png"
+      "image": "188-las-tres-cosas-que-dan-la-paz.webp"
     },
     {
       "number": 189,
@@ -2164,7 +2164,7 @@
       "page": 60,
       "owner": "Claude",
       "status": "published",
-      "image": "189-la-paz-nace-de-la-humildad.png"
+      "image": "189-la-paz-nace-de-la-humildad.webp"
     },
     {
       "number": 190,
@@ -2174,7 +2174,7 @@
       "page": 60,
       "owner": "Claude",
       "status": "published",
-      "image": "190-todo-coopera-al-bien-de-los-que-aman-a-dios.png"
+      "image": "190-todo-coopera-al-bien-de-los-que-aman-a-dios.webp"
     },
     {
       "number": 191,
@@ -2184,7 +2184,7 @@
       "page": 61,
       "owner": "Claude",
       "status": "published",
-      "image": "191-la-medida-de-la-providencia-es-tu-confianza.png"
+      "image": "191-la-medida-de-la-providencia-es-tu-confianza.webp"
     },
     {
       "number": 192,
@@ -2194,7 +2194,7 @@
       "page": 61,
       "owner": "Claude",
       "status": "published",
-      "image": "192-tratar-los-asuntos-sin-precipitacion.png"
+      "image": "192-tratar-los-asuntos-sin-precipitacion.webp"
     },
     {
       "number": 193,
@@ -2204,7 +2204,7 @@
       "page": 61,
       "owner": "Claude",
       "status": "published",
-      "image": "193-marta-te-preocupas-por-muchas-cosas.png"
+      "image": "193-marta-te-preocupas-por-muchas-cosas.webp"
     },
     {
       "number": 194,
@@ -2214,7 +2214,7 @@
       "page": 61,
       "owner": "Claude",
       "status": "published",
-      "image": "194-aborrecer-los-defectos-con-paz.png"
+      "image": "194-aborrecer-los-defectos-con-paz.webp"
     },
     {
       "number": 195,
@@ -2224,7 +2224,7 @@
       "page": 7,
       "owner": "Claude",
       "status": "published",
-      "image": "195-la-confianza-es-el-antidoto-al-miedo.png"
+      "image": "195-la-confianza-es-el-antidoto-al-miedo.webp"
     },
     {
       "number": 196,
@@ -2234,7 +2234,7 @@
       "page": 7,
       "owner": "Claude",
       "status": "published",
-      "image": "196-nuestros-miedos-nos-definen.png"
+      "image": "196-nuestros-miedos-nos-definen.webp"
     },
     {
       "number": 197,
@@ -2244,7 +2244,7 @@
       "page": 67,
       "owner": "Claude",
       "status": "published",
-      "image": "197-maria-reina-de-la-paz.png"
+      "image": "197-maria-reina-de-la-paz.webp"
     },
     {
       "number": 198,
@@ -2254,7 +2254,7 @@
       "page": 39,
       "owner": "Claude",
       "status": "published",
-      "image": "198-el-desanimo-es-una-expresion-del-orgullo.png"
+      "image": "198-el-desanimo-es-una-expresion-del-orgullo.webp"
     },
     {
       "number": 199,
@@ -2264,7 +2264,7 @@
       "page": 75,
       "owner": "Claude",
       "status": "published",
-      "image": "199-mi-confianza-era-confianza-en-mi-mismo.png"
+      "image": "199-mi-confianza-era-confianza-en-mi-mismo.webp"
     },
     {
       "number": 200,
@@ -2274,7 +2274,7 @@
       "page": 39,
       "owner": "Claude",
       "status": "published",
-      "image": "200-la-verdadera-humildad-es-aceptarse.png"
+      "image": "200-la-verdadera-humildad-es-aceptarse.webp"
     },
     {
       "number": 201,
@@ -2284,7 +2284,7 @@
       "page": 76,
       "owner": "Claude",
       "status": "published",
-      "image": "201-el-amor-de-dios-no-esta-sujeto-a-eclipses.png"
+      "image": "201-el-amor-de-dios-no-esta-sujeto-a-eclipses.webp"
     },
     {
       "number": 202,
@@ -2294,7 +2294,7 @@
       "page": 61,
       "owner": "Claude",
       "status": "published",
-      "image": "202-alimentados-de-la-palabra-de-dios.png"
+      "image": "202-alimentados-de-la-palabra-de-dios.webp"
     },
     {
       "number": 203,
@@ -2304,7 +2304,7 @@
       "page": 91,
       "owner": "Claude",
       "status": "published",
-      "image": "203-la-confianza-de-jesus-fue-puesta-a-prueba.png"
+      "image": "203-la-confianza-de-jesus-fue-puesta-a-prueba.webp"
     },
     {
       "number": 204,
@@ -2314,7 +2314,7 @@
       "page": 92,
       "owner": "Claude",
       "status": "published",
-      "image": "204-toda-prueba-es-una-prueba-de-fe.png"
+      "image": "204-toda-prueba-es-una-prueba-de-fe.webp"
     },
     {
       "number": 105,
@@ -2331,7 +2331,7 @@
       "imageQuestion": "¿Te dejas llevar de la mano de María hacia Jesús?",
       "imagePrompt": "A 17th century baroque devotional oil painting of the Virgin Mary holding the hand of a kneeling Christian pilgrim, guiding him toward a radiant altar of light. Warm golden chiaroscuro, tender maternal expression, authentic canvas texture.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "105-sacerdotes-mano-de-maria.png"
+      "image": "105-sacerdotes-mano-de-maria.webp"
     },
     {
       "number": 106,
@@ -2348,7 +2348,7 @@
       "imageQuestion": "¿Buscas el consuelo de Dios en la pequeñez humilde?",
       "imagePrompt": "A classical religious painting in the style of Murillo depicting the Virgin of Mercy sheltering humble souls under her mantle in peaceful candlelight.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "106-sacerdotes-pequenez-humilde.png"
+      "image": "106-sacerdotes-pequenez-humilde.webp"
     },
     {
       "number": 107,
@@ -2365,7 +2365,7 @@
       "imageQuestion": "¿Confías tu futuro a la Divina Providencia?",
       "imagePrompt": "A majestic painting of the Immaculate Heart of Mary radiating celestial golden light over the earth, surrounded by clouds and angels at dawn.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "107-sacerdotes-consagracion-providencia.png"
+      "image": "107-sacerdotes-consagracion-providencia.webp"
     },
     {
       "number": 108,
@@ -2382,7 +2382,7 @@
       "imageQuestion": "¿Rezas el Rosario para alcanzar la paz interior?",
       "imagePrompt": "A classical painting of a Christian soul kneeling in prayer before a statue of Our Lady of Fatima, holding a glowing crystal rosary in twilight.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "108-sacerdotes-rosario-paz.png"
+      "image": "108-sacerdotes-rosario-paz.webp"
     },
     {
       "number": 109,
@@ -2399,7 +2399,7 @@
       "imageQuestion": "¿Permaneces fiel junto a la Cruz en la prueba?",
       "imagePrompt": "A solemn Stabat Mater oil painting in the style of Velázquez: the Virgin Mary standing beside the Crucifix on Golgotha in eclipse shadows.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "109-sacerdotes-camino-de-la-cruz.png"
+      "image": "109-sacerdotes-camino-de-la-cruz.webp"
     },
     {
       "number": 110,
@@ -2416,7 +2416,7 @@
       "imageQuestion": "¿Vives el sufrimiento como ofrenda de amor?",
       "imagePrompt": "A devotional oil painting of Our Lady of Sorrows (Mater Dolorosa), hands clasped over her pierced heart with profound tears of love and peace.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "110-sacerdotes-dolor-fecundo.png"
+      "image": "110-sacerdotes-dolor-fecundo.webp"
     },
     {
       "number": 111,
@@ -2433,7 +2433,7 @@
       "imageQuestion": "¿Haces en tu corazón un pesebre para Jesús?",
       "imagePrompt": "A tender renaissance Nativity painting: Mary and Joseph adoring the glowing Infant Jesus in the manger under the light of the Star of Bethlehem.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "111-sacerdotes-noche-santa-belen.png"
+      "image": "111-sacerdotes-noche-santa-belen.webp"
     },
     {
       "number": 112,
@@ -2450,7 +2450,7 @@
       "imageQuestion": "¿Haces de tu hogar un cenáculo de oración y paz?",
       "imagePrompt": "A warm 17th century painting of early Christians and a family gathered around an open Bible and oil lamp in evening prayer, glowing candlelight.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "112-sacerdotes-cenaculos-oracion.png"
+      "image": "112-sacerdotes-cenaculos-oracion.webp"
     },
     {
       "number": 113,
@@ -2467,7 +2467,7 @@
       "imageQuestion": "¿Amas y defiendes la unidad de la Iglesia?",
       "imagePrompt": "A classical painting depicting Saint Peter receiving the keys of the Kingdom of Heaven from Christ on the shore of Galilee, noble golden atmosphere.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "113-sacerdotes-union-con-pedro.png"
+      "image": "113-sacerdotes-union-con-pedro.webp"
     },
     {
       "number": 114,
@@ -2484,7 +2484,7 @@
       "imageQuestion": "¿Eres instrumento de paz y reconciliación?",
       "imagePrompt": "An allegorical baroque painting of Our Lady Queen of Peace holding an olive branch, with white doves descending over a calm landscape at sunset.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "114-sacerdotes-reina-de-la-paz.png"
+      "image": "114-sacerdotes-reina-de-la-paz.webp"
     },
     {
       "number": 115,
@@ -2501,7 +2501,7 @@
       "imageQuestion": "¿Caminas con confianza bajo el manto de María?",
       "imagePrompt": "A beautiful renaissance painting of Our Lady of Mercy sheltering souls beneath her broad blue mantle in golden celestial light.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "115-sacerdotes-manto-protector.png"
+      "image": "115-sacerdotes-manto-protector.webp"
     },
     {
       "number": 116,
@@ -2518,7 +2518,7 @@
       "imageQuestion": "¿Buscas a Jesús ante el Sagrario en el silencio?",
       "imagePrompt": "A solitary devotional painting of a priest kneeling in adoration before the exposed golden Monstrance in a dark cathedral at dawn.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "116-sacerdotes-silencio-ante-sagrario.png"
+      "image": "116-sacerdotes-silencio-ante-sagrario.webp"
     },
     {
       "number": 117,
@@ -2535,7 +2535,7 @@
       "imageQuestion": "¿Confías tus súplicas a la Virgen Asunta al cielo?",
       "imagePrompt": "A magnificent classical painting of the Assumption of the Virgin Mary, surrounded by radiant clouds, angels and golden celestial rays ascending to the Trinity.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "117-sacerdotes-asuncion-intercesion.png"
+      "image": "117-sacerdotes-asuncion-intercesion.webp"
     },
     {
       "number": 118,
@@ -2552,7 +2552,7 @@
       "imageQuestion": "¿Cuidas la pureza del corazón ante Dios?",
       "imagePrompt": "A delicate painting of the Immaculate Conception by Murillo: the Virgin Mary clothed in white and blue, standing on the crescent moon among angels.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "118-sacerdotes-pureza-del-corazon.png"
+      "image": "118-sacerdotes-pureza-del-corazon.webp"
     },
     {
       "number": 119,
@@ -2569,7 +2569,7 @@
       "imageQuestion": "¿Edificas tu vida sobre la confianza en Dios?",
       "imagePrompt": "A biblical painting of the wise man building his house upon the solid rock against storm and wind, steadfast in prayer.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "119-sacerdotes-roca-de-la-confianza.png"
+      "image": "119-sacerdotes-roca-de-la-confianza.webp"
     },
     {
       "number": 120,
@@ -2586,7 +2586,7 @@
       "imageQuestion": "¿Ofreces con amor tus sacrificios diarios?",
       "imagePrompt": "A devotional painting of Saint Thérèse of Lisieux picking thorns from roses before an altar, smiling in quiet sacrifice.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "120-sacerdotes-pequenos-sacrificios.png"
+      "image": "120-sacerdotes-pequenos-sacrificios.webp"
     },
     {
       "number": 121,
@@ -2603,7 +2603,7 @@
       "imageQuestion": "¿Abres tu corazón al perdón y la reconciliación?",
       "imagePrompt": "A moving painting of the Prodigal Son embracing his brother and father in mutual tearful forgiveness, golden twilight.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "121-sacerdotes-perdon-y-reconciliacion.png"
+      "image": "121-sacerdotes-perdon-y-reconciliacion.webp"
     },
     {
       "number": 122,
@@ -2620,7 +2620,7 @@
       "imageQuestion": "¿Buscas refugio en la luz del Evangelio y la oración?",
       "imagePrompt": "A classical maritime painting of a ship guided safely through stormy night seas by the radiant Star of the Sea (Stella Maris) shining from heaven.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "122-sacerdotes-estrella-del-mar.png"
+      "image": "122-sacerdotes-estrella-del-mar.webp"
     },
     {
       "number": 123,
@@ -2637,7 +2637,7 @@
       "imageQuestion": "¿Es la Eucaristía el centro de tu vida espiritual?",
       "imagePrompt": "A baroque masterpiece depicting the Holy Sacrament in a golden monstrance radiating divine light upon adoring faithful and angels.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "123-sacerdotes-centro-eucaristico.png"
+      "image": "123-sacerdotes-centro-eucaristico.webp"
     },
     {
       "number": 124,
@@ -2654,7 +2654,7 @@
       "imageQuestion": "¿Invocas al Espíritu Santo al comenzar tu día?",
       "imagePrompt": "A classical painting of the Holy Spirit descending as a glowing white Dove surrounded by radiant golden rays of fire upon the Apostles in the Cenacle.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "124-sacerdotes-fuego-del-espiritu.png"
+      "image": "124-sacerdotes-fuego-del-espiritu.webp"
     },
     {
       "number": 125,
@@ -2671,7 +2671,7 @@
       "imageQuestion": "¿Buscas la humildad para que Dios obre en ti?",
       "imagePrompt": "A gentle painting of Saint Joseph leading the donkey with the Virgin Mary and the Infant Jesus in humble exile, twilight in the desert.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "125-sacerdotes-vestidura-humildad.png"
+      "image": "125-sacerdotes-vestidura-humildad.webp"
     },
     {
       "number": 126,
@@ -2688,7 +2688,7 @@
       "imageQuestion": "¿Permaneces firme en la fe ante la prueba?",
       "imagePrompt": "A classical painting of Saint John the Apostle standing steadfast beside the Virgin Mary beneath the Cross on Calvary at eclipse.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "126-sacerdotes-fidelidad-al-pie-cruz.png"
+      "image": "126-sacerdotes-fidelidad-al-pie-cruz.webp"
     },
     {
       "number": 127,
@@ -2705,7 +2705,7 @@
       "imageQuestion": "¿Te entregas por entero a María cada mañana?",
       "imagePrompt": "A radiant oil painting of a Christian soul kneeling before the Immaculate Heart of Mary, offering a white lily with devotion and trust.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "127-sacerdotes-consagracion-matutina.png"
+      "image": "127-sacerdotes-consagracion-matutina.webp"
     },
     {
       "number": 128,
@@ -2722,7 +2722,7 @@
       "imageQuestion": "¿Perseveras en la oración como tu mayor fortaleza?",
       "imagePrompt": "A devotional painting of an ancient monk in earnest prayer in his mountain cave before an open psalter and candle flame.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "128-sacerdotes-escudo-de-oracion.png"
+      "image": "128-sacerdotes-escudo-de-oracion.webp"
     },
     {
       "number": 129,
@@ -2739,7 +2739,7 @@
       "imageQuestion": "¿Atesoras méritos eternos mediante la caridad?",
       "imagePrompt": "A classical painting of pilgrims gazing at the distant heavenly Jerusalem illuminated by celestial gold upon the mountaintop.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "129-sacerdotes-mirada-al-cielo.png"
+      "image": "129-sacerdotes-mirada-al-cielo.webp"
     },
     {
       "number": 130,
@@ -2756,7 +2756,7 @@
       "imageQuestion": "¿Permites que la grandeza de Dios brille en tu pequeñez?",
       "imagePrompt": "A classical renaissance painting of David with his simple shepherd's sling looking up to heaven with complete trust in the Lord.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "130-sacerdotes-grandeza-en-pequenez.png"
+      "image": "130-sacerdotes-grandeza-en-pequenez.webp"
     },
     {
       "number": 131,
@@ -2773,7 +2773,7 @@
       "imageQuestion": "¿Llevas la paz y el consuelo de Dios a quienes sufren?",
       "imagePrompt": "A painting of Saint Vincent de Paul gently embracing an orphaned child and sharing bread with the poor in a candlelit street.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "131-sacerdotes-apostoles-de-paz.png"
+      "image": "131-sacerdotes-apostoles-de-paz.webp"
     },
     {
       "number": 132,
@@ -2790,7 +2790,7 @@
       "imageQuestion": "¿Rezas el Rosario contemplando los misterios con el corazón?",
       "imagePrompt": "A beautiful painting of Saint Dominic receiving the Holy Rosary from the Virgin Mary, surrounded by angels and divine radiance.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "132-sacerdotes-arma-del-rosario.png"
+      "image": "132-sacerdotes-arma-del-rosario.webp"
     },
     {
       "number": 133,
@@ -2807,7 +2807,7 @@
       "imageQuestion": "¿Cultivas el silencio para escuchar la voz de Dios?",
       "imagePrompt": "A quiet contemplative painting of Saint John of the Cross meditating by candlelight in his monastery cell at twilight.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "133-sacerdotes-silencio-del-corazon.png"
+      "image": "133-sacerdotes-silencio-del-corazon.webp"
     },
     {
       "number": 134,
@@ -2824,7 +2824,7 @@
       "imageQuestion": "¿Descansas en la Providencia amorosa del Padre?",
       "imagePrompt": "A peaceful pastoral painting of Jesus teaching the crowds on the mount, pointing to the lilies of the field and birds in the sky.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "134-sacerdotes-confianza-providencia.png"
+      "image": "134-sacerdotes-confianza-providencia.webp"
     },
     {
       "number": 135,
@@ -2841,7 +2841,7 @@
       "imageQuestion": "¿Vives con fidelidad y amor en lo pequeño?",
       "imagePrompt": "A devotional painting of the workshop of Nazareth: young Jesus assisting Saint Joseph in quiet, holy labor with peaceful smiles.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "135-sacerdotes-fidelidad-cotidiana.png"
+      "image": "135-sacerdotes-fidelidad-cotidiana.webp"
     },
     {
       "number": 136,
@@ -2858,7 +2858,7 @@
       "imageQuestion": "¿Vives la caridad fraterna con perdón y paciencia?",
       "imagePrompt": "A renaissance painting of early Christians sharing a fraternal meal in charity and harmony, candlelight illuminating peaceful faces.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "136-sacerdotes-distintivo-de-caridad.png"
+      "image": "136-sacerdotes-distintivo-de-caridad.webp"
     },
     {
       "number": 137,
@@ -2875,7 +2875,7 @@
       "imageQuestion": "¿Acudes a María para revestirte de las virtudes de Cristo?",
       "imagePrompt": "A majestic painting of the Immaculate Conception by Murillo: Mary clothed in radiant light, angels adoring with lilies and roses.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "137-sacerdotes-llena-de-gracia.png"
+      "image": "137-sacerdotes-llena-de-gracia.webp"
     },
     {
       "number": 138,
@@ -2892,7 +2892,7 @@
       "imageQuestion": "¿Vives con la alegría de saberte amado por Dios?",
       "imagePrompt": "A luminous painting of Saint Philip Neri with children in Rome, radiating sacred joy, sunshine streaming through a courtyard.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "138-sacerdotes-alegria-del-espiritu.png"
+      "image": "138-sacerdotes-alegria-del-espiritu.webp"
     },
     {
       "number": 139,
@@ -2909,7 +2909,7 @@
       "imageQuestion": "¿Contemplas a Jesús con la mirada de María?",
       "imagePrompt": "A painting of a devout mother teaching her young children to pray the Rosary at evening before a holy picture of the Blessed Mother.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "139-sacerdotes-mirada-del-rosario.png"
+      "image": "139-sacerdotes-mirada-del-rosario.webp"
     },
     {
       "number": 140,
@@ -2926,7 +2926,7 @@
       "imageQuestion": "¿Conservas la paz sabiendo que María vela por ti?",
       "imagePrompt": "A classical painting of Our Lady of Perpetual Help holding the Child Jesus who looks with trust into her comforting eyes.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "140-sacerdotes-paz-en-la-tribulacion.png"
+      "image": "140-sacerdotes-paz-en-la-tribulacion.webp"
     },
     {
       "number": 141,
@@ -2943,7 +2943,7 @@
       "imageQuestion": "¿Consagras tu hogar y familia a la Virgen María?",
       "imagePrompt": "A warm painting of a Catholic family gathered in prayer in their living room, consecrating their home before an image of the Immaculate Heart.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "141-sacerdotes-consagracion-del-hogar.png"
+      "image": "141-sacerdotes-consagracion-del-hogar.webp"
     },
     {
       "number": 142,
@@ -2960,7 +2960,7 @@
       "imageQuestion": "¿Imitas las virtudes de Jesús y de María en tu vida diaria?",
       "imagePrompt": "A classical depiction of the Holy Family in Nazareth: Jesus, Mary, and Joseph living in perfect harmony, holiness and mutual devotion.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "142-sacerdotes-imitacion-de-virtudes.png"
+      "image": "142-sacerdotes-imitacion-de-virtudes.webp"
     },
     {
       "number": 143,
@@ -2977,7 +2977,7 @@
       "imageQuestion": "¿Caminas siempre en la luz de la verdad de Dios?",
       "imagePrompt": "A dramatic chiaroscuro painting of Christ holding a radiant lamp in the darkness: 'Ego sum lux mundi', illuminating a stone doorway.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "143-sacerdotes-luz-de-la-verdad.png"
+      "image": "143-sacerdotes-luz-de-la-verdad.webp"
     },
     {
       "number": 144,
@@ -2994,7 +2994,7 @@
       "imageQuestion": "¿Acudes al sacramento del perdón sin desanimarte?",
       "imagePrompt": "A devotional painting of a penitent receiving absolution from a priest in a candlelit confessional, rays of divine mercy descending.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "144-sacerdotes-poder-de-la-gracia.png"
+      "image": "144-sacerdotes-poder-de-la-gracia.webp"
     },
     {
       "number": 145,
@@ -3011,7 +3011,7 @@
       "imageQuestion": "¿Vives con un corazón agradecido ante Dios?",
       "imagePrompt": "A peaceful painting of a farmer at sunset kneeling beside his harvest, thanking God with hands raised to the golden evening sky.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "145-sacerdotes-accion-de-gracias.png"
+      "image": "145-sacerdotes-accion-de-gracias.webp"
     },
     {
       "number": 146,
@@ -3028,7 +3028,7 @@
       "imageQuestion": "¿Oras con fervor y constancia en el corazón de María?",
       "imagePrompt": "A painting of the Blessed Virgin Mary surrounded by the Apostles praying in the Cenacle, tongues of fire and heavenly gold light.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "146-sacerdotes-cenaculo-de-oracion.png"
+      "image": "146-sacerdotes-cenaculo-de-oracion.webp"
     },
     {
       "number": 147,
@@ -3045,7 +3045,7 @@
       "imageQuestion": "¿Buscas ante todo los tesoros eternos del Reino de Dios?",
       "imagePrompt": "A luminous painting of pilgrims guided by an angel walking toward the radiant gates of the heavenly city glowing upon the holy mount.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "147-sacerdotes-peregrinos-hacia-el-cielo.png"
+      "image": "147-sacerdotes-peregrinos-hacia-el-cielo.webp"
     },
     {
       "number": 148,
@@ -3062,7 +3062,7 @@
       "imageQuestion": "¿Te dejas sostener por la gracia de Dios hacia la santidad?",
       "imagePrompt": "A painting of Our Lady of Grace with hands outstretched, luminous rays of light and blessings pouring from her palms upon the faithful.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "148-sacerdotes-madre-divina-gracia.png"
+      "image": "148-sacerdotes-madre-divina-gracia.webp"
     },
     {
       "number": 149,
@@ -3079,7 +3079,7 @@
       "imageQuestion": "¿Buscas tu fortaleza diaria en Jesús Eucaristía?",
       "imagePrompt": "A solemn baroque painting of a saintly priest elevating the sacred Host at morning Mass, divine light illuminating the sanctuary.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "149-sacerdotes-fuerza-en-la-eucaristia.png"
+      "image": "149-sacerdotes-fuerza-en-la-eucaristia.webp"
     },
     {
       "number": 150,
@@ -3096,7 +3096,7 @@
       "imageQuestion": "¿Es el Corazón de María tu refugio seguro en la prueba?",
       "imagePrompt": "A classical devotional painting of the Immaculate Heart of Mary surrounded by glowing white roses and gentle celestial radiance.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "150-sacerdotes-refugio-seguro.png"
+      "image": "150-sacerdotes-refugio-seguro.webp"
     },
     {
       "number": 151,
@@ -3113,7 +3113,7 @@
       "imageQuestion": "¿Vives tu vocación con humildad y servicio generoso?",
       "imagePrompt": "A painting of Saint Martha and Saint Mary in Bethany listening to Jesus and serving with quiet devotion and serene joy.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "151-sacerdotes-fidelidad-al-servicio.png"
+      "image": "151-sacerdotes-fidelidad-al-servicio.webp"
     },
     {
       "number": 152,
@@ -3130,7 +3130,7 @@
       "imageQuestion": "¿Eres sembrador de esperanza cristiana y misericordia?",
       "imagePrompt": "A majestic painting of Christ the Good Shepherd carrying a lost lamb upon His shoulders across a misty mountain path at golden dawn.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "152-sacerdotes-apostoles-de-esperanza.png"
+      "image": "152-sacerdotes-apostoles-de-esperanza.webp"
     },
     {
       "number": 153,
@@ -3147,7 +3147,7 @@
       "imageQuestion": "¿Permites que la paz de Cristo reine en tu corazón?",
       "imagePrompt": "A tranquil painting of a tranquil holy family gathering at evening in Nazareth, soft candlelight, gentle peace and reverence.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "153-sacerdotes-paz-en-el-corazon.png"
+      "image": "153-sacerdotes-paz-en-el-corazon.webp"
     },
     {
       "number": 154,
@@ -3164,7 +3164,7 @@
       "imageQuestion": "¿Confías plenamente en la intercesión maternal de María?",
       "imagePrompt": "A moving painting of the Memorare: Our Lady of Perpetual Succour surrounded by golden rays, smiling with infinite compassion upon the world.",
       "imageProvider": "Antigravity / Codex CLI",
-      "image": "154-sacerdotes-intercesion-maternal.png"
+      "image": "154-sacerdotes-intercesion-maternal.webp"
     },
     {
       "number": 205,
@@ -3179,7 +3179,7 @@
       "status": "published",
       "question": "¿Qué has recibido de Dios que te invita a compartir o devolver con mayor amor?",
       "imageQuestion": "¿Qué puedes devolver con amor?",
-      "image": "cc-013.png"
+      "image": "cc-013.webp"
     },
     {
       "number": 206,
@@ -3194,7 +3194,7 @@
       "status": "published",
       "question": "¿Qué decisión estás intentando controlar y podrías poner con confianza bajo la voluntad de Dios?",
       "imageQuestion": "¿Qué quieres poner en sus manos?",
-      "image": "cc-014.png"
+      "image": "cc-014.webp"
     },
     {
       "number": 207,
@@ -3209,7 +3209,7 @@
       "status": "published",
       "question": "¿Qué pequeño apego te parece demasiado costoso soltar, aunque Dios promete darte algo mucho mayor?",
       "imageQuestion": "¿Qué apego puedes soltar?",
-      "image": "cc-015.png"
+      "image": "cc-015.webp"
     },
     {
       "number": 208,
@@ -3224,7 +3224,7 @@
       "status": "published",
       "question": "¿Qué renuncia pequeña, vivida con humildad y amor, puede ayudarte a no ponerte siempre en el centro?",
       "imageQuestion": "¿Qué renuncia puedes ofrecer?",
-      "image": "109-sacerdotes-camino-de-la-cruz.png"
+      "image": "109-sacerdotes-camino-de-la-cruz.webp"
     },
     {
       "number": 209,
@@ -3239,7 +3239,7 @@
       "status": "published",
       "question": "¿Qué hábito concreto podrías ordenar para que tu vida no quede gobernada por la molicie?",
       "imageQuestion": "¿Qué hábito necesitas ordenar?",
-      "image": "63-combate-mirada-eternidad.png"
+      "image": "63-combate-mirada-eternidad.webp"
     },
     {
       "number": 210,
@@ -3254,7 +3254,7 @@
       "status": "published",
       "question": "Ante una dificultad que no elegiste, ¿puedes pedir hoy la paciencia para no endurecer tu corazón?",
       "imageQuestion": "¿Qué cruz puedes vivir con paciencia?",
-      "image": "73-ligorio-caridad-todo-lo-sufre.png"
+      "image": "73-ligorio-caridad-todo-lo-sufre.webp"
     },
     {
       "number": 211,
@@ -3269,7 +3269,7 @@
       "status": "published",
       "question": "¿Qué propio querer puedes dejar de imponer hoy para responder con más libertad y caridad?",
       "imageQuestion": "¿Qué propio querer puedes soltar?",
-      "image": "58-combate-elevar-corazon.png"
+      "image": "58-combate-elevar-corazon.webp"
     },
     {
       "number": 212,
@@ -3284,7 +3284,7 @@
       "status": "published",
       "question": "¿En qué situación necesitas dejar de sostenerte en tu propia imagen para volver a la verdad delante de Dios?",
       "imageQuestion": "¿Dónde necesitas volver a la verdad?",
-      "image": "62-combate-humildad-verdadera.png"
+      "image": "62-combate-humildad-verdadera.webp"
     },
     {
       "number": 213,
@@ -3299,7 +3299,7 @@
       "status": "published",
       "question": "¿Qué complacencia estás alimentando que después te deja más débil para hacer el bien?",
       "imageQuestion": "¿Qué estás alimentando?",
-      "image": "57-combate-enemigo-principal.png"
+      "image": "57-combate-enemigo-principal.webp"
     },
     {
       "number": 214,
@@ -3314,7 +3314,7 @@
       "status": "published",
       "question": "¿Qué bien estás dejando enfriar por evitar siempre lo que te cuesta?",
       "imageQuestion": "¿Qué bien se está enfriando?",
-      "image": "59-combate-vencer-distracciones.png"
+      "image": "59-combate-vencer-distracciones.webp"
     },
     {
       "number": 215,
@@ -3329,7 +3329,7 @@
       "status": "published",
       "question": "¿Qué desorden interior aparece después también en tus palabras, decisiones o acciones?",
       "imageQuestion": "¿Qué nace dentro de ti?",
-      "image": "66-ligorio-caridad-prudente.png"
+      "image": "66-ligorio-caridad-prudente.webp"
     },
     {
       "number": 216,
@@ -3344,7 +3344,7 @@
       "status": "published",
       "question": "Cuando te sientes cansado o desalentado, ¿qué haces que termina alejándote todavía más de Dios?",
       "imageQuestion": "¿Qué haces con tu cansancio?",
-      "image": "57-combate-enemigo-principal.png"
+      "image": "57-combate-enemigo-principal.webp"
     },
     {
       "number": 217,
@@ -3359,7 +3359,7 @@
       "status": "published",
       "question": "¿Qué actividad buena has ido dejando porque se volvió más fácil quedarte en lo cómodo?",
       "imageQuestion": "¿Qué bien estás dejando?",
-      "image": "68-ligorio-caridad-no-ambiciosa.png"
+      "image": "68-ligorio-caridad-no-ambiciosa.webp"
     },
     {
       "number": 218,
@@ -3374,7 +3374,7 @@
       "status": "published",
       "question": "¿Qué tarea sencilla has postergado y podrías retomar hoy con constancia, sin esperar tener ganas?",
       "imageQuestion": "¿Qué tarea puedes retomar?",
-      "image": "64-combate-perseverancia-don.png"
+      "image": "64-combate-perseverancia-don.webp"
     },
     {
       "number": 219,
@@ -3389,7 +3389,7 @@
       "status": "published",
       "question": "¿Qué cuidado excesivo de ti mismo te está haciendo olvidar las necesidades reales de los demás?",
       "imageQuestion": "¿Qué cuidado ocupa demasiado lugar?",
-      "image": "67-ligorio-caridad-no-se-engrie.png"
+      "image": "67-ligorio-caridad-no-se-engrie.webp"
     },
     {
       "number": 220,
@@ -3404,7 +3404,7 @@
       "status": "published",
       "question": "¿Qué placer o comodidad estás protegiendo tanto que ya no dejas espacio para amar de manera activa?",
       "imageQuestion": "¿Qué estás protegiendo demasiado?",
-      "image": "70-ligorio-caridad-no-se-irrita.png"
+      "image": "70-ligorio-caridad-no-se-irrita.webp"
     },
     {
       "number": 221,
@@ -3419,7 +3419,7 @@
       "status": "published",
       "question": "¿En qué lugar de tu vida podrías estar buscando parecer mejor que los demás, incluso de manera muy sutil?",
       "imageQuestion": "¿Qué quieres aparentar?",
-      "image": "55-combate-desconfianza-propia.png"
+      "image": "55-combate-desconfianza-propia.webp"
     },
     {
       "number": 222,
@@ -3434,7 +3434,7 @@
       "status": "published",
       "question": "¿Qué acto bueno podrías estar contaminando con la necesidad de tener razón, ser visto o sentirte superior?",
       "imageQuestion": "¿Qué está contaminando tu bien?",
-      "image": "56-combate-reaccion-caida.png"
+      "image": "56-combate-reaccion-caida.webp"
     },
     {
       "number": 223,
@@ -3449,7 +3449,7 @@
       "status": "published",
       "question": "¿Qué situación que no elegiste necesitas acoger hoy confiando en que el Padre no deja de obrar para tu bien?",
       "imageQuestion": "¿Qué puedes confiar al Padre?",
-      "image": "134-sacerdotes-confianza-providencia.png"
+      "image": "134-sacerdotes-confianza-providencia.webp"
     },
     {
       "number": 224,
@@ -3464,7 +3464,7 @@
       "status": "published",
       "question": "¿Qué recuerdo necesitas entregar a la misericordia y qué preocupación necesitas confiar a la Providencia para vivir bien este día?",
       "imageQuestion": "¿Qué necesitas entregar hoy?",
-      "image": "119-sacerdotes-roca-de-la-confianza.png"
+      "image": "119-sacerdotes-roca-de-la-confianza.webp"
     },
     {
       "number": 225,
@@ -3479,7 +3479,7 @@
       "status": "published",
       "question": "¿A quién puedes escuchar hoy de verdad, dejando por un momento la prisa y la distracción?",
       "imageQuestion": "¿A quién puedes escuchar?",
-      "image": "69-ligorio-caridad-servidora.png"
+      "image": "69-ligorio-caridad-servidora.webp"
     },
     {
       "number": 226,
@@ -3494,7 +3494,7 @@
       "status": "published",
       "question": "¿Hay alguien hacia quien tu corazón se ha endurecido y a quien necesitas volver a mirar desde la oración?",
       "imageQuestion": "¿A quién necesitas mirar con compasión?",
-      "image": "91-ratzinger-eucaristia-y-caridad.png"
+      "image": "91-ratzinger-eucaristia-y-caridad.webp"
     },
     {
       "number": 227,
@@ -3509,7 +3509,7 @@
       "status": "published",
       "question": "¿Qué palabra de la Escritura podrías guardar hoy para que vuelva a despertar en ti el deseo de Dios?",
       "imageQuestion": "¿Qué palabra quieres guardar?",
-      "image": "77-teresita-audacia-esperanza.png"
+      "image": "77-teresita-audacia-esperanza.webp"
     },
     {
       "number": 228,
@@ -3524,7 +3524,7 @@
       "status": "published",
       "question": "¿En qué camino espiritual te estás desanimando porque quisieras ver el fruto antes de tiempo?",
       "imageQuestion": "¿Puedes perseverar sin ver todo?",
-      "image": "74-ligorio-caridad-todo-lo-espera.png"
+      "image": "74-ligorio-caridad-todo-lo-espera.webp"
     },
     {
       "number": 229,
@@ -3539,7 +3539,7 @@
       "status": "published",
       "question": "¿En qué capacidad propia estás tentado a apoyarte más que en Dios?",
       "imageQuestion": "¿En qué te estás apoyando?",
-      "image": "cc-013.png"
+      "image": "cc-013.webp"
     },
     {
       "number": 230,
@@ -3554,7 +3554,7 @@
       "status": "published",
       "question": "¿Qué agitación interior te está llevando a perder la escucha de Jesús en medio de tus tareas?",
       "imageQuestion": "¿Qué te impide escuchar?",
-      "image": "89-ratzinger-silencio-liturgico.png"
+      "image": "89-ratzinger-silencio-liturgico.webp"
     },
     {
       "number": 231,
@@ -3569,7 +3569,7 @@
       "status": "published",
       "question": "¿Hay algo bueno que estás tentado a mostrar para recibir aprobación, en vez de guardarlo humildemente ante Dios?",
       "imageQuestion": "¿Qué puedes guardar en secreto?",
-      "image": "98-olaizola-juicio-caifas.png"
+      "image": "98-olaizola-juicio-caifas.webp"
     },
     {
       "number": 232,
@@ -3584,7 +3584,7 @@
       "status": "published",
       "question": "¿Qué agitación ajena estás cargando como si dependiera de ti, en vez de ponerla en las manos de Dios?",
       "imageQuestion": "¿Qué agitación puedes entregar?",
-      "image": "114-sacerdotes-reina-de-la-paz.png"
+      "image": "114-sacerdotes-reina-de-la-paz.webp"
     },
     {
       "number": 233,
@@ -3599,7 +3599,7 @@
       "status": "published",
       "question": "Al mirar tus recaídas, tu oración y tu deseo de avanzar, ¿qué desorden necesitas afrontar con humildad en vez de acostumbrarte a él?",
       "imageQuestion": "¿Qué necesitas afrontar con humildad?",
-      "image": "58-combate-elevar-corazon.png"
+      "image": "58-combate-elevar-corazon.webp"
     },
     {
       "number": 234,
@@ -3614,7 +3614,7 @@
       "status": "published",
       "question": "¿En qué medida condicionas tu paz interior a la necesidad de sentirte aprobado y estimado por los demás?",
       "imageQuestion": "¿Buscas la estima del mundo o la de Dios?",
-      "image": "234-letanias-01-deseo-estima.png"
+      "image": "234-letanias-01-deseo-estima.webp"
     },
     {
       "number": 235,
@@ -3629,7 +3629,7 @@
       "status": "published",
       "question": "¿Te cuesta ocupar un segundo plano y alegrarte sinceramente cuando otros son consultados o preferidos antes que tú?",
       "imageQuestion": "¿Necesitas ser siempre el protagonista?",
-      "image": "235-letanias-02-deseo-protagonismo.png"
+      "image": "235-letanias-02-deseo-protagonismo.webp"
     },
     {
       "number": 236,
@@ -3644,7 +3644,7 @@
       "status": "published",
       "question": "Cuando recibes una crítica o una corrección, ¿reaccionas defendiendo tu orgullo o buscas en paz qué verdad puede haber en ella?",
       "imageQuestion": "¿Aceptas la corrección con mansedumbre?",
-      "image": "236-letanias-03-temor-humillacion.png"
+      "image": "236-letanias-03-temor-humillacion.webp"
     },
     {
       "number": 237,
@@ -3659,7 +3659,7 @@
       "status": "published",
       "question": "¿Temes pasar desapercibido ante el mundo, o confías en que basta que tu Padre, que ve en lo secreto, te conozca y te sostenga?",
       "imageQuestion": "¿Temes ser olvidado por los hombres?",
-      "image": "237-letanias-04-temor-olvido.png"
+      "image": "237-letanias-04-temor-olvido.webp"
     },
     {
       "number": 238,
@@ -3674,7 +3674,7 @@
       "status": "published",
       "question": "¿Eres capaz de alegrarte de corazón y dar gracias a Dios cuando ves que otros reciben mayores virtudes, afecto y frutos espirituales que tú?",
       "imageQuestion": "¿Deseas con gozo la santidad de los demás?",
-      "image": "238-letanias-05-gracia-desear.png"
+      "image": "238-letanias-05-gracia-desear.webp"
     },
     {
       "number": 239,
@@ -3689,7 +3689,7 @@
       "status": "published",
       "question": "¿En qué medida tus anhelos cotidianos están anclados en las cosas de arriba y no en las seguridades pasajeras de la tierra?",
       "imageQuestion": "¿Buscas las cosas de arriba?",
-      "image": "239-biblia-col-03-vida-escondida.png"
+      "image": "239-biblia-col-03-vida-escondida.webp"
     },
     {
       "number": 240,
@@ -3704,7 +3704,7 @@
       "status": "published",
       "question": "Cuando surge la inquietud en tu día, ¿acudes de inmediato a la oración agradecida o dejas que la ansiedad tome el control?",
       "imageQuestion": "¿Presentas tus inquietudes a Dios?",
-      "image": "240-biblia-flp-04-gozo-y-paz.png"
+      "image": "240-biblia-flp-04-gozo-y-paz.webp"
     },
     {
       "number": 241,
@@ -3719,7 +3719,7 @@
       "status": "published",
       "question": "¿Descansas en la certeza inquebrantable de que ninguna tribulación presente puede apartarte del amor de Cristo?",
       "imageQuestion": "¿Confías en el amor que todo lo vence?",
-      "image": "241-biblia-rom-08-victoria-del-amor.png"
+      "image": "241-biblia-rom-08-victoria-del-amor.webp"
     },
     {
       "number": 242,
@@ -3734,7 +3734,7 @@
       "status": "published",
       "question": "¿Logras mirar tus dificultades presentes no como castigos, sino como el crisol donde Dios purifica y embellece tu fe?",
       "imageQuestion": "¿Ves la prueba como purificación de la fe?",
-      "image": "242-biblia-1pe-01-fe-en-crisol.png"
+      "image": "242-biblia-1pe-01-fe-en-crisol.webp"
     },
     {
       "number": 243,
@@ -3749,7 +3749,7 @@
       "status": "published",
       "question": "¿Qué preocupación que te quita el sueño necesitas descargar hoy con humildad sobre las manos del Padre?",
       "imageQuestion": "¿Descargas tus afanes en Dios?",
-      "image": "243-biblia-1pe-05-descargar-agobio.png"
+      "image": "243-biblia-1pe-05-descargar-agobio.webp"
     },
     {
       "number": 244,
@@ -3764,7 +3764,7 @@
       "status": "published",
       "question": "¿Te acercas a Jesús con la confianza de quien sabe que Él conoce tus flaquezas humanas y no te juzga con desdén?",
       "imageQuestion": "¿Te acercas con confianza a la gracia?",
-      "image": "244-biblia-heb-04-sumo-sacerdote.png"
+      "image": "244-biblia-heb-04-sumo-sacerdote.webp"
     },
     {
       "number": 245,
@@ -3779,7 +3779,7 @@
       "status": "published",
       "question": "En medio del cansancio y la desgana espiritual, ¿fijas tu mirada en la Cruz de Cristo para renovar tus fuerzas?",
       "imageQuestion": "¿Pones tus ojos en Jesús en la carrera?",
-      "image": "245-biblia-heb-12-fijos-los-ojos.png"
+      "image": "245-biblia-heb-12-fijos-los-ojos.webp"
     },
     {
       "number": 246,
@@ -3794,7 +3794,7 @@
       "status": "published",
       "question": "¿Has sentido alguna vez la soledad del abandono, olvidando que el amor de Dios por ti supera al amor de la madre más tierna?",
       "imageQuestion": "¿Crees que Dios jamás te olvida?",
-      "image": "246-biblia-is-49-grabado-en-palmas.png"
+      "image": "246-biblia-is-49-grabado-en-palmas.webp"
     },
     {
       "number": 247,
@@ -3809,7 +3809,7 @@
       "status": "published",
       "question": "¿Vives con el temor al futuro o te sabes sostenido por el Dios que te llama por tu propio nombre?",
       "imageQuestion": "¿Sabes que eres precioso para Dios?",
-      "image": "247-biblia-is-43-precioso-a-mis-ojos.png"
+      "image": "247-biblia-is-43-precioso-a-mis-ojos.webp"
     },
     {
       "number": 248,
@@ -3824,7 +3824,7 @@
       "status": "published",
       "question": "¿Confías en que los planes de Dios para tu vida son de paz y salvación, aun cuando no entiendas el camino actual?",
       "imageQuestion": "¿Confías en los planes de Dios?",
-      "image": "248-biblia-jer-29-pensamientos-paz.png"
+      "image": "248-biblia-jer-29-pensamientos-paz.webp"
     },
     {
       "number": 249,
@@ -3839,7 +3839,7 @@
       "status": "published",
       "question": "¿Qué dureza o resentimiento necesitas entregar hoy a Dios para que Él transforme tu corazón de piedra en un corazón compasivo?",
       "imageQuestion": "¿Pides a Dios un corazón nuevo?",
-      "image": "249-biblia-ez-36-corazon-de-carne.png"
+      "image": "249-biblia-ez-36-corazon-de-carne.webp"
     },
     {
       "number": 250,
@@ -3854,7 +3854,7 @@
       "status": "published",
       "question": "¿Aceptas los silencios y desiertos de tu vida como invitaciones de Dios para hablar a solas con tu corazón?",
       "imageQuestion": "¿Escuchas a Dios en el silencio del desierto?",
-      "image": "250-biblia-os-02-hablar-al-corazon.png"
+      "image": "250-biblia-os-02-hablar-al-corazon.webp"
     },
     {
       "number": 251,
@@ -3869,7 +3869,7 @@
       "status": "published",
       "question": "¿Estás dispuesto a perseverar fiel al Señor cuando servirle exige paciencia, humillación y purificación?",
       "imageQuestion": "¿Mantienes firme tu corazón en la prueba?",
-      "image": "251-biblia-sir-02-preparar-para-prueba.png"
+      "image": "251-biblia-sir-02-preparar-para-prueba.webp"
     },
     {
       "number": 252,
@@ -3884,7 +3884,7 @@
       "status": "published",
       "question": "¿Has dejado que Jesús entre a la intimidad de tu hogar interior o lo mantienes esperando en el umbral?",
       "imageQuestion": "¿Abres la puerta de tu corazón a Jesús?",
-      "image": "252-biblia-ap-03-estoy-a-la-puerta.png"
+      "image": "252-biblia-ap-03-estoy-a-la-puerta.webp"
     },
     {
       "number": 253,
@@ -3899,7 +3899,7 @@
       "status": "published",
       "question": "En tus momentos de duelo o cansancio, ¿encuentras consuelo en la promesa eterna de que Dios enjugará cada una de tus lágrimas?",
       "imageQuestion": "¿Esperas el consuelo eterno de Dios?",
-      "image": "253-biblia-ap-21-enjugara-lagrimas.png"
+      "image": "253-biblia-ap-21-enjugara-lagrimas.webp"
     },
     {
       "number": 254,
@@ -3914,7 +3914,7 @@
       "status": "published",
       "question": "¿Confías plenamente en la guía de Dios o sigues apoyándote en tus propios cálculos humanos?",
       "imageQuestion": "¿Confías en Dios o en tus cálculos?",
-      "image": "254-biblia-prov-03-confia-de-corazon.png"
+      "image": "254-biblia-prov-03-confia-de-corazon.webp"
     },
     {
       "number": 255,
@@ -3929,7 +3929,7 @@
       "status": "published",
       "question": "¿Cuidas con diligencia lo que dejas entrar a tu corazón a través de tus ojos, oídos y palabras?",
       "imageQuestion": "¿Cuidas la pureza de tu corazón?",
-      "image": "255-biblia-prov-04-guarda-tu-corazon.png"
+      "image": "255-biblia-prov-04-guarda-tu-corazon.webp"
     },
     {
       "number": 256,
@@ -3944,7 +3944,7 @@
       "status": "published",
       "question": "Cuando alguien te habla con aspereza, ¿respondes con mansedumbre o enciendes el fuego de la discusión?",
       "imageQuestion": "¿Respondes con mansedumbre ante el enojo?",
-      "image": "256-biblia-prov-15-respuesta-blanda.png"
+      "image": "256-biblia-prov-15-respuesta-blanda.webp"
     },
     {
       "number": 257,
@@ -3959,7 +3959,7 @@
       "status": "published",
       "question": "¿Ofreces a Dios tus proyectos diarios antes de emprenderlos, o solo te acuerdas de Él cuando fracasan?",
       "imageQuestion": "¿Encomiendas tus obras al Señor?",
-      "image": "257-biblia-prov-16-encomienda-tus-obras.png"
+      "image": "257-biblia-prov-16-encomienda-tus-obras.webp"
     },
     {
       "number": 258,
@@ -3974,7 +3974,7 @@
       "status": "published",
       "question": "¿Reconoces que la verdadera grandeza cristiana radica en dominar la propia ira y vencer el orgullo?",
       "imageQuestion": "¿Dominas tu espíritu ante la ira?",
-      "image": "258-biblia-prov-16-domina-tu-espiritu.png"
+      "image": "258-biblia-prov-16-domina-tu-espiritu.webp"
     },
     {
       "number": 259,
@@ -3989,7 +3989,7 @@
       "status": "published",
       "question": "¿Estás dispuesto a perdonar a quien te ofendió con la misma generosidad con que el Señor te perdonó a ti?",
       "imageQuestion": "¿Perdonas como el Señor te perdonó?",
-      "image": "259-biblia-col-03-entranas-de-perdon.png"
+      "image": "259-biblia-col-03-entranas-de-perdon.webp"
     },
     {
       "number": 260,
@@ -4004,7 +4004,7 @@
       "status": "published",
       "question": "¿Qué resquicio de amargura o queja guardas en tu corazón que hoy necesitas soltar en manos de Dios?",
       "imageQuestion": "¿Destierras la amargura de tu alma?",
-      "image": "260-biblia-efe-04-desterrar-amargura.png"
+      "image": "260-biblia-efe-04-desterrar-amargura.webp"
     },
     {
       "number": 261,
@@ -4019,7 +4019,7 @@
       "status": "published",
       "question": "¿Pones límites y condiciones al perdón, o estás dispuesto a perdonar una y otra vez como Cristo te enseña?",
       "imageQuestion": "¿Perdonas sin poner límites?",
-      "image": "261-biblia-mt-18-setenta-veces-siete.png"
+      "image": "261-biblia-mt-18-setenta-veces-siete.webp"
     },
     {
       "number": 262,
@@ -4034,7 +4034,7 @@
       "status": "published",
       "question": "¿Con qué medida mides las faltas ajenas: con la severidad del juicio o con la generosidad de la misericordia?",
       "imageQuestion": "¿Mides a los demás con misericordia?",
-      "image": "262-biblia-lc-06-medida-del-perdon.png"
+      "image": "262-biblia-lc-06-medida-del-perdon.webp"
     },
     {
       "number": 263,
@@ -4049,7 +4049,7 @@
       "status": "published",
       "question": "Ante una ofensa recibida, ¿buscas el desquite o vences el rencor ofreciendo una respuesta de bien y caridad?",
       "imageQuestion": "¿Vences el mal a fuerza de bien?",
-      "image": "263-biblia-rom-12-vence-el-mal-con-bien.png"
+      "image": "263-biblia-rom-12-vence-el-mal-con-bien.webp"
     },
     {
       "number": 264,
@@ -4064,7 +4064,7 @@
       "status": "published",
       "question": "Al mirar a Jesús en la Cruz excusando a sus propios verdugos, ¿encuentras la fuerza para perdonar a quien te ha herido?",
       "imageQuestion": "¿Perdonas mirando a Cristo en la Cruz?",
-      "image": "264-biblia-lc-23-padre-perdonales.png"
+      "image": "264-biblia-lc-23-padre-perdonales.webp"
     },
     {
       "number": 265,
@@ -4079,7 +4079,7 @@
       "status": "published",
       "question": "¿Eres capaz de ver cómo Dios puede transformar incluso el daño que otros te causaron en una bendición de gracia y reconciliación?",
       "imageQuestion": "¿Ves la mano de Dios en el perdón?",
-      "image": "265-biblia-gen-50-jose-perdona-hermanos.png"
+      "image": "265-biblia-gen-50-jose-perdona-hermanos.webp"
     }
   ]
 }

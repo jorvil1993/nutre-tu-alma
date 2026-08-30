@@ -5,7 +5,7 @@ const experiences = [
     source: "El camino de la confianza y el amor · Santa Teresita, Conferencia 6",
     question: "¿Es tu oración un diálogo espontáneo y agradecido de corazón a corazón con Dios en cualquier circunstancia de tu día?",
     imageQuestion: "¿Es tu oración un impulso de amor hacia Dios?",
-    image: "./assets/images/34-teresita-oracion-impulso.png",
+    image: "./assets/images/34-teresita-oracion-impulso.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -14,7 +14,7 @@ const experiences = [
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 8: Al Pie de la Cruz",
     question: "¿Acoges a María en tu vida diaria como verdadera Madre espiritual, confiándole tus luchas, trabajos y decisiones?",
     imageQuestion: "¿Acudes a María como Madre al pie de la Cruz?",
-    image: "./assets/images/53-olaizola-pie-de-la-cruz.png",
+    image: "./assets/images/53-olaizola-pie-de-la-cruz.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -23,7 +23,7 @@ const experiences = [
     source: "La Imitación de Cristo · Libro II, capítulo 5",
     question: "¿Qué consuelo pequeño y pasajero has puesto en el lugar que solo le corresponde a Dios?",
     imageQuestion: "¿Qué pones en el lugar de Dios?",
-    image: "./assets/images/159-solo-dios-llena-el-alma.png",
+    image: "./assets/images/159-solo-dios-llena-el-alma.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -32,7 +32,7 @@ const experiences = [
     source: "La confianza en Dios · Capítulo 2",
     question: "¿Reconoces tu desánimo de estos días como lo que en el fondo es: una forma de orgullo?",
     imageQuestion: "¿Tu desánimo es en el fondo orgullo?",
-    image: "./assets/images/198-el-desanimo-es-una-expresion-del-orgullo.png",
+    image: "./assets/images/198-el-desanimo-es-una-expresion-del-orgullo.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -41,7 +41,7 @@ const experiences = [
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo VI",
     question: "¿Está tu corazón desprendido de los aplausos del mundo, encontrando su plena riqueza en el amor de Cristo?",
     imageQuestion: "¿Buscas a Cristo por encima de todo honor?",
-    image: "./assets/images/68-ligorio-caridad-no-ambiciosa.png",
+    image: "./assets/images/68-ligorio-caridad-no-ambiciosa.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -50,7 +50,7 @@ const experiences = [
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 2",
     question: "Después de hacer lo poco que puedes hoy, ¿te animas a dejar que Dios se encargue del resto?",
     imageQuestion: "¿Dejas que Dios se encargue del resto?",
-    image: "./assets/images/188-las-tres-cosas-que-dan-la-paz.png",
+    image: "./assets/images/188-las-tres-cosas-que-dan-la-paz.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -59,7 +59,7 @@ const experiences = [
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 6: El Silencio ante Pilato",
     question: "¿Buscas la verdad de Dios en el silencio y la fidelidad interior, o te dejas arrastrar por las opiniones y respetos humanos?",
     imageQuestion: "¿Vives en la verdad de Dios ante las presiones del mundo?",
-    image: "./assets/images/51-olaizola-silencio-pilato.png",
+    image: "./assets/images/51-olaizola-silencio-pilato.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -68,7 +68,7 @@ const experiences = [
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 54",
     question: "Cuando oras, ¿buscas la satisfacción sensible que te produce el consuelo, o buscas amar a Dios con pureza aun en la aridez?",
     imageQuestion: "¿Buscas a Dios por Él mismo o por sus consuelos?",
-    image: "./assets/images/19-combate-dios-dulzuras.png",
+    image: "./assets/images/19-combate-dios-dulzuras.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -77,7 +77,7 @@ const experiences = [
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 1 de enero de 1981",
     question: "¿Renuevas cada mañana tu consagración filial a la Virgen, entregándole tus obras, pensamientos y afectos?",
     imageQuestion: "¿Te entregas por entero a María cada mañana?",
-    image: "./assets/images/127-sacerdotes-consagracion-matutina.png",
+    image: "./assets/images/127-sacerdotes-consagracion-matutina.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -86,7 +86,7 @@ const experiences = [
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 28 de marzo de 1975",
     question: "¿Permaneces en pie junto a la Cruz en los momentos de sufrimiento, uniéndote al sacrificio redentor de Jesús?",
     imageQuestion: "¿Permaneces fiel junto a la Cruz en la prueba?",
-    image: "./assets/images/109-sacerdotes-camino-de-la-cruz.png",
+    image: "./assets/images/109-sacerdotes-camino-de-la-cruz.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -95,7 +95,7 @@ const experiences = [
     source: "Confesiones de San Agustín · Libro VIII, capítulo 11",
     question: "¿En qué fuerzas propias te sigues sosteniendo, en vez de arrojarte con confianza en los brazos de Dios?",
     imageQuestion: "¿Te arrojas confiado en los brazos de Dios?",
-    image: "./assets/images/168-arrojate-con-confianza.png",
+    image: "./assets/images/168-arrojate-con-confianza.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -104,7 +104,7 @@ const experiences = [
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 42",
     question: "¿Es tu oración de cada mañana la llave con que abres tu corazón a Dios, o comienzas tus tareas fiándote solo de tus fuerzas?",
     imageQuestion: "¿Empiezas tu día abriendo el corazón a Dios?",
-    image: "./assets/images/17-combate-llave-oracion.png",
+    image: "./assets/images/17-combate-llave-oracion.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -113,7 +113,7 @@ const experiences = [
     source: "La confianza en Dios · Capítulo 6",
     question: "En la prueba que atraviesas ahora, ¿qué respuesta de fe le estás dando a la pregunta de si Dios te quiere?",
     imageQuestion: "¿Qué respuesta de fe das a tu prueba?",
-    image: "./assets/images/204-toda-prueba-es-una-prueba-de-fe.png",
+    image: "./assets/images/204-toda-prueba-es-una-prueba-de-fe.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -122,7 +122,7 @@ const experiences = [
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 15 de septiembre de 1984",
     question: "Cuando sobrevienen las pruebas y dificultades, ¿conservas la paz recordando que tu Madre celestial vela por ti?",
     imageQuestion: "¿Conservas la paz sabiendo que María vela por ti?",
-    image: "./assets/images/140-sacerdotes-paz-en-la-tribulacion.png",
+    image: "./assets/images/140-sacerdotes-paz-en-la-tribulacion.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -131,7 +131,7 @@ const experiences = [
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 20",
     question: "¿Cuidas la paz de tu alma en medio de las prisas cotidianas para que Dios habite siempre en ti?",
     imageQuestion: "¿Proteges la paz interior de tu alma?",
-    image: "./assets/images/60-combate-paz-corazon.png",
+    image: "./assets/images/60-combate-paz-corazon.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -140,7 +140,7 @@ const experiences = [
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 9",
     question: "¿Sientes compasión por la sed que tiene Jesús de tu amor y de la salvación de tus hermanos?",
     imageQuestion: "¿Sacias la sed de Cristo con tu amor y oración?",
-    image: "./assets/images/103-olaizola-tengo-sed.png",
+    image: "./assets/images/103-olaizola-tengo-sed.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -149,7 +149,7 @@ const experiences = [
     source: "Confesiones de San Agustín · Libro X, capítulo 28",
     question: "¿Puedes reconocer hoy que temes perder lo próspero tanto como antes deseabas alcanzarlo?",
     imageQuestion: "¿Qué prosperidad temes perder hoy?",
-    image: "./assets/images/173-temo-la-adversidad-en-medio-de-la-prosperidad.png",
+    image: "./assets/images/173-temo-la-adversidad-en-medio-de-la-prosperidad.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -158,7 +158,7 @@ const experiences = [
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 29 de junio de 1976",
     question: "¿Vives tu fe en comunión filial con la Iglesia y el Santo Padre, amando la unidad del Cuerpo místico de Cristo?",
     imageQuestion: "¿Amas y defiendes la unidad de la Iglesia?",
-    image: "./assets/images/113-sacerdotes-union-con-pedro.png",
+    image: "./assets/images/113-sacerdotes-union-con-pedro.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -167,7 +167,7 @@ const experiences = [
     source: "La paz interior · Capítulo 5",
     question: "¿Qué asunto sigues intentando “salvar” únicamente con tus propias fuerzas, sin darle a Dios carta blanca?",
     imageQuestion: "¿Qué necesitas entregar a Dios?",
-    image: "./assets/images/01-cristo-y-pedro.png",
+    image: "./assets/images/01-cristo-y-pedro.webp",
     imageAlt: "Cristo resucitado sostiene con ternura a san Pedro arrodillado junto al mar.",
   },
   {
@@ -176,7 +176,7 @@ const experiences = [
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo IX",
     question: "Cuando fallas, ¿te tratas a ti mismo con la misma dulzura con la que tratarías a otro?",
     imageQuestion: "¿Te tratas con dulzura cuando fallas?",
-    image: "./assets/images/180-la-dulzura-con-nosotros-mismos.png",
+    image: "./assets/images/180-la-dulzura-con-nosotros-mismos.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -185,7 +185,7 @@ const experiences = [
     source: "La Imitación de Cristo · Libro III, capítulo 30",
     question: "¿Cuánta tristeza de hoy nace, en realidad, de anticipar un mañana que quizás nunca llegue?",
     imageQuestion: "¿Dónde está tu fe en este momento?",
-    image: "./assets/images/164-donde-esta-tu-fe.png",
+    image: "./assets/images/164-donde-esta-tu-fe.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -194,7 +194,7 @@ const experiences = [
     source: "El camino de la confianza y el amor · Santa Teresita, Conferencia 5",
     question: "¿Presentas a Dios tus vacíos y pobrezas para que Él los llene de su gracia, o intentas disimular tus miserias ante su presencia?",
     imageQuestion: "¿Abres tu corazón vacío para que Dios lo llene?",
-    image: "./assets/images/33-teresita-amor-misericordioso.png",
+    image: "./assets/images/33-teresita-amor-misericordioso.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -203,7 +203,7 @@ const experiences = [
     source: "La confianza en Dios · Jacques Philippe, Capítulo 5",
     question: "¿En qué área de tu vida te cuesta confiar en que Dios te dará, día a día, exactamente lo que necesitas?",
     imageQuestion: "¿Confías en el pan de hoy?",
-    image: "./assets/images/06-mana-desierto.png",
+    image: "./assets/images/06-mana-desierto.webp",
     imageAlt: "Una familia bíblica recoge el maná del suelo al amanecer en el desierto, con gratitud.",
   },
   {
@@ -212,7 +212,7 @@ const experiences = [
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1981",
     question: "¿Perseveras en la oración diaria con fidelidad, incluso cuando experimentas cansancio o aridez espiritual?",
     imageQuestion: "¿Perseveras en la oración como tu mayor fortaleza?",
-    image: "./assets/images/128-sacerdotes-escudo-de-oracion.png",
+    image: "./assets/images/128-sacerdotes-escudo-de-oracion.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -221,7 +221,7 @@ const experiences = [
     source: "El camino de la confianza y el amor · Santa Teresita, Cuarta Conferencia",
     question: "¿Buscas que tus deseos se alineen con la voluntad de Dios, hallando en su querer tu descanso y tu paz?",
     imageQuestion: "¿Buscas que tus deseos coincidan con el querer de Dios?",
-    image: "./assets/images/78-teresita-purificar-deseo.png",
+    image: "./assets/images/78-teresita-purificar-deseo.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -230,7 +230,7 @@ const experiences = [
     source: "La paz interior · Los santos y la paz del alma · Juan de Bonilla, 2",
     question: "¿A qué resultado concreto está esclavizado hoy tu corazón, de modo que su fracaso te destrozaría?",
     imageQuestion: "¿A qué está esclavizado tu corazón?",
-    image: "./assets/images/186-el-alma-libre-y-desprendida.png",
+    image: "./assets/images/186-el-alma-libre-y-desprendida.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -239,7 +239,7 @@ const experiences = [
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 15",
     question: "Ante una tentación repentina, ¿te detienes a dialogar con ella o elevas de inmediato tu corazón a Jesús?",
     imageQuestion: "¿Elevas tu corazón a Jesús en la prueba?",
-    image: "./assets/images/58-combate-elevar-corazon.png",
+    image: "./assets/images/58-combate-elevar-corazon.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -248,7 +248,7 @@ const experiences = [
     source: "La Imitación de Cristo · Libro II, capítulo 3",
     question: "¿Buscas la paz evitando todo sufrimiento, o aprendes a padecer con humildad como el verdadero camino hacia ella?",
     imageQuestion: "¿Buscas la paz o huyes del sufrimiento?",
-    image: "./assets/images/156-paz-consigo-y-con-los-otros.png",
+    image: "./assets/images/156-paz-consigo-y-con-los-otros.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -257,7 +257,7 @@ const experiences = [
     source: "El camino de la confianza y el amor · Santa Teresita, Novena Conferencia",
     question: "¿Confías en la comunión de los santos y en su intercesión constante para ayudarte en tus batallas diarias?",
     imageQuestion: "¿Confías en la intercesión amorosa de los santos?",
-    image: "./assets/images/83-teresita-lluvia-rosas.png",
+    image: "./assets/images/83-teresita-lluvia-rosas.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -266,7 +266,7 @@ const experiences = [
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo VIII",
     question: "¿A quién sueles contarle tus quejas: a alguien que te calma, o a alguien que las agranda?",
     imageQuestion: "¿A quién le cuentas tus quejas?",
-    image: "./assets/images/182-quejate-tan-poco-como-puedas.png",
+    image: "./assets/images/182-quejate-tan-poco-como-puedas.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -275,7 +275,7 @@ const experiences = [
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo VIII",
     question: "Cuando recibes una palabra dura o un desprecio, ¿respondes con la mansedumbre y el silencio paciente de Jesús?",
     imageQuestion: "¿Respondes con mansedumbre ante la ofensa?",
-    image: "./assets/images/70-ligorio-caridad-no-se-irrita.png",
+    image: "./assets/images/70-ligorio-caridad-no-se-irrita.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -284,7 +284,7 @@ const experiences = [
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 4",
     question: "¿Das testimonio valiente de tu fe católica y de la verdad sin dejarte acobardar por el qué dirán?",
     imageQuestion: "¿Das testimonio valiente de la verdad ante los hombres?",
-    image: "./assets/images/98-olaizola-juicio-caifas.png",
+    image: "./assets/images/98-olaizola-juicio-caifas.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -293,7 +293,7 @@ const experiences = [
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 1",
     question: "¿Reconoces tu propia fragilidad humana para no apoyarte vanamente en tus solas fuerzas, sino en el auxilio de Dios?",
     imageQuestion: "¿Desconfías de tus fuerzas para confiar en Dios?",
-    image: "./assets/images/55-combate-desconfianza-propia.png",
+    image: "./assets/images/55-combate-desconfianza-propia.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -302,7 +302,7 @@ const experiences = [
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 8 de diciembre de 1987",
     question: "¿Eres sembrador de esperanza cristiana en tu entorno, recordando a los demás que la misericordia de Dios no tiene fin?",
     imageQuestion: "¿Eres sembrador de esperanza cristiana y misericordia?",
-    image: "./assets/images/152-sacerdotes-apostoles-de-esperanza.png",
+    image: "./assets/images/152-sacerdotes-apostoles-de-esperanza.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -311,7 +311,7 @@ const experiences = [
     source: "La confianza en Dios · Capítulo 2",
     question: "¿Confundes a veces la humildad con despreciarte a ti mismo, en vez de aceptarte con honestidad?",
     imageQuestion: "¿Confundes humildad con despreciarte?",
-    image: "./assets/images/200-la-verdadera-humildad-es-aceptarse.png",
+    image: "./assets/images/200-la-verdadera-humildad-es-aceptarse.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -320,7 +320,7 @@ const experiences = [
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo II",
     question: "Cuando recibes la Sagrada Comunión, ¿acudes con la reverencia de quien sabe que Cristo viene a fundir su corazón con el tuyo?",
     imageQuestion: "¿Recibes la Eucaristía con amor ardiente?",
-    image: "./assets/images/21-ligorio-union-eucaristia.png",
+    image: "./assets/images/21-ligorio-union-eucaristia.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -329,7 +329,7 @@ const experiences = [
     source: "La confianza en Dios · Prólogo",
     question: "¿Qué secreto de los santos, capaces de no dejarse arrastrar por el miedo, te falta todavía por vivir?",
     imageQuestion: "¿Qué antídoto contra el miedo te falta vivir?",
-    image: "./assets/images/195-la-confianza-es-el-antidoto-al-miedo.png",
+    image: "./assets/images/195-la-confianza-es-el-antidoto-al-miedo.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -338,7 +338,7 @@ const experiences = [
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 1 de enero de 1985",
     question: "¿Consagras tu familia a la Virgen María, pidiéndole que reine en tu hogar con su paz y su gracia?",
     imageQuestion: "¿Consagras tu hogar y familia a la Virgen María?",
-    image: "./assets/images/141-sacerdotes-consagracion-del-hogar.png",
+    image: "./assets/images/141-sacerdotes-consagracion-del-hogar.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -347,7 +347,7 @@ const experiences = [
     source: "El camino de la confianza y el amor · Santa Teresita, Segunda Conferencia",
     question: "¿Vives con la alegría sencilla de los hijos de Dios que reconocen que todo don y gracia viene del Padre?",
     imageQuestion: "¿Vives con la alegre libertad de los hijos de Dios?",
-    image: "./assets/images/76-teresita-alegre-pequenez.png",
+    image: "./assets/images/76-teresita-alegre-pequenez.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -356,7 +356,7 @@ const experiences = [
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1988",
     question: "¿Acudes con confianza plena a la intercesión de María en tus momentos de necesidad, sabiendo que ella nunca te desampara?",
     imageQuestion: "¿Confías plenamente en la intercesión maternal de María?",
-    image: "./assets/images/154-sacerdotes-intercesion-maternal.png",
+    image: "./assets/images/154-sacerdotes-intercesion-maternal.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -365,7 +365,7 @@ const experiences = [
     source: "La confianza en Dios · Capítulo 3",
     question: "¿Cuánto hace que un versículo de la Escritura no te devuelve la confianza que hoy sientes debilitada?",
     imageQuestion: "¿Qué palabra te devolvería la confianza?",
-    image: "./assets/images/202-alimentados-de-la-palabra-de-dios.png",
+    image: "./assets/images/202-alimentados-de-la-palabra-de-dios.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -374,7 +374,7 @@ const experiences = [
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 3",
     question: "Ante las tormentas y temores de tu vida, ¿perseveras con serenidad y fe, confiando en que Dios no te abandona?",
     imageQuestion: "¿Mantienes la fe y la serenidad en las horas oscuras?",
-    image: "./assets/images/97-olaizola-prendimiento-serenidad.png",
+    image: "./assets/images/97-olaizola-prendimiento-serenidad.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -383,7 +383,7 @@ const experiences = [
     source: "El camino de la confianza y el amor · Santa Teresita, Conferencia 2",
     question: "¿Pretendes alcanzar la santidad apoyado en tus propias fuerzas, o te abandonas con humildad filial en los brazos de Jesús?",
     imageQuestion: "¿Te abandonas como un niño en los brazos de Dios?",
-    image: "./assets/images/30-teresita-ascensor-brazos.png",
+    image: "./assets/images/30-teresita-ascensor-brazos.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -392,7 +392,7 @@ const experiences = [
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo IX",
     question: "¿Te corriges a ti mismo como un juez sereno, o como alguien que descarga su propia pasión?",
     imageQuestion: "¿Te corriges con calma o con violencia?",
-    image: "./assets/images/181-el-arrepentimiento-tranquilo-y-firme.png",
+    image: "./assets/images/181-el-arrepentimiento-tranquilo-y-firme.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -401,7 +401,7 @@ const experiences = [
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo V",
     question: "¿Buscas el reconocimiento y el aplauso humano en tus buenas obras, o te basta saber que tu Padre del cielo te ve en lo secreto?",
     imageQuestion: "¿Haces el bien para ser visto por Dios solo?",
-    image: "./assets/images/25-ligorio-humildad-oculta.png",
+    image: "./assets/images/25-ligorio-humildad-oculta.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -410,7 +410,7 @@ const experiences = [
     source: "La Imitación de Cristo · Libro III, capítulo 23",
     question: "De estos cinco pasos hacia la paz, ¿cuál es el que más te cuesta vivir hoy?",
     imageQuestion: "¿Qué paso hacia la paz te cuesta más?",
-    image: "./assets/images/163-cuatro-cosas-que-causan-paz.png",
+    image: "./assets/images/163-cuatro-cosas-que-causan-paz.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -419,7 +419,7 @@ const experiences = [
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 7",
     question: "¿Reconoces el rostro de Cristo en los pobres y necesitados, uniendo tu adoración eucarística con el servicio caritativo?",
     imageQuestion: "¿Reconoces a Cristo presente en los pobres?",
-    image: "./assets/images/91-ratzinger-eucaristia-y-caridad.png",
+    image: "./assets/images/91-ratzinger-eucaristia-y-caridad.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -428,7 +428,7 @@ const experiences = [
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo XII",
     question: "¿Mantienes una esperanza viva e inquebrantable en las promesas divinas, aun cuando todo a tu alrededor parezca oscuro?",
     imageQuestion: "¿Confías plenamente en las promesas del Señor?",
-    image: "./assets/images/74-ligorio-caridad-todo-lo-espera.png",
+    image: "./assets/images/74-ligorio-caridad-todo-lo-espera.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -437,7 +437,7 @@ const experiences = [
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 24",
     question: "Ante las contrariedades y asperezas de tu día, ¿te dejas vencer por la tristeza y la queja, o te unes a Jesús aceptando con paciencia su voluntad?",
     imageQuestion: "¿Aceptas tu cruz con la paz de Getsemaní?",
-    image: "./assets/images/13-combate-paciencia-getsemani.png",
+    image: "./assets/images/13-combate-paciencia-getsemani.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -446,7 +446,7 @@ const experiences = [
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo III",
     question: "¿Aceptas con paz solo las cruces que además te hacen quedar bien ante los demás?",
     imageQuestion: "¿Aceptas solo el sufrimiento que da honra?",
-    image: "./assets/images/184-no-limites-tu-paciencia.png",
+    image: "./assets/images/184-no-limites-tu-paciencia.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -455,7 +455,7 @@ const experiences = [
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 1 de enero de 1979",
     question: "¿Perdonas con prontitud las ofensas recibidas, dejando que la paz de Cristo sane toda herida de tu corazón?",
     imageQuestion: "¿Abres tu corazón al perdón y la reconciliación?",
-    image: "./assets/images/121-sacerdotes-perdon-y-reconciliacion.png",
+    image: "./assets/images/121-sacerdotes-perdon-y-reconciliacion.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -468,7 +468,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro I, capítulo 6",
     question: "Ante Jesús, ¿qué deseo o impulso te está robando el sosiego, y qué resistencia concreta puedes ofrecerle hoy por amor?",
     imageQuestion: "¿Qué deseo te roba la paz?",
-    image: "./assets/images/01-cristo-y-pedro.png",
+    image: "./assets/images/01-cristo-y-pedro.webp",
     imageAlt: "Cristo resucitado sostiene con ternura a san Pedro arrodillado junto al mar.",
   },
   {
@@ -477,7 +477,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El camino de la confianza y el amor · Santa Teresita, Conferencia 8",
     question: "¿Soportas con paciencia y disculpas con amor los defectos ajenos, reconociendo cuánto te perdona Dios a ti cada día?",
     imageQuestion: "¿Miras a los demás con la paciencia de Cristo?",
-    image: "./assets/images/36-teresita-caridad-hermano.png",
+    image: "./assets/images/36-teresita-caridad-hermano.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -486,7 +486,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo IX",
     question: "Cuando alguien te ofende o contradice, ¿te dejas arrastrar por la cólera, o buscas imitar el silencio y perdón de Jesús en su Pasión?",
     imageQuestion: "¿Frenas la ira imitando el silencio de Cristo?",
-    image: "./assets/images/27-ligorio-mansedumbre-injurias.png",
+    image: "./assets/images/27-ligorio-mansedumbre-injurias.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -495,7 +495,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 4",
     question: "¿Vives la Eucaristía como el manantial que renueva todas tus actividades, trabajos y relaciones humanas?",
     imageQuestion: "¿Permites que la Eucaristía renueve todas tus obras?",
-    image: "./assets/images/88-ratzinger-transformacion-creacion.png",
+    image: "./assets/images/88-ratzinger-transformacion-creacion.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -504,7 +504,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 6",
     question: "¿Con qué medida—temor o esperanza—sueles anticipar lo que todavía no ha sucedido?",
     imageQuestion: "¿Anticipas el futuro con temor o esperanza?",
-    image: "./assets/images/191-la-medida-de-la-providencia-es-tu-confianza.png",
+    image: "./assets/images/191-la-medida-de-la-providencia-es-tu-confianza.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -513,7 +513,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El camino de la confianza y el amor · Santa Teresita, Séptima Conferencia",
     question: "¿Cuidas los pequeños detalles cotidianos de caridad y trabajo, ofreciéndolos como flores de amor al Señor?",
     imageQuestion: "¿Santificas los pequeños detalles de tu día?",
-    image: "./assets/images/81-teresita-fidelidad-pequenas-cosas.png",
+    image: "./assets/images/81-teresita-fidelidad-pequenas-cosas.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -522,7 +522,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de octubre de 1976",
     question: "¿Siembras paz y reconciliación a tu alrededor, respondiendo al odio y la queja con la mansedumbre del Evangelio?",
     imageQuestion: "¿Eres instrumento de paz y reconciliación?",
-    image: "./assets/images/114-sacerdotes-reina-de-la-paz.png",
+    image: "./assets/images/114-sacerdotes-reina-de-la-paz.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -531,7 +531,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La confianza en Dios · Jacques Philippe, Capítulo 4",
     question: "En medio de las exigencias de tu semana, ¿dónde te agitas solo en vez de contar con tu Padre con confianza?",
     imageQuestion: "¿Te abandonas en tu Padre?",
-    image: "./assets/images/08-padre-misericordioso.png",
+    image: "./assets/images/08-padre-misericordioso.webp",
     imageAlt: "El padre de la parábola corre a abrazar a su hijo que regresa, sosteniéndolo con ternura.",
   },
   {
@@ -540,7 +540,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 15 de agosto de 1981",
     question: "¿Pones tu mirada en las realidades celestiales, viviendo tus días con desprendimiento de las vanidades mundanas?",
     imageQuestion: "¿Atesoras méritos eternos mediante la caridad?",
-    image: "./assets/images/129-sacerdotes-mirada-al-cielo.png",
+    image: "./assets/images/129-sacerdotes-mirada-al-cielo.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -549,7 +549,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El camino de la confianza y el amor · Santa Teresita, Sexta Conferencia",
     question: "En momentos de aridez o desolación espiritual, ¿perseveras creyendo con fe pura en el amor incondicional de Dios?",
     imageQuestion: "¿Perseveras en la fe aun en la aridez espiritual?",
-    image: "./assets/images/80-teresita-fe-pura-noche.png",
+    image: "./assets/images/80-teresita-fe-pura-noche.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -558,7 +558,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 15 de septiembre de 1975",
     question: "¿Aceptas las pruebas de la vida sabiendo que el dolor vivido con amor engendra frutos eternos de santidad?",
     imageQuestion: "¿Vives el sufrimiento como ofrenda de amor?",
-    image: "./assets/images/110-sacerdotes-dolor-fecundo.png",
+    image: "./assets/images/110-sacerdotes-dolor-fecundo.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -567,7 +567,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 8 de diciembre de 1977",
     question: "¿Cuidas la pureza de tus pensamientos, miradas y afectos para que la presencia de Dios resplandezca en tu alma?",
     imageQuestion: "¿Cuidas la pureza del corazón ante Dios?",
-    image: "./assets/images/118-sacerdotes-pureza-del-corazon.png",
+    image: "./assets/images/118-sacerdotes-pureza-del-corazon.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -576,7 +576,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro III, capítulo 21",
     question: "¿Qué don de Dios has confundido alguna vez con el propio Dios, buscando descansar en el regalo y no en Quien lo da?",
     imageQuestion: "¿Descansas en los dones o en Dios mismo?",
-    image: "./assets/images/161-solo-en-ti-descansa-mi-corazon.png",
+    image: "./assets/images/161-solo-en-ti-descansa-mi-corazon.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -585,7 +585,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El camino de la confianza y el amor · Santa Teresita, Conclusión",
     question: "¿Te decides a caminar hoy por la senda de la confianza y el abandono, viviendo como un hijo amado en las manos del Padre?",
     imageQuestion: "¿Te abandonas como un niño en las manos del Padre?",
-    image: "./assets/images/84-teresita-camino-confianza.png",
+    image: "./assets/images/84-teresita-camino-confianza.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -594,7 +594,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 2: Getsemaní",
     question: "En tus momentos de soledad, angustia o prueba, ¿perseveras en la oración humilde repitiendo «hágase tu voluntad»?",
     imageQuestion: "¿Perseveras en la oración en tus horas difíciles?",
-    image: "./assets/images/48-olaizola-getsemani-oracion.png",
+    image: "./assets/images/48-olaizola-getsemani-oracion.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -603,7 +603,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 8 de diciembre de 1985",
     question: "¿Acudes con confianza y prontitud al sacramento del perdón cada vez que experimentas tu debilidad?",
     imageQuestion: "¿Acudes al sacramento del perdón sin desanimarte?",
-    image: "./assets/images/144-sacerdotes-poder-de-la-gracia.png",
+    image: "./assets/images/144-sacerdotes-poder-de-la-gracia.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -612,7 +612,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 4",
     question: "¿Qué error tuyo del pasado puede Dios estar convirtiendo hoy, sin que aún lo notes, en un bien?",
     imageQuestion: "¿Qué error se está volviendo un bien?",
-    image: "./assets/images/190-todo-coopera-al-bien-de-los-que-aman-a-dios.png",
+    image: "./assets/images/190-todo-coopera-al-bien-de-los-que-aman-a-dios.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -621,7 +621,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 5",
     question: "¿Guardas momentos de silencio sagrado en tu oración para escuchar la voz apacible del Señor en tu interior?",
     imageQuestion: "¿Escuchas la voz de Dios en el silencio sagrado?",
-    image: "./assets/images/89-ratzinger-silencio-liturgico.png",
+    image: "./assets/images/89-ratzinger-silencio-liturgico.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -630,7 +630,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 32",
     question: "¿Tienes paciencia con tus lentos progresos espirituales, confiando en que Dios hace crecer la gracia día tras día?",
     imageQuestion: "¿Tienes paciencia con tus progresos espirituales?",
-    image: "./assets/images/16-combate-crecimiento-paciente.png",
+    image: "./assets/images/16-combate-crecimiento-paciente.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -639,7 +639,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 15 de septiembre de 1978",
     question: "¿Ofreces con alegría las pequeñas renuncias de cada día, convirtiéndolas en actos sinceros de amor a Dios?",
     imageQuestion: "¿Ofreces con amor tus sacrificios diarios?",
-    image: "./assets/images/120-sacerdotes-pequenos-sacrificios.png",
+    image: "./assets/images/120-sacerdotes-pequenos-sacrificios.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -648,7 +648,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 2",
     question: "¿Buscas servir a tus hermanos con la humildad del lavatorio de los pies, sin buscar reconocimientos ni primeros puestos?",
     imageQuestion: "¿Vives el mandamiento del amor fraterno en el servicio?",
-    image: "./assets/images/96-olaizola-mandamiento-nuevo.png",
+    image: "./assets/images/96-olaizola-mandamiento-nuevo.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -657,7 +657,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Filotea: Introducción a la Vida Devota · Primera Parte, capítulo II",
     question: "¿Vives tu fe como una obligación pesada, o has probado ya la dulzura que promete cuando es verdadera?",
     imageQuestion: "¿Has probado la dulzura de la devoción?",
-    image: "./assets/images/175-la-devocion-es-la-dulzura-de-las-dulzuras.png",
+    image: "./assets/images/175-la-devocion-es-la-dulzura-de-las-dulzuras.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -666,7 +666,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 3",
     question: "¿Te sorprende más caer en tus defectos, o debería sorprenderte más el que Dios te sostenga en pie?",
     imageQuestion: "¿Qué te sorprende más: caer o seguir en pie?",
-    image: "./assets/images/189-la-paz-nace-de-la-humildad.png",
+    image: "./assets/images/189-la-paz-nace-de-la-humildad.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -675,7 +675,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La confianza en Dios · Capítulo 1",
     question: "¿Qué pequeño acto de confianza te está pidiendo Dios hoy, uno que quizás te parece insignificante pero que puede sanarte por dentro?",
     imageQuestion: "¿Qué acto de confianza te pide hoy?",
-    image: "./assets/images/05-manos-confianza.png",
+    image: "./assets/images/05-manos-confianza.webp",
     imageAlt: "Cristo extiende la mano hacia un niño que se acerca a tomarla con confianza.",
   },
   {
@@ -684,7 +684,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 1 de enero de 1974",
     question: "¿Entregas tus planes e incertidumbres del futuro a la Divina Providencia, descansando en el cuidado maternal de María?",
     imageQuestion: "¿Confías tu futuro a la Divina Providencia?",
-    image: "./assets/images/107-sacerdotes-consagracion-providencia.png",
+    image: "./assets/images/107-sacerdotes-consagracion-providencia.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -693,7 +693,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Confesiones de San Agustín · Libro V, capítulo 7",
     question: "¿Qué paso de tu vida, que parecía obra tuya, reconoces ahora que era la mano oculta de Dios?",
     imageQuestion: "¿Ves la mano de Dios en tu camino?",
-    image: "./assets/images/172-la-mano-oculta-de-tu-providencia.png",
+    image: "./assets/images/172-la-mano-oculta-de-tu-providencia.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -702,7 +702,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 7",
     question: "¿Participas en la Santa Misa con santo asombro y gratitud, o la vives como una rutina exterior sin hondura?",
     imageQuestion: "¿Vives el misterio de la Misa con santo asombro?",
-    image: "./assets/images/45-ratzinger-milagro-transustanciacion.png",
+    image: "./assets/images/45-ratzinger-milagro-transustanciacion.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -711,7 +711,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo II",
     question: "¿Aceptas las molestias, dolores e incomprensiones cotidianas con paz, descubriendo en ellas la ocasión de parecerte a Jesús paciente?",
     imageQuestion: "¿Aceptas las molestias diarias por amor a Cristo?",
-    image: "./assets/images/22-ligorio-amar-padecer.png",
+    image: "./assets/images/22-ligorio-amar-padecer.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -720,7 +720,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo VIII",
     question: "¿Sirves a Dios por amor a su Persona, o te desanimas en cuanto desaparecen los consuelos sensibles de la oración?",
     imageQuestion: "¿Amas a Dios o solo a sus dones?",
-    image: "./assets/images/26-ligorio-desprendimiento-puro.png",
+    image: "./assets/images/26-ligorio-desprendimiento-puro.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -729,7 +729,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro I, capítulo 13",
     question: "¿Dónde está el timón de tu confianza en Dios cuando llegan las olas de la tentación?",
     imageQuestion: "¿Dónde está el timón de tu confianza?",
-    image: "./assets/images/157-nave-sin-timon.png",
+    image: "./assets/images/157-nave-sin-timon.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -738,7 +738,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 53",
     question: "¿Ofreces a Dios tus cansancios y trabajos uniéndolos a la entrega de Jesús, para que adquieran valor eterno ante el Padre?",
     imageQuestion: "¿Ofreces tu jornada unido al sacrificio de Cristo?",
-    image: "./assets/images/18-combate-ofrecimiento-obras.png",
+    image: "./assets/images/18-combate-ofrecimiento-obras.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -747,7 +747,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Confesiones de San Agustín · Libro I, capítulo 1",
     question: "¿Reconoces hoy que tu corazón anda inquieto porque busca su descanso en otro lugar que no es Dios?",
     imageQuestion: "¿Dónde busca descanso tu corazón inquieto?",
-    image: "./assets/images/166-corazon-inquieto-hasta-que-descanse.png",
+    image: "./assets/images/166-corazon-inquieto-hasta-que-descanse.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -756,7 +756,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1982",
     question: "¿Rezas el Rosario contemplando los misterios de Cristo con el corazón, intercediendo por tus seres queridos?",
     imageQuestion: "¿Rezas el Rosario contemplando los misterios con el corazón?",
-    image: "./assets/images/132-sacerdotes-arma-del-rosario.png",
+    image: "./assets/images/132-sacerdotes-arma-del-rosario.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -765,7 +765,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La confianza en Dios · Capítulo 4",
     question: "Cuando fallas y tu confianza en Dios se tambalea con ella, ¿en quién estabas confiando en realidad?",
     imageQuestion: "¿Confías en Dios, o en ti mismo?",
-    image: "./assets/images/199-mi-confianza-era-confianza-en-mi-mismo.png",
+    image: "./assets/images/199-mi-confianza-era-confianza-en-mi-mismo.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -774,7 +774,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 25",
     question: "Cuando caes o fallas, ¿te encierras en el desánimo de tu orgullo herido, o acudes enseguida a Dios para pedir perdón y recobrar la paz?",
     imageQuestion: "¿Te encierras en el desánimo o vuelves a Dios?",
-    image: "./assets/images/10-combate-caida-desanimo.png",
+    image: "./assets/images/10-combate-caida-desanimo.webp",
     imageAlt: "Cristo se inclina con infinita misericordia para levantar y consolar a un hombre arrodillado y arrepentido.",
   },
   {
@@ -783,7 +783,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 1 de enero de 1984",
     question: "¿Vives con la alegría interior que nace de saberte infinitamente amado y perdonado por Dios?",
     imageQuestion: "¿Vives con la alegría de saberte amado por Dios?",
-    image: "./assets/images/138-sacerdotes-alegria-del-espiritu.png",
+    image: "./assets/images/138-sacerdotes-alegria-del-espiritu.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -792,7 +792,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 15 de septiembre de 1982",
     question: "¿Cultivas el silencio interior para escuchar la voz apacible del Señor que susurra en lo profundo de tu alma?",
     imageQuestion: "¿Cultivas el silencio para escuchar la voz de Dios?",
-    image: "./assets/images/133-sacerdotes-silencio-del-corazon.png",
+    image: "./assets/images/133-sacerdotes-silencio-del-corazon.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -801,7 +801,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro I, capítulo 23",
     question: "Si hoy fuera el último día de tu vida, ¿qué cambiarías ahora mismo en tu manera de vivir?",
     imageQuestion: "¿Vives hoy como si fueras a morir hoy?",
-    image: "./assets/images/158-hoy-el-hombre-manana-no-parece.png",
+    image: "./assets/images/158-hoy-el-hombre-manana-no-parece.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -810,7 +810,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El camino de la confianza y el amor · Santa Teresita, Conferencia 4",
     question: "¿Aceptas humildemente tus flaquezas para que en ellas resplandezca el poder y la gracia de Jesucristo?",
     imageQuestion: "¿Esperas todo de la gracia de Jesucristo?",
-    image: "./assets/images/32-teresita-aceptar-flaqueza.png",
+    image: "./assets/images/32-teresita-aceptar-flaqueza.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -819,7 +819,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 23",
     question: "¿Guardas silencio prudente en tus conversaciones, o dejas que el descontrol de las palabras robe la paz de tu alma?",
     imageQuestion: "¿Guardas silencio para proteger tu alma?",
-    image: "./assets/images/14-combate-guardar-lengua.png",
+    image: "./assets/images/14-combate-guardar-lengua.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -828,7 +828,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 1 de enero de 1983",
     question: "¿Descansas en la certeza de que Dios Padre cuida de ti en todo momento, librándote de la ansiedad y el miedo?",
     imageQuestion: "¿Descansas en la Providencia amorosa del Padre?",
-    image: "./assets/images/134-sacerdotes-confianza-providencia.png",
+    image: "./assets/images/134-sacerdotes-confianza-providencia.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -837,7 +837,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1980",
     question: "¿Buscas revestirte de humildad en tu trato con los demás, reconociendo que Dios ensalza siempre a los humildes?",
     imageQuestion: "¿Buscas la humildad para que Dios obre en ti?",
-    image: "./assets/images/125-sacerdotes-vestidura-humildad.png",
+    image: "./assets/images/125-sacerdotes-vestidura-humildad.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -846,7 +846,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 35",
     question: "¿Vives una humildad auténtica que reconoce con gozo que todo bien en ti proviene de la generosidad de Dios?",
     imageQuestion: "¿Reconoces con gozo que todo bien viene de Dios?",
-    image: "./assets/images/62-combate-humildad-verdadera.png",
+    image: "./assets/images/62-combate-humildad-verdadera.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -855,7 +855,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 7: El Cirineo",
     question: "Cuando las necesidades y sufrimientos de los demás alteran tus planes, ¿te quejas del contratiempo, o descubres en ellos la cruz bendita de Jesús?",
     imageQuestion: "¿Ayudas a cargar la cruz del prójimo con amor?",
-    image: "./assets/images/52-olaizola-simon-cirineo.png",
+    image: "./assets/images/52-olaizola-simon-cirineo.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -864,7 +864,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 1: El Lavatorio",
     question: "¿Estás dispuesto a servir con sencillez en lo oculto, inclinándote para aliviar las fragilidades y cansancios del prójimo?",
     imageQuestion: "¿Te inclinas para servir con humildad al prójimo?",
-    image: "./assets/images/47-olaizola-lavatorio-pies.png",
+    image: "./assets/images/47-olaizola-lavatorio-pies.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -873,7 +873,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La paz interior · Los santos y la paz del alma · Juan de Bonilla, 1",
     question: "¿Qué has dejado entrar hoy en tu corazón que le causa inquietud sin que te dieras cuenta?",
     imageQuestion: "¿Qué inquieta hoy tu corazón?",
-    image: "./assets/images/185-la-paz-camino-hacia-la-vida-eterna.png",
+    image: "./assets/images/185-la-paz-camino-hacia-la-vida-eterna.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -882,7 +882,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 4",
     question: "¿Permites que la Comunión transforme tus criterios y afectos para que vivas y ames con los mismos sentimientos de Cristo?",
     imageQuestion: "¿Permites que Cristo te transforme en la Comunión?",
-    image: "./assets/images/42-ratzinger-comunion-transformacion.png",
+    image: "./assets/images/42-ratzinger-comunion-transformacion.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -891,7 +891,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 7 de julio de 1973",
     question: "¿Confías filialmente en el amparo maternal de la Virgen María para que ella guíe tus pasos hacia Jesús?",
     imageQuestion: "¿Te dejas llevar de la mano de María hacia Jesús?",
-    image: "./assets/images/105-sacerdotes-mano-de-maria.png",
+    image: "./assets/images/105-sacerdotes-mano-de-maria.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -900,7 +900,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La confianza en Dios · Capítulo 4",
     question: "¿Tu confianza en Dios sube y baja según tus propios éxitos, o descansa solo en su amor?",
     imageQuestion: "¿Tu confianza depende de tus éxitos?",
-    image: "./assets/images/201-el-amor-de-dios-no-esta-sujeto-a-eclipses.png",
+    image: "./assets/images/201-el-amor-de-dios-no-esta-sujeto-a-eclipses.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -909,7 +909,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo X",
     question: "¿Sientes un celo ardiente por la salvación de las almas, deseando que muchos encuentren la luz y la gracia de Cristo?",
     imageQuestion: "¿Deseas con ardor que todos conozcan a Dios?",
-    image: "./assets/images/72-ligorio-gozo-en-la-verdad.png",
+    image: "./assets/images/72-ligorio-gozo-en-la-verdad.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -918,7 +918,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1983",
     question: "¿Realizas tus tareas cotidianas con esmero y amor, ofreciéndolas como pequeños actos de fidelidad a Dios?",
     imageQuestion: "¿Vives con fidelidad y amor en lo pequeño?",
-    image: "./assets/images/135-sacerdotes-fidelidad-cotidiana.png",
+    image: "./assets/images/135-sacerdotes-fidelidad-cotidiana.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -927,7 +927,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 8",
     question: "¿Confías en que nunca es tarde para volver a Dios, acudiendo a su misericordia infinita con la fe del buen ladrón?",
     imageQuestion: "¿Confías en que la misericordia de Dios siempre está abierta?",
-    image: "./assets/images/102-olaizola-buen-ladron-paraiso.png",
+    image: "./assets/images/102-olaizola-buen-ladron-paraiso.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -936,7 +936,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 15 de agosto de 1986",
     question: "¿Vives como peregrino en la tierra, buscando ante todo la santidad y los tesoros eternos del Reino de Dios?",
     imageQuestion: "¿Buscas ante todo los tesoros eternos del Reino de Dios?",
-    image: "./assets/images/147-sacerdotes-peregrinos-hacia-el-cielo.png",
+    image: "./assets/images/147-sacerdotes-peregrinos-hacia-el-cielo.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -945,7 +945,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 13",
     question: "¿Identificas con lucidez cuál es tu defecto dominante para combatirlo con paciencia y constancia cada día?",
     imageQuestion: "¿Combates con paciencia tu defecto principal?",
-    image: "./assets/images/57-combate-enemigo-principal.png",
+    image: "./assets/images/57-combate-enemigo-principal.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -954,7 +954,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 7",
     question: "¿En qué te pareces hoy a Marta: cuidadoso de lo necesario, o preocupado por demasiadas cosas?",
     imageQuestion: "¿Eres hoy más Marta preocupada o en paz?",
-    image: "./assets/images/193-marta-te-preocupas-por-muchas-cosas.png",
+    image: "./assets/images/193-marta-te-preocupas-por-muchas-cosas.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -963,7 +963,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Confesiones de San Agustín · Libro II, capítulo 6",
     question: "¿Qué mal has hecho alguna vez no por lo que ganabas, sino por el simple gusto de transgredir?",
     imageQuestion: "¿Buscas el bien, o el gusto de pecar?",
-    image: "./assets/images/165-el-sabor-del-delito.png",
+    image: "./assets/images/165-el-sabor-del-delito.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -972,7 +972,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo V",
     question: "¿Aceptas con paz el pasar desapercibido, buscando únicamente que Dios conozca tu entrega y tus sacrificios?",
     imageQuestion: "¿Buscas agradar a Dios en lo oculto?",
-    image: "./assets/images/67-ligorio-caridad-no-se-engrie.png",
+    image: "./assets/images/67-ligorio-caridad-no-se-engrie.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -981,7 +981,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 24 de agosto de 1973",
     question: "¿Buscas la humildad de los pequeños para dejarte formar por la gracia de Dios en medio de tus fatigas cotidianas?",
     imageQuestion: "¿Buscas el consuelo de Dios en la pequeñez humilde?",
-    image: "./assets/images/106-sacerdotes-pequenez-humilde.png",
+    image: "./assets/images/106-sacerdotes-pequenez-humilde.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -990,7 +990,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 50",
     question: "¿Pides a diario con insistencia la gracia de la perseverancia para mantenerte fiel hasta el último momento?",
     imageQuestion: "¿Pides el don sagrado de la perseverancia?",
-    image: "./assets/images/64-combate-perseverancia-don.png",
+    image: "./assets/images/64-combate-perseverancia-don.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -999,7 +999,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 8",
     question: "¿Sientes la urgencia santa de dar testimonio del amor de Cristo en tus ambientes cotidianos, llevando esperanza a quienes te rodean?",
     imageQuestion: "¿Sientes la llamada de compartir la alegría del Evangelio?",
-    image: "./assets/images/92-ratzinger-mision-evangelizadora.png",
+    image: "./assets/images/92-ratzinger-mision-evangelizadora.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1008,7 +1008,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 15 de septiembre de 1980",
     question: "¿Permaneces firme en la fe cuando arrecia la prueba, sabiendo que la cruz conduce siempre a la luz de la Resurrección?",
     imageQuestion: "¿Permaneces firme en la fe ante la prueba?",
-    image: "./assets/images/126-sacerdotes-fidelidad-al-pie-cruz.png",
+    image: "./assets/images/126-sacerdotes-fidelidad-al-pie-cruz.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1017,7 +1017,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 1",
     question: "¿Participas de la Santa Misa sabiendo que en el altar se hace presente el mismo sacrificio redentor de Cristo en el Calvario?",
     imageQuestion: "¿Vives la Misa como presencia viva del sacrificio de Cristo?",
-    image: "./assets/images/85-ratzinger-memorial-pascua.png",
+    image: "./assets/images/85-ratzinger-memorial-pascua.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1026,7 +1026,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo X",
     question: "¿Puedes imaginar hoy tus responsabilidades atendidas con el mismo cuidado sereno de un ángel, sin la ansiedad que sueles ponerle?",
     imageQuestion: "¿Puedes atender tus asuntos sin ansiedad?",
-    image: "./assets/images/177-cuidado-sin-inquietud-como-los-angeles.png",
+    image: "./assets/images/177-cuidado-sin-inquietud-como-los-angeles.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1035,7 +1035,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro II, capítulo 5",
     question: "¿Dónde estás tú, de verdad, cuando pasas el día entero pendiente de todo menos de tu propia alma?",
     imageQuestion: "¿Dónde estás cuando no estás contigo?",
-    image: "./assets/images/162-donde-estas-cuando-no-estas-contigo.png",
+    image: "./assets/images/162-donde-estas-cuando-no-estas-contigo.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1044,7 +1044,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 8: Todo está cumplido",
     question: "¿Vives cada jornada con el anhelo santo de poder decir ante Dios que cumpliste por amor la misión que Él te encomendó?",
     imageQuestion: "¿Vives con el deseo de cumplir la voluntad de Dios?",
-    image: "./assets/images/54-olaizola-todo-cumplido.png",
+    image: "./assets/images/54-olaizola-todo-cumplido.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1053,7 +1053,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 8 de diciembre de 1983",
     question: "¿Acudes filialmente a la Inmaculada Madre para que ella te revista de las virtudes de Cristo en tus luchas?",
     imageQuestion: "¿Acudes a María para revestirte de las virtudes de Cristo?",
-    image: "./assets/images/137-sacerdotes-llena-de-gracia.png",
+    image: "./assets/images/137-sacerdotes-llena-de-gracia.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1062,7 +1062,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 8 de diciembre de 1986",
     question: "¿Te dejas sostener por la gracia de Dios y el amparo de María para perseverar con gozo en tu camino de santidad?",
     imageQuestion: "¿Te dejas sostener por la gracia de Dios hacia la santidad?",
-    image: "./assets/images/148-sacerdotes-madre-divina-gracia.png",
+    image: "./assets/images/148-sacerdotes-madre-divina-gracia.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1071,7 +1071,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El camino de la confianza y el amor · Santa Teresita, Conferencia 1",
     question: "¿Crees de verdad que Dios te llama a la santidad hoy mismo, en medio de tus límites, debilidades y tareas cotidianas?",
     imageQuestion: "¿Te dejas amar por Dios en tu pequeñez?",
-    image: "./assets/images/29-teresita-santidad-pequenez.png",
+    image: "./assets/images/29-teresita-santidad-pequenez.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1080,7 +1080,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 2",
     question: "¿Reconoces que todo el bien y la virtud que hay en ti es gracia de Dios, o te atribuyes en secreto el mérito de tus obras?",
     imageQuestion: "¿Reconoces que todo bien viene de Dios?",
-    image: "./assets/images/11-combate-gracia-origen.png",
+    image: "./assets/images/11-combate-gracia-origen.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1089,7 +1089,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El camino de la confianza y el amor · Santa Teresita, Octava Conferencia",
     question: "¿Tratas con paciencia y benevolencia a quienes te resultan difíciles, amándolos con el corazón mismo de Cristo?",
     imageQuestion: "¿Amas al hermano difícil con la paciencia de Cristo?",
-    image: "./assets/images/82-teresita-caridad-comunitaria.png",
+    image: "./assets/images/82-teresita-caridad-comunitaria.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1098,7 +1098,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Confesiones de San Agustín · Libro III, capítulo 8",
     question: "¿Qué cadena te has forjado tú mismo al amar una parte de tu vida como si fuera el todo?",
     imageQuestion: "¿Qué cadena te forjaste tú mismo?",
-    image: "./assets/images/169-soberbia-que-ama-una-parte-como-si-fuera-el-todo.png",
+    image: "./assets/images/169-soberbia-que-ama-una-parte-como-si-fuera-el-todo.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1107,7 +1107,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 15 de agosto de 1983",
     question: "¿Vives la caridad fraterna con paciencia y dulzura, superando los roces cotidianos con el perdón sincero?",
     imageQuestion: "¿Vives la caridad fraterna con perdón y paciencia?",
-    image: "./assets/images/136-sacerdotes-distintivo-de-caridad.png",
+    image: "./assets/images/136-sacerdotes-distintivo-de-caridad.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1116,7 +1116,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La confianza en Dios · Jacques Philippe, Capítulo 2",
     question: "¿Cuándo fue la última vez que juzgaste a alguien o te desanimaste contigo mismo, sin ver que las dos cosas nacen del mismo orgullo?",
     imageQuestion: "¿Qué mueve tu juicio: humildad u orgullo?",
-    image: "./assets/images/07-fariseo-publicano.png",
+    image: "./assets/images/07-fariseo-publicano.webp",
     imageAlt: "El fariseo ora erguido con la cabeza en alto mientras el publicano se queda atrás, arrodillado y cabizbajo.",
   },
   {
@@ -1125,7 +1125,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 1 de enero de 1987",
     question: "¿Buscas en Jesús Eucaristía la fortaleza diaria que tu espíritu necesita para vencer el desánimo y la debilidad?",
     imageQuestion: "¿Buscas tu fortaleza diaria en Jesús Eucaristía?",
-    image: "./assets/images/149-sacerdotes-fuerza-en-la-eucaristia.png",
+    image: "./assets/images/149-sacerdotes-fuerza-en-la-eucaristia.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1134,7 +1134,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1984",
     question: "¿Contemplas los misterios del Rosario con la mirada tierna de María, dejando que Cristo transforme tu vida?",
     imageQuestion: "¿Contemplas a Jesús con la mirada de María?",
-    image: "./assets/images/139-sacerdotes-mirada-del-rosario.png",
+    image: "./assets/images/139-sacerdotes-mirada-del-rosario.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1143,7 +1143,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El camino de la confianza y el amor · Santa Teresita, Conferencia 8",
     question: "¿Procuras que el amor a Dios y al prójimo sea el alma y el sentido más profundo de todas tus acciones?",
     imageQuestion: "¿Vives el amor como el centro de tu vida?",
-    image: "./assets/images/37-teresita-ser-el-amor.png",
+    image: "./assets/images/37-teresita-ser-el-amor.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1152,7 +1152,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 3: La Traición",
     question: "¿Reconoces cuántas veces Jesús sale a tu encuentro con misericordia para ofrecerte su amistad y perdón tras tus caídas?",
     imageQuestion: "¿Reconoces que Cristo te sigue llamando amigo?",
-    image: "./assets/images/49-olaizola-beso-judas.png",
+    image: "./assets/images/49-olaizola-beso-judas.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1161,7 +1161,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro I, capítulo 11",
     question: "¿En qué asunto ajeno te has metido esta semana, robándole la paz a tu propio corazón?",
     imageQuestion: "¿En qué te metes que no te pertenece?",
-    image: "./assets/images/155-paz-de-no-entrometerse.png",
+    image: "./assets/images/155-paz-de-no-entrometerse.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1170,7 +1170,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo III",
     question: "¿Respondes con mansedumbre a quienes te tratan con dureza, o te dejas llevar por la aspereza y el resentimiento?",
     imageQuestion: "¿Respondes a la aspereza con dulzura y caridad?",
-    image: "./assets/images/23-ligorio-caridad-benigna.png",
+    image: "./assets/images/23-ligorio-caridad-benigna.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1179,7 +1179,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 8",
     question: "¿Fomentas la reconciliación y la unidad entre tus hermanos, viviendo la Eucaristía como vínculo de caridad fraterna?",
     imageQuestion: "¿Construyes unidad y fraternidad con los demás?",
-    image: "./assets/images/46-ratzinger-comunidad-unidad.png",
+    image: "./assets/images/46-ratzinger-comunidad-unidad.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1188,7 +1188,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 24 de diciembre de 1975",
     question: "¿Acoges a Jesús con un corazón sencillo y desprendido, libre de las distracciones y ruidos del mundo?",
     imageQuestion: "¿Haces en tu corazón un pesebre para Jesús?",
-    image: "./assets/images/111-sacerdotes-noche-santa-belen.png",
+    image: "./assets/images/111-sacerdotes-noche-santa-belen.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1197,7 +1197,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 9",
     question: "¿Recuerdas en medio de tus afanes terrenales que eres un peregrino cuya morada definitiva es el cielo junto a Dios?",
     imageQuestion: "¿Caminas como peregrino hacia la patria del cielo?",
-    image: "./assets/images/93-ratzinger-esperanza-cielo.png",
+    image: "./assets/images/93-ratzinger-esperanza-cielo.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1206,7 +1206,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Confesiones de San Agustín · Libro VIII, capítulo 12",
     question: "¿Qué palabra de Dios, leída sin buscarla, te ha cambiado alguna vez el rumbo del día?",
     imageQuestion: "¿Qué palabra te cambió el rumbo?",
-    image: "./assets/images/171-toma-y-lee.png",
+    image: "./assets/images/171-toma-y-lee.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1215,7 +1215,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1974",
     question: "¿Rezas el Santo Rosario con devoción y sencillez, acogiéndolo como la dulce cadena que te une al Corazón de Dios?",
     imageQuestion: "¿Rezas el Rosario para alcanzar la paz interior?",
-    image: "./assets/images/108-sacerdotes-rosario-paz.png",
+    image: "./assets/images/108-sacerdotes-rosario-paz.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1224,7 +1224,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El camino de la confianza y el amor · Santa Teresita, Tercera Conferencia",
     question: "Cuando te sientes indigno o débil, ¿te atreves a esperar con audacia la plenitud de la misericordia divina?",
     imageQuestion: "¿Tienes una esperanza audaz en la misericordia?",
-    image: "./assets/images/77-teresita-audacia-esperanza.png",
+    image: "./assets/images/77-teresita-audacia-esperanza.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1233,7 +1233,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 1",
     question: "¿Reconoces y agradeces la cercanía real y viva de Dios que te espera en el Sagrario de cada iglesia?",
     imageQuestion: "¿Reconoces la presencia viva de Dios en el Sagrario?",
-    image: "./assets/images/38-ratzinger-presencia-viva.png",
+    image: "./assets/images/38-ratzinger-presencia-viva.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1242,7 +1242,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo III",
     question: "¿Qué significaría hoy para ti poseer tu alma en paz, en lugar de dejártela arrebatar por cada contrariedad?",
     imageQuestion: "¿Posees tu alma, o te la arrebatan?",
-    image: "./assets/images/183-en-vuestra-paciencia-poseereis-vuestras-almas.png",
+    image: "./assets/images/183-en-vuestra-paciencia-poseereis-vuestras-almas.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1251,7 +1251,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 5",
     question: "Cuando experimentas tus propias flaquezas, ¿dejas que la mirada perdonadora de Cristo sane tu dolor y renueve tu entrega?",
     imageQuestion: "¿Dejas que el perdón de Cristo renueve tu amor?",
-    image: "./assets/images/99-olaizola-llanto-perdon-pedro.png",
+    image: "./assets/images/99-olaizola-llanto-perdon-pedro.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1260,7 +1260,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 8",
     question: "¿Odias tus defectos con paz, o con la misma violencia con la que juzgarías a otro?",
     imageQuestion: "¿Con qué ánimo miras tus defectos?",
-    image: "./assets/images/194-aborrecer-los-defectos-con-paz.png",
+    image: "./assets/images/194-aborrecer-los-defectos-con-paz.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1269,7 +1269,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 5",
     question: "¿Adoras en silencio y recogimiento a Jesús Sacramentado para preparar y prolongar los frutos de tu comunión?",
     imageQuestion: "¿Adoras con reverencia al Señor eucarístico?",
-    image: "./assets/images/43-ratzinger-adoracion-eucaristica.png",
+    image: "./assets/images/43-ratzinger-adoracion-eucaristica.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1278,7 +1278,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 27",
     question: "Al terminar tu jornada, ¿haces tu examen con la confianza filial de quien se sabe amado por su Padre celestial?",
     imageQuestion: "¿Revisas tu día con agradecimiento y confianza?",
-    image: "./assets/images/61-combate-examen-conciencia.png",
+    image: "./assets/images/61-combate-examen-conciencia.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1287,7 +1287,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 1 de enero de 1982",
     question: "¿Llevas consuelo y esperanza a quienes sufren en tu entorno, siendo testigo vivo de la compasión de Jesús?",
     imageQuestion: "¿Llevas la paz y el consuelo de Dios a quienes sufren?",
-    image: "./assets/images/131-sacerdotes-apostoles-de-paz.png",
+    image: "./assets/images/131-sacerdotes-apostoles-de-paz.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1296,7 +1296,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1979",
     question: "En medio de las dificultades y confusiones de la vida, ¿acudes a la luz del Evangelio y al refugio de María?",
     imageQuestion: "¿Buscas refugio en la luz del Evangelio y la oración?",
-    image: "./assets/images/122-sacerdotes-estrella-del-mar.png",
+    image: "./assets/images/122-sacerdotes-estrella-del-mar.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1305,7 +1305,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 10",
     question: "¿Miras a la Virgen María como modelo de adoración para acoger a Jesús con un corazón limpio y dócil en la comunión?",
     imageQuestion: "¿Acoges a Jesús con el corazón dócil de María?",
-    image: "./assets/images/94-ratzinger-maria-mujer-eucaristica.png",
+    image: "./assets/images/94-ratzinger-maria-mujer-eucaristica.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1314,7 +1314,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 15 de agosto de 1977",
     question: "¿Recurres a la intercesión de la Virgen Asunta al cielo, encomendándole tus pruebas y la salvación eterna de tu alma?",
     imageQuestion: "¿Confías tus súplicas a la Virgen Asunta al cielo?",
-    image: "./assets/images/117-sacerdotes-asuncion-intercesion.png",
+    image: "./assets/images/117-sacerdotes-asuncion-intercesion.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1323,7 +1323,7 @@ El hombre que no es perfectamente mortificado en sí, presto es tentado y vencid
     source: "La Imitación de Cristo · Libro I, capítulo 20",
     question: "¿Te atreves hoy a cerrar la puerta del ruido exterior para quedarte a solas con Jesús?",
     imageQuestion: "¿Cierras la puerta para estar con Jesús?",
-    image: "./assets/images/160-cerrar-la-puerta-y-hallar-paz.png",
+    image: "./assets/images/160-cerrar-la-puerta-y-hallar-paz.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1334,7 +1334,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Confesiones · Libro I, capítulo 1",
     question: "¿En qué rincón de tu corazón sigue buscando descanso en el control o en la razón, en vez de en Dios?",
     imageQuestion: "¿Dónde descansa tu corazón?",
-    image: "./assets/images/04-agustin-corazon-inquieto.png",
+    image: "./assets/images/04-agustin-corazon-inquieto.webp",
     imageAlt: "San Agustín, de noche junto a una ventana, mira hacia una luz cálida con la mano sobre el pecho.",
   },
   {
@@ -1343,7 +1343,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Confesiones de San Agustín · Libro IV, capítulo 6",
     question: "¿Qué cosa mortal tiene hoy presa tu alma, de tal modo que perderla te desgarraría por dentro?",
     imageQuestion: "¿Qué tiene presa tu alma?",
-    image: "./assets/images/167-presa-en-la-amistad-de-las-cosas-mortales.png",
+    image: "./assets/images/167-presa-en-la-amistad-de-las-cosas-mortales.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1352,7 +1352,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1978",
     question: "¿Edificas tu vida sobre la roca de la confianza en Dios, o te dejas tambalear por las preocupaciones del mundo?",
     imageQuestion: "¿Edificas tu vida sobre la confianza en Dios?",
-    image: "./assets/images/119-sacerdotes-roca-de-la-confianza.png",
+    image: "./assets/images/119-sacerdotes-roca-de-la-confianza.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1361,7 +1361,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 10",
     question: "En los momentos de silencio y espera en tu vida, ¿aguardas con esperanza viva el triunfo victorioso de la gracia de Dios?",
     imageQuestion: "¿Esperas con fe viva en las horas de silencio?",
-    image: "./assets/images/104-olaizola-sepulcro-esperanza.png",
+    image: "./assets/images/104-olaizola-sepulcro-esperanza.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1370,7 +1370,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo IV",
     question: "¿Te alegras con sinceridad de corazón por las virtudes y éxitos del prójimo, o sientes la secreta amargura de la envidia?",
     imageQuestion: "¿Te alegras con el bien del prójimo?",
-    image: "./assets/images/24-ligorio-gozo-bien-ajeno.png",
+    image: "./assets/images/24-ligorio-gozo-bien-ajeno.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1379,7 +1379,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 15 de agosto de 1979",
     question: "¿Es la Santa Eucaristía el corazón y la fuente viva de la que brota toda tu fuerza y esperanza diaria?",
     imageQuestion: "¿Es la Eucaristía el centro de tu vida espiritual?",
-    image: "./assets/images/123-sacerdotes-centro-eucaristico.png",
+    image: "./assets/images/123-sacerdotes-centro-eucaristico.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1388,7 +1388,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 18",
     question: "Cuando te distraes en la oración, ¿te desanimas con impaciencia o vuelves serenamente tu mirada al Señor?",
     imageQuestion: "¿Vuelves con serenidad a la presencia de Dios?",
-    image: "./assets/images/59-combate-vencer-distracciones.png",
+    image: "./assets/images/59-combate-vencer-distracciones.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1397,7 +1397,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 5: El Llanto de Pedro",
     question: "¿Permites que la mirada misericordiosa de Jesús toque tu interior para suscitar en ti un dolor sincero de tus pecados?",
     imageQuestion: "¿Dejas que la mirada de Jesús renueve tu corazón?",
-    image: "./assets/images/50-olaizola-mirada-pedro.png",
+    image: "./assets/images/50-olaizola-mirada-pedro.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1406,7 +1406,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 1",
     question: "¿Ofreces a Dios lo mejor de tu tiempo, afectos y talentos con la generosidad de quien ama sin calcular?",
     imageQuestion: "¿Ofreces a Dios lo mejor de tu vida sin calcular?",
-    image: "./assets/images/95-olaizola-uncion-betania.png",
+    image: "./assets/images/95-olaizola-uncion-betania.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1415,7 +1415,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 2",
     question: "Cuando te acercas a comulgar, ¿recibes a Jesús con la reverencia de quien sabe que recibe a Dios mismo en su corazón?",
     imageQuestion: "¿Recibes a Cristo con veneración en la comunión?",
-    image: "./assets/images/86-ratzinger-fraccion-pan.png",
+    image: "./assets/images/86-ratzinger-fraccion-pan.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1424,7 +1424,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo XIII",
     question: "¿Pides cada día a Dios la gracia insustituible de la perseverancia final para mantenerte fiel en su amor hasta el último suspiro?",
     imageQuestion: "¿Pides la gracia de perseverar hasta el fin?",
-    image: "./assets/images/28-ligorio-perseverancia-final.png",
+    image: "./assets/images/28-ligorio-perseverancia-final.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1433,7 +1433,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 2",
     question: "En medio de tus pruebas y temores, ¿te refugias en el amor vencedor de Cristo que se renueva en cada Eucaristía?",
     imageQuestion: "¿Crees que el amor de Cristo vence toda muerte?",
-    image: "./assets/images/40-ratzinger-amor-fuerte-muerte.png",
+    image: "./assets/images/40-ratzinger-amor-fuerte-muerte.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1442,7 +1442,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo XI",
     question: "¿Recibes los sufrimientos y contrariedades de la vida como oportunidades preciosas para demostrar tu amor a Jesús?",
     imageQuestion: "¿Abrazas tu cruz por amor a Jesús?",
-    image: "./assets/images/73-ligorio-caridad-todo-lo-sufre.png",
+    image: "./assets/images/73-ligorio-caridad-todo-lo-sufre.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1451,7 +1451,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 1 de enero de 1988",
     question: "¿Permites que la paz de Cristo reine en tus palabras, actitudes y relaciones cotidianas con quienes te rodean?",
     imageQuestion: "¿Permites que la paz de Cristo reine en tu corazón?",
-    image: "./assets/images/153-sacerdotes-paz-en-el-corazon.png",
+    image: "./assets/images/153-sacerdotes-paz-en-el-corazon.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1460,7 +1460,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Filotea: Introducción a la Vida Devota · Tercera Parte, capítulo X",
     question: "¿Qué asunto llevas hoy con tanta prisa que ya ni la razón ni el juicio te acompañan?",
     imageQuestion: "¿La prisa te está nublando el juicio?",
-    image: "./assets/images/178-trata-tus-asuntos-sin-precipitacion.png",
+    image: "./assets/images/178-trata-tus-asuntos-sin-precipitacion.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1469,7 +1469,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1986",
     question: "¿Perseveras en la oración con fe viva, sabiendo que la súplica humilde y confiada siempre es escuchada por el Padre?",
     imageQuestion: "¿Oras con fervor y constancia en el corazón de María?",
-    image: "./assets/images/146-sacerdotes-cenaculo-de-oracion.png",
+    image: "./assets/images/146-sacerdotes-cenaculo-de-oracion.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1478,7 +1478,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 31",
     question: "¿Te esfuerzas cada día con constancia en la vida de oración, o has soltado los remos creyendo que ya no necesitas mejorar?",
     imageQuestion: "¿Mantienes el esfuerzo diario en la oración?",
-    image: "./assets/images/15-combate-remar-constancia.png",
+    image: "./assets/images/15-combate-remar-constancia.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1487,7 +1487,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Confesiones de San Agustín · Libro X, capítulo 28",
     question: "¿Qué pensamiento va y viene sin descanso en tu cabeza, sin que por eso se mueva tu fe en Dios?",
     imageQuestion: "¿Qué pensamiento no te deja descansar?",
-    image: "./assets/images/170-el-ir-y-venir-de-mis-pensamientos.png",
+    image: "./assets/images/170-el-ir-y-venir-de-mis-pensamientos.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1496,7 +1496,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "La confianza en Dios · Capítulo 6",
     question: "Cuando sientes que Dios te ha abandonado, ¿puedes, como Jesús en la cruz, seguir confiando de todos modos?",
     imageQuestion: "¿Confías aunque sientas el abandono?",
-    image: "./assets/images/203-la-confianza-de-jesus-fue-puesta-a-prueba.png",
+    image: "./assets/images/203-la-confianza-de-jesus-fue-puesta-a-prueba.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1505,7 +1505,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 7",
     question: "¿Qué tarea de hoy podrías hacer igual de bien, pero sin la prisa que le estás poniendo?",
     imageQuestion: "¿Le quitas la prisa a tu tarea de hoy?",
-    image: "./assets/images/192-tratar-los-asuntos-sin-precipitacion.png",
+    image: "./assets/images/192-tratar-los-asuntos-sin-precipitacion.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1514,7 +1514,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 6",
     question: "¿Adoras a Cristo sufriente en sus llagas, reconociendo el precio infinito con que fuiste rescatado?",
     imageQuestion: "¿Contemplas la mansedumbre de Cristo coronado de espinas?",
-    image: "./assets/images/100-olaizola-corona-espinas.png",
+    image: "./assets/images/100-olaizola-corona-espinas.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1523,7 +1523,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo VII",
     question: "¿Estás dispuesto a posponer tus preferencias personales para atender con generosidad las necesidades de los demás?",
     imageQuestion: "¿Te desprendes de ti mismo para servir al prójimo?",
-    image: "./assets/images/69-ligorio-caridad-servidora.png",
+    image: "./assets/images/69-ligorio-caridad-servidora.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1532,7 +1532,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 3",
     question: "¿Acudes a los sacramentos con veneración y sed viva de recibir la gracia sanadora que brota del Corazón de Jesús?",
     imageQuestion: "¿Acudes a los sacramentos con sed de Dios?",
-    image: "./assets/images/41-ratzinger-costado-abierto.png",
+    image: "./assets/images/41-ratzinger-costado-abierto.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1541,7 +1541,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo I",
     question: "¿Te detienes en silencio a contemplar que Jesús entregó su vida hasta el extremo en la cruz por amor a ti?",
     imageQuestion: "¿Contemplas el amor de Cristo en la cruz?",
-    image: "./assets/images/20-ligorio-hora-redentor.png",
+    image: "./assets/images/20-ligorio-hora-redentor.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1550,7 +1550,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 3",
     question: "¿Acudes a la oración recordando el poder y la bondad de Dios, o rezas como si dudaras de que Él realmente escucha tus súplicas?",
     imageQuestion: "¿Confías en que para Dios nada es imposible?",
-    image: "./assets/images/12-combate-confianza-medios.png",
+    image: "./assets/images/12-combate-confianza-medios.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1559,7 +1559,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Filotea: Introducción a la Vida Devota · Primera Parte, capítulo XII",
     question: "¿Qué espina, mezclada a una alegría reciente, te está costando aceptar como parte de esta vida?",
     imageQuestion: "¿Qué espina va mezclada con tu alegría?",
-    image: "./assets/images/179-la-rosa-entre-las-espinas.png",
+    image: "./assets/images/179-la-rosa-entre-las-espinas.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1568,7 +1568,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1985",
     question: "¿Reflejas en tu vida las virtudes de Jesús y de María mediante la mansedumbre, la pureza y el servicio al prójimo?",
     imageQuestion: "¿Imitas las virtudes de Jesús y de María en tu vida diaria?",
-    image: "./assets/images/142-sacerdotes-imitacion-de-virtudes.png",
+    image: "./assets/images/142-sacerdotes-imitacion-de-virtudes.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1577,7 +1577,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "El camino de la confianza y el amor · Santa Teresita, Conferencia 7",
     question: "¿Vives el presente con paz y abandono en la providencia, o dejas que las preocupaciones del futuro te roben la gracia de hoy?",
     imageQuestion: "¿Vives el momento presente confiado en Dios?",
-    image: "./assets/images/35-teresita-momento-presente.png",
+    image: "./assets/images/35-teresita-momento-presente.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1586,7 +1586,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo IV",
     question: "Antes de tomar decisiones o actuar, ¿te detienes en oración para buscar sinceramente lo que más agrada a Dios?",
     imageQuestion: "¿Consultas a Dios antes de tomar decisiones?",
-    image: "./assets/images/66-ligorio-caridad-prudente.png",
+    image: "./assets/images/66-ligorio-caridad-prudente.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1595,7 +1595,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "El camino de la confianza y el amor · Santa Teresita, Quinta Conferencia",
     question: "¿Te consagras a la misericordia de Dios para que su ternura infinita sane tus heridas y transforme tu corazón?",
     imageQuestion: "¿Te consagras al Amor Misericordioso de Dios?",
-    image: "./assets/images/79-teresita-ofrecimiento-misericordia.png",
+    image: "./assets/images/79-teresita-ofrecimiento-misericordia.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1604,7 +1604,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "El camino de la confianza y el amor · Santa Teresita, Conferencia 3",
     question: "Cuando sientes el peso de tus pecados y caídas, ¿te encierras en el desaliento, o acudes con audacia al Corazón misericordioso de Jesús?",
     imageQuestion: "¿Tienes una confianza audaz en la misericordia?",
-    image: "./assets/images/31-teresita-confianza-audaz.png",
+    image: "./assets/images/31-teresita-confianza-audaz.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1613,7 +1613,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 4",
     question: "Cuando tienes una debilidad o fallo, ¿te dejas llevar por la soberbia del enojo contigo mismo, o acudes humilde a la misericordia divina?",
     imageQuestion: "¿Acudes a la misericordia tras una caída?",
-    image: "./assets/images/56-combate-reaccion-caida.png",
+    image: "./assets/images/56-combate-reaccion-caida.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1622,7 +1622,7 @@ Y ahora hay aquí un hombre que te quiere alabar. Un hombre que es parte de tu c
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 8 de mayo de 1976",
     question: "¿Promueves la oración y el encuentro en tu familia, invocando la presencia de María y del Espíritu Santo en tu hogar?",
     imageQuestion: "¿Haces de tu hogar un cenáculo de oración y paz?",
-    image: "./assets/images/112-sacerdotes-cenaculos-oracion.png",
+    image: "./assets/images/112-sacerdotes-cenaculos-oracion.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1635,7 +1635,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de octubre de 1973",
     question: "¿Qué preocupación sigues cargando tú solo, sin haberla dejado de verdad en manos de Dios?",
     imageQuestion: "Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tienes miedo? Ora y abandónate a Mí: deja que sea Yo sola la que verdaderamente obre.",
-    image: "./assets/images/03-virgen-consuela.png",
+    image: "./assets/images/03-virgen-consuela.webp",
     imageAlt: "La Virgen sostiene el rostro de un hombre arrodillado y angustiado, consolándolo con ternura.",
   },
   {
@@ -1644,7 +1644,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "El camino de la confianza y el amor · Santa Teresita, Primera Conferencia",
     question: "¿Crees de verdad que Dios te llama a la santidad en tu vida ordinaria apoyado en su infinita bondad?",
     imageQuestion: "¿Crees en la llamada de Dios a la santidad?",
-    image: "./assets/images/75-teresita-llamada-universal.png",
+    image: "./assets/images/75-teresita-llamada-universal.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1653,7 +1653,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "El Combate Espiritual · P. Lorenzo Scúpoli, Capítulo 44",
     question: "¿Vives con la perspectiva de la eternidad, usando los bienes temporales como medios para amar más a Dios?",
     imageQuestion: "¿Pones tu mirada en los bienes eternos?",
-    image: "./assets/images/63-combate-mirada-eternidad.png",
+    image: "./assets/images/63-combate-mirada-eternidad.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1662,7 +1662,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 8 de diciembre de 1981",
     question: "¿Aceptas con paz tu pequeñez para que la grandeza y la misericordia de Dios resplandezcan a través de ti?",
     imageQuestion: "¿Permites que la grandeza de Dios brille en tu pequeñez?",
-    image: "./assets/images/130-sacerdotes-grandeza-en-pequenez.png",
+    image: "./assets/images/130-sacerdotes-grandeza-en-pequenez.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1671,7 +1671,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 3",
     question: "¿Buscas perdonar de corazón y reconciliarte con los demás antes de acercarte a la mesa eucarística del Señor?",
     imageQuestion: "¿Buscas la reconciliación antes de acercarte al altar?",
-    image: "./assets/images/87-ratzinger-reconciliacion-comunion.png",
+    image: "./assets/images/87-ratzinger-reconciliacion-comunion.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1680,7 +1680,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1987",
     question: "¿Te refugias en el Corazón de María cuando te sientes agobiado o tentado, encontrando en ella el camino hacia Dios?",
     imageQuestion: "¿Es el Corazón de María tu refugio seguro en la prueba?",
-    image: "./assets/images/150-sacerdotes-refugio-seguro.png",
+    image: "./assets/images/150-sacerdotes-refugio-seguro.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1689,7 +1689,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 6",
     question: "¿Vives tu fe con coherencia y valentía en tu trabajo y vida social, llevando la bendición y paz de Cristo al mundo?",
     imageQuestion: "¿Das testimonio de Cristo en tu vida pública?",
-    image: "./assets/images/44-ratzinger-corpus-cristi-fe.png",
+    image: "./assets/images/44-ratzinger-corpus-cristi-fe.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1698,7 +1698,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 1",
     question: "¿Acudes con frecuencia al Sagrario para encontrar la paz interior y el descanso que el mundo no te puede dar?",
     imageQuestion: "¿Buscas el silencio del Sagrario en medio del ruido?",
-    image: "./assets/images/39-ratzinger-cercania-sagrario.png",
+    image: "./assets/images/39-ratzinger-cercania-sagrario.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1707,7 +1707,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "La Pasión en Contemplaciones de Papel · José María Rodríguez Olaizola, Capítulo 7",
     question: "¿Tu piedad cristiana se queda en sentimentalismo pasajero, o se traduce en una conversión real y obras de caridad sinceras?",
     imageQuestion: "¿Transformas tu devoción en conversión sincera?",
-    image: "./assets/images/101-olaizola-mujeres-jerusalen.png",
+    image: "./assets/images/101-olaizola-mujeres-jerusalen.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1716,7 +1716,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 1 de enero de 1986",
     question: "¿Vives con un corazón agradecido, reconociendo y dando gracias a Dios por sus incontables bendiciones de cada día?",
     imageQuestion: "¿Vives con un corazón agradecido ante Dios?",
-    image: "./assets/images/145-sacerdotes-accion-de-gracias.png",
+    image: "./assets/images/145-sacerdotes-accion-de-gracias.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1725,7 +1725,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "Filotea · Parte I, capítulo 3",
     question: "¿Qué parte concreta de tu trabajo, familia u obligaciones necesitas hoy ofrecer a Dios para vivirla como vocación y no como carga?",
     imageQuestion: "¿Cómo puedes santificar hoy tu trabajo?",
-    image: "./assets/images/02-virgen-y-nino.png",
+    image: "./assets/images/02-virgen-y-nino.webp",
     imageAlt: "La Virgen María sostiene al Niño Jesús mientras dos ángeles adoran en oración.",
   },
   {
@@ -1734,7 +1734,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 15 de agosto de 1985",
     question: "¿Vives en la transparencia y la verdad del Evangelio, rechazando la hipocresía y las mentiras del mundo?",
     imageQuestion: "¿Caminas siempre en la luz de la verdad de Dios?",
-    image: "./assets/images/143-sacerdotes-luz-de-la-verdad.png",
+    image: "./assets/images/143-sacerdotes-luz-de-la-verdad.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1743,7 +1743,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 1 de enero de 1977",
     question: "¿Caminas en tu día a día con la serena alegría de quien se sabe protegido bajo el manto maternal de la Virgen?",
     imageQuestion: "¿Caminas con confianza bajo el manto de María?",
-    image: "./assets/images/115-sacerdotes-manto-protector.png",
+    image: "./assets/images/115-sacerdotes-manto-protector.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1752,7 +1752,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "La Eucaristía - Centro de la Vida · Joseph Ratzinger, Capítulo 6",
     question: "¿Santificas el día domingo dedicándolo a Dios, a la Santa Misa y al descanso fraterno con los tuyos?",
     imageQuestion: "¿Vives el domingo como fiesta de la Resurrección?",
-    image: "./assets/images/90-ratzinger-domingo-resurreccion.png",
+    image: "./assets/images/90-ratzinger-domingo-resurreccion.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1761,7 +1761,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 13 de mayo de 1977",
     question: "¿Acudes a estar a solas con Jesús en el Sagrario para encontrar en su presencia viva el descanso que tu alma necesita?",
     imageQuestion: "¿Buscas a Jesús ante el Sagrario en el silencio?",
-    image: "./assets/images/116-sacerdotes-silencio-ante-sagrario.png",
+    image: "./assets/images/116-sacerdotes-silencio-ante-sagrario.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1770,7 +1770,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo III",
     question: "¿Te alegras de corazón cuando ves los dones y virtudes de tus hermanos, viéndolos como gloria de Dios?",
     imageQuestion: "¿Te alegras sinceramente del bien ajeno?",
-    image: "./assets/images/65-ligorio-caridad-no-envidiosa.png",
+    image: "./assets/images/65-ligorio-caridad-no-envidiosa.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1779,7 +1779,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "Confesiones de San Agustín · Libro XIII, capítulo 9",
     question: "¿Hacia dónde te está llevando tu amor, y es ese el lugar donde de verdad quieres descansar?",
     imageQuestion: "¿Hacia dónde te lleva tu amor?",
-    image: "./assets/images/174-mi-peso-es-mi-amor.png",
+    image: "./assets/images/174-mi-peso-es-mi-amor.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1788,7 +1788,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "Filotea: Introducción a la Vida Devota · Primera Parte, capítulo III",
     question: "¿En qué área de tu vida diaria has pensado que la santidad simplemente no cabe?",
     imageQuestion: "¿Dónde crees que la santidad no cabe?",
-    image: "./assets/images/176-la-devocion-cabe-en-cualquier-vocacion.png",
+    image: "./assets/images/176-la-devocion-cabe-en-cualquier-vocacion.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1797,7 +1797,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "La paz interior · Los santos y la paz del alma · San Francisco de Sales, 1",
     question: "¿De dónde vienen realmente los pensamientos que hoy agitan tu alma: de Dios, o de otra fuente?",
     imageQuestion: "¿De dónde viene tu pensamiento inquieto?",
-    image: "./assets/images/187-dios-es-el-principe-de-la-paz.png",
+    image: "./assets/images/187-dios-es-el-principe-de-la-paz.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1806,7 +1806,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "La confianza en Dios · Capítulo 3",
     question: "En medio de la crisis que estés viviendo hoy, ¿eliges acoger la paz de Dios o dejarte inquietar?",
     imageQuestion: "¿Acoges la paz en medio de la crisis?",
-    image: "./assets/images/197-maria-reina-de-la-paz.png",
+    image: "./assets/images/197-maria-reina-de-la-paz.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1815,7 +1815,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "La confianza en Dios · Prólogo",
     question: "Si tus miedos revelan lo que más temes perder, ¿qué te dicen los tuyos sobre dónde está tu corazón?",
     imageQuestion: "¿Qué tesoro temes perder de verdad?",
-    image: "./assets/images/196-nuestros-miedos-nos-definen.png",
+    image: "./assets/images/196-nuestros-miedos-nos-definen.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1824,7 +1824,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "Práctica del Amor a Jesucristo · San Alfonso María de Ligorio, Capítulo IX",
     question: "¿Cuidas tus pensamientos para no juzgar con dureza a los demás, interpretando sus acciones con caridad cristiana?",
     imageQuestion: "¿Miras a tu prójimo con benevolencia y misericordia?",
-    image: "./assets/images/71-ligorio-caridad-no-piensa-mal.png",
+    image: "./assets/images/71-ligorio-caridad-no-piensa-mal.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1833,7 +1833,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 1 de enero de 1980",
     question: "¿Invocas al Espíritu Santo al comenzar tus jornadas para que guíe tus decisiones y encienda tu amor a Dios?",
     imageQuestion: "¿Invocas al Espíritu Santo al comenzar tu día?",
-    image: "./assets/images/124-sacerdotes-fuego-del-espiritu.png",
+    image: "./assets/images/124-sacerdotes-fuego-del-espiritu.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1842,7 +1842,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "A los Sacerdotes, hijos predilectos de la Santísima Virgen · 15 de agosto de 1987",
     question: "¿Sirves con humildad y generosidad en tu vocación y deberes cotidianos, viviendo con fidelidad tu llamada bautismal?",
     imageQuestion: "¿Vives tu vocación con humildad y servicio generoso?",
-    image: "./assets/images/151-sacerdotes-fidelidad-al-servicio.png",
+    image: "./assets/images/151-sacerdotes-fidelidad-al-servicio.webp",
     imageAlt: "Pintura sacra al óleo de la Santísima Virgen que ilustra la lectura y meditación del pasaje.",
   },
   {
@@ -1851,7 +1851,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Pobreza",
     question: "¿Qué has recibido de Dios que te invita a compartir o devolver con mayor amor?",
     imageQuestion: "¿Qué puedes devolver con amor?",
-    image: "./assets/images/cc-013.png",
+    image: "./assets/images/cc-013.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1860,7 +1860,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Pobreza espiritual perfecta",
     question: "¿Qué decisión estás intentando controlar y podrías poner con confianza bajo la voluntad de Dios?",
     imageQuestion: "¿Qué quieres poner en sus manos?",
-    image: "./assets/images/cc-014.png",
+    image: "./assets/images/cc-014.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1869,7 +1869,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Pobreza espiritual perfecta",
     question: "¿Qué pequeño apego te parece demasiado costoso soltar, aunque Dios promete darte algo mucho mayor?",
     imageQuestion: "¿Qué apego puedes soltar?",
-    image: "./assets/images/cc-015.png",
+    image: "./assets/images/cc-015.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1878,7 +1878,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Penitencia",
     question: "¿Qué renuncia pequeña, vivida con humildad y amor, puede ayudarte a no ponerte siempre en el centro?",
     imageQuestion: "¿Qué renuncia puedes ofrecer?",
-    image: "./assets/images/109-sacerdotes-camino-de-la-cruz.png",
+    image: "./assets/images/109-sacerdotes-camino-de-la-cruz.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1887,7 +1887,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Penitencia",
     question: "¿Qué hábito concreto podrías ordenar para que tu vida no quede gobernada por la molicie?",
     imageQuestion: "¿Qué hábito necesitas ordenar?",
-    image: "./assets/images/63-combate-mirada-eternidad.png",
+    image: "./assets/images/63-combate-mirada-eternidad.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1896,7 +1896,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Sufrimiento",
     question: "Ante una dificultad que no elegiste, ¿puedes pedir hoy la paciencia para no endurecer tu corazón?",
     imageQuestion: "¿Qué cruz puedes vivir con paciencia?",
-    image: "./assets/images/73-ligorio-caridad-todo-lo-sufre.png",
+    image: "./assets/images/73-ligorio-caridad-todo-lo-sufre.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1905,7 +1905,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Mortificación",
     question: "¿Qué propio querer puedes dejar de imponer hoy para responder con más libertad y caridad?",
     imageQuestion: "¿Qué propio querer puedes soltar?",
-    image: "./assets/images/58-combate-elevar-corazon.png",
+    image: "./assets/images/58-combate-elevar-corazon.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1914,7 +1914,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Humildad",
     question: "¿En qué situación necesitas dejar de sostenerte en tu propia imagen para volver a la verdad delante de Dios?",
     imageQuestion: "¿Dónde necesitas volver a la verdad?",
-    image: "./assets/images/62-combate-humildad-verdadera.png",
+    image: "./assets/images/62-combate-humildad-verdadera.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1923,7 +1923,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Inmortificación",
     question: "¿Qué complacencia estás alimentando que después te deja más débil para hacer el bien?",
     imageQuestion: "¿Qué estás alimentando?",
-    image: "./assets/images/57-combate-enemigo-principal.png",
+    image: "./assets/images/57-combate-enemigo-principal.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1932,7 +1932,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Inmortificación",
     question: "¿Qué bien estás dejando enfriar por evitar siempre lo que te cuesta?",
     imageQuestion: "¿Qué bien se está enfriando?",
-    image: "./assets/images/59-combate-vencer-distracciones.png",
+    image: "./assets/images/59-combate-vencer-distracciones.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1941,7 +1941,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Inmortificación",
     question: "¿Qué desorden interior aparece después también en tus palabras, decisiones o acciones?",
     imageQuestion: "¿Qué nace dentro de ti?",
-    image: "./assets/images/66-ligorio-caridad-prudente.png",
+    image: "./assets/images/66-ligorio-caridad-prudente.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1950,7 +1950,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Molicie",
     question: "Cuando te sientes cansado o desalentado, ¿qué haces que termina alejándote todavía más de Dios?",
     imageQuestion: "¿Qué haces con tu cansancio?",
-    image: "./assets/images/57-combate-enemigo-principal.png",
+    image: "./assets/images/57-combate-enemigo-principal.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1959,7 +1959,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Molicie",
     question: "¿Qué actividad buena has ido dejando porque se volvió más fácil quedarte en lo cómodo?",
     imageQuestion: "¿Qué bien estás dejando?",
-    image: "./assets/images/68-ligorio-caridad-no-ambiciosa.png",
+    image: "./assets/images/68-ligorio-caridad-no-ambiciosa.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1968,7 +1968,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Molicie",
     question: "¿Qué tarea sencilla has postergado y podrías retomar hoy con constancia, sin esperar tener ganas?",
     imageQuestion: "¿Qué tarea puedes retomar?",
-    image: "./assets/images/64-combate-perseverancia-don.png",
+    image: "./assets/images/64-combate-perseverancia-don.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1977,7 +1977,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Delicadeza",
     question: "¿Qué cuidado excesivo de ti mismo te está haciendo olvidar las necesidades reales de los demás?",
     imageQuestion: "¿Qué cuidado ocupa demasiado lugar?",
-    image: "./assets/images/67-ligorio-caridad-no-se-engrie.png",
+    image: "./assets/images/67-ligorio-caridad-no-se-engrie.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1986,7 +1986,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Delicadeza",
     question: "¿Qué placer o comodidad estás protegiendo tanto que ya no dejas espacio para amar de manera activa?",
     imageQuestion: "¿Qué estás protegiendo demasiado?",
-    image: "./assets/images/70-ligorio-caridad-no-se-irrita.png",
+    image: "./assets/images/70-ligorio-caridad-no-se-irrita.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -1995,7 +1995,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Soberbia",
     question: "¿En qué lugar de tu vida podrías estar buscando parecer mejor que los demás, incluso de manera muy sutil?",
     imageQuestion: "¿Qué quieres aparentar?",
-    image: "./assets/images/55-combate-desconfianza-propia.png",
+    image: "./assets/images/55-combate-desconfianza-propia.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2004,7 +2004,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Soberbia",
     question: "¿Qué acto bueno podrías estar contaminando con la necesidad de tener razón, ser visto o sentirte superior?",
     imageQuestion: "¿Qué está contaminando tu bien?",
-    image: "./assets/images/56-combate-reaccion-caida.png",
+    image: "./assets/images/56-combate-reaccion-caida.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2013,7 +2013,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Providencia",
     question: "¿Qué situación que no elegiste necesitas acoger hoy confiando en que el Padre no deja de obrar para tu bien?",
     imageQuestion: "¿Qué puedes confiar al Padre?",
-    image: "./assets/images/134-sacerdotes-confianza-providencia.png",
+    image: "./assets/images/134-sacerdotes-confianza-providencia.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2022,7 +2022,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Presente confiado",
     question: "¿Qué recuerdo necesitas entregar a la misericordia y qué preocupación necesitas confiar a la Providencia para vivir bien este día?",
     imageQuestion: "¿Qué necesitas entregar hoy?",
-    image: "./assets/images/119-sacerdotes-roca-de-la-confianza.png",
+    image: "./assets/images/119-sacerdotes-roca-de-la-confianza.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2031,7 +2031,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Atención al prójimo",
     question: "¿A quién puedes escuchar hoy de verdad, dejando por un momento la prisa y la distracción?",
     imageQuestion: "¿A quién puedes escuchar?",
-    image: "./assets/images/69-ligorio-caridad-servidora.png",
+    image: "./assets/images/69-ligorio-caridad-servidora.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2040,7 +2040,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Compasión",
     question: "¿Hay alguien hacia quien tu corazón se ha endurecido y a quien necesitas volver a mirar desde la oración?",
     imageQuestion: "¿A quién necesitas mirar con compasión?",
-    image: "./assets/images/91-ratzinger-eucaristia-y-caridad.png",
+    image: "./assets/images/91-ratzinger-eucaristia-y-caridad.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2049,7 +2049,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Deseo de Dios",
     question: "¿Qué palabra de la Escritura podrías guardar hoy para que vuelva a despertar en ti el deseo de Dios?",
     imageQuestion: "¿Qué palabra quieres guardar?",
-    image: "./assets/images/77-teresita-audacia-esperanza.png",
+    image: "./assets/images/77-teresita-audacia-esperanza.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2058,7 +2058,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Confianza perseverante",
     question: "¿En qué camino espiritual te estás desanimando porque quisieras ver el fruto antes de tiempo?",
     imageQuestion: "¿Puedes perseverar sin ver todo?",
-    image: "./assets/images/74-ligorio-caridad-todo-lo-espera.png",
+    image: "./assets/images/74-ligorio-caridad-todo-lo-espera.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2067,7 +2067,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Pobreza espiritual",
     question: "¿En qué capacidad propia estás tentado a apoyarte más que en Dios?",
     imageQuestion: "¿En qué te estás apoyando?",
-    image: "./assets/images/cc-013.png",
+    image: "./assets/images/cc-013.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2076,7 +2076,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Silencio",
     question: "¿Qué agitación interior te está llevando a perder la escucha de Jesús en medio de tus tareas?",
     imageQuestion: "¿Qué te impide escuchar?",
-    image: "./assets/images/89-ratzinger-silencio-liturgico.png",
+    image: "./assets/images/89-ratzinger-silencio-liturgico.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2085,7 +2085,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Verdad",
     question: "¿Hay algo bueno que estás tentado a mostrar para recibir aprobación, en vez de guardarlo humildemente ante Dios?",
     imageQuestion: "¿Qué puedes guardar en secreto?",
-    image: "./assets/images/98-olaizola-juicio-caifas.png",
+    image: "./assets/images/98-olaizola-juicio-caifas.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2094,7 +2094,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Paz",
     question: "¿Qué agitación ajena estás cargando como si dependiera de ti, en vez de ponerla en las manos de Dios?",
     imageQuestion: "¿Qué agitación puedes entregar?",
-    image: "./assets/images/114-sacerdotes-reina-de-la-paz.png",
+    image: "./assets/images/114-sacerdotes-reina-de-la-paz.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2103,7 +2103,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Inmortificación",
     question: "Al mirar tus recaídas, tu oración y tu deseo de avanzar, ¿qué desorden necesitas afrontar con humildad en vez de acostumbrarte a él?",
     imageQuestion: "¿Qué necesitas afrontar con humildad?",
-    image: "./assets/images/58-combate-elevar-corazon.png",
+    image: "./assets/images/58-combate-elevar-corazon.webp",
     imageAlt: "Pintura sacra al óleo que ilustra la virtud del pasaje.",
   },
   {
@@ -2112,7 +2112,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Comodidad · p. 42",
     question: "¿Qué cosa superflua has empezado a tratar como necesaria y está debilitando tu generosidad?",
     imageQuestion: "¿Qué superfluo parece necesario?",
-    image: "./assets/images/cc-001.png",
+    image: "./assets/images/cc-001.webp",
     imageAlt: "Pintura sacra al óleo relacionada con comodidad.",
   },
   {
@@ -2121,7 +2121,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Comodidad · p. 42",
     question: "¿En qué momento de tu día notas que la búsqueda de descanso comienza a quitarle verdad a tu oración?",
     imageQuestion: "¿Dónde se esconde la comodidad?",
-    image: "./assets/images/cc-002.png",
+    image: "./assets/images/cc-002.webp",
     imageAlt: "Pintura sacra al óleo relacionada con comodidad.",
   },
   {
@@ -2130,7 +2130,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Comodidad · p. 42",
     question: "¿Qué concesión exterior está influyendo también en la disposición interior con la que buscas a Dios?",
     imageQuestion: "¿Qué alimenta tu interior?",
-    image: "./assets/images/cc-003.png",
+    image: "./assets/images/cc-003.webp",
     imageAlt: "Pintura sacra al óleo relacionada con comodidad.",
   },
   {
@@ -2139,7 +2139,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Comodidad del alma · p. 43",
     question: "Cuando rezas o haces el bien, ¿buscas a Dios o buscas sobre todo la satisfacción que eso te produce?",
     imageQuestion: "¿A quién buscas al servir?",
-    image: "./assets/images/cc-004.png",
+    image: "./assets/images/cc-004.webp",
     imageAlt: "Pintura sacra al óleo relacionada con comodidad del alma.",
   },
   {
@@ -2148,7 +2148,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Comodidad · p. 43",
     question: "¿Qué comodidad has dejado entrar sin vigilarla, hasta el punto de acostumbrarte a ella?",
     imageQuestion: "¿Qué has dejado entrar?",
-    image: "./assets/images/cc-005.png",
+    image: "./assets/images/cc-005.webp",
     imageAlt: "Pintura sacra al óleo relacionada con comodidad.",
   },
   {
@@ -2157,7 +2157,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Comodidad · p. 43",
     question: "¿Qué excusa repites para evitar una entrega que sabes que Cristo te está pidiendo?",
     imageQuestion: "¿Qué excusa necesitas soltar?",
-    image: "./assets/images/cc-006.png",
+    image: "./assets/images/cc-006.webp",
     imageAlt: "Pintura sacra al óleo relacionada con comodidad.",
   },
   {
@@ -2166,7 +2166,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Comodidad · p. 43",
     question: "¿En qué aspecto dices seguir a Cristo, pero tus obras muestran que prefieres no salir de tu comodidad?",
     imageQuestion: "¿Qué dicen tus obras?",
-    image: "./assets/images/cc-007.png",
+    image: "./assets/images/cc-007.webp",
     imageAlt: "Pintura sacra al óleo relacionada con comodidad.",
   },
   {
@@ -2175,7 +2175,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Comodidad · p. 44",
     question: "¿Dónde percibes una inercia lenta que te está quitando el deseo de responder a Dios con generosidad?",
     imageQuestion: "¿Dónde nace tu inercia?",
-    image: "./assets/images/cc-008.png",
+    image: "./assets/images/cc-008.webp",
     imageAlt: "Pintura sacra al óleo relacionada con comodidad.",
   },
   {
@@ -2184,7 +2184,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Comodidad · p. 44",
     question: "¿Qué cruz cotidiana estás evitando que, llevada con Cristo, podría purificar tu amor?",
     imageQuestion: "¿Qué cruz estás evitando?",
-    image: "./assets/images/cc-009.png",
+    image: "./assets/images/cc-009.webp",
     imageAlt: "Pintura sacra al óleo relacionada con comodidad.",
   },
   {
@@ -2193,7 +2193,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Comodidad · p. 44",
     question: "¿Qué sopor interior necesitas reconocer para volver a buscar a Dios con sinceridad?",
     imageQuestion: "¿Qué sopor debes despertar?",
-    image: "./assets/images/cc-010.png",
+    image: "./assets/images/cc-010.webp",
     imageAlt: "Pintura sacra al óleo relacionada con comodidad.",
   },
   {
@@ -2202,7 +2202,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Pobreza · p. 24",
     question: "¿Qué afecto, posesión o seguridad te cuesta reconocer hoy como un don recibido y no como algo que te pertenece?",
     imageQuestion: "¿Qué no te pertenece?",
-    image: "./assets/images/cc-011.png",
+    image: "./assets/images/cc-011.webp",
     imageAlt: "Pintura sacra al óleo relacionada con pobreza.",
   },
   {
@@ -2211,7 +2211,7 @@ Tu poca fe, tu desconfianza en Mí me aflige, hijo. ¿Qué temes? ¿De qué tien
     source: "De las virtudes y los vicios · Concepción Cabrera de Armida, Pobreza · p. 25",
     question: "¿Qué acto humilde te parece poco atractivo, pero podría adquirir valor si lo vivieras solo por Dios?",
     imageQuestion: "¿Qué acto puedes vivir por Dios?",
-    image: "./assets/images/cc-012.png",
+    image: "./assets/images/cc-012.webp",
     imageAlt: "Pintura sacra al óleo relacionada con pobreza.",
   },
   {
@@ -2225,7 +2225,7 @@ Líbrame, Señor, de mendigar gloria humana y enséñame a descansar en el gozo 
     source: "Letanías de la Humildad · Cardenal Merry del Val, I. Los deseos de estima",
     question: "¿En qué medida condicionas tu paz interior a la necesidad de sentirte aprobado y estimado por los demás?",
     imageQuestion: "¿Buscas la estima del mundo o la de Dios?",
-    image: "./assets/images/234-letanias-01-deseo-estima.png",
+    image: "./assets/images/234-letanias-01-deseo-estima.webp",
     imageAlt: "Pintura sacra al óleo de un fraile orando ante la Cruz luminosa mientras la soberbia huye en la penumbra.",
   },
   {
@@ -2238,7 +2238,7 @@ Líbrame, Jesús, de la soberbia sutil de querer ser imprescindible, de buscar q
     source: "Letanías de la Humildad · Cardenal Merry del Val, II. Los deseos de protagonismo",
     question: "¿Te cuesta ocupar un segundo plano y alegrarte sinceramente cuando otros son consultados o preferidos antes que tú?",
     imageQuestion: "¿Necesitas ser siempre el protagonista?",
-    image: "./assets/images/235-letanias-02-deseo-protagonismo.png",
+    image: "./assets/images/235-letanias-02-deseo-protagonismo.webp",
     imageAlt: "Pintura sacra al óleo de Cristo y su Sagrado Corazón con el demonio de la vanidad postrado en derrota.",
   },
   {
@@ -2251,7 +2251,7 @@ Líbrame, Jesús, de la angustia que paraliza mi entrega cada vez que mi amor pr
     source: "Letanías de la Humildad · Cardenal Merry del Val, III. Los temores al rechazo",
     question: "Cuando recibes una crítica o una corrección, ¿reaccionas defendiendo tu orgullo o buscas en paz qué verdad puede haber en ella?",
     imageQuestion: "¿Aceptas la corrección con mansedumbre?",
-    image: "./assets/images/236-letanias-03-temor-humillacion.png",
+    image: "./assets/images/236-letanias-03-temor-humillacion.webp",
     imageAlt: "Pintura sacra al óleo de Cristo en el Ecce Homo sereno ante los demonios de la calumnia y el escarnio.",
   },
   {
@@ -2264,7 +2264,7 @@ Líbrame, Jesús, del miedo a quedar en la sombra y a no ser comprendido, record
     source: "Letanías de la Humildad · Cardenal Merry del Val, IV. Los temores al olvido",
     question: "¿Temes pasar desapercibido ante el mundo, o confías en que basta que tu Padre, que ve en lo secreto, te conozca y te sostenga?",
     imageQuestion: "¿Temes ser olvidado por los hombres?",
-    image: "./assets/images/237-letanias-04-temor-olvido.png",
+    image: "./assets/images/237-letanias-04-temor-olvido.webp",
     imageAlt: "Pintura sacra al óleo de un monje en oración nocturna con los demonios del olvido disolviéndose.",
   },
   {
@@ -2280,7 +2280,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Letanías de la Humildad · Cardenal Merry del Val, V. La gracia de la caridad",
     question: "¿Eres capaz de alegrarte de corazón y dar gracias a Dios cuando ves que otros reciben mayores virtudes, afecto y frutos espirituales que tú?",
     imageQuestion: "¿Deseas con gozo la santidad de los demás?",
-    image: "./assets/images/238-letanias-05-gracia-desear.png",
+    image: "./assets/images/238-letanias-05-gracia-desear.webp",
     imageAlt: "Pintura sacra al óleo de San Juan Bautista señalando a Cristo con la envidia desterrada en sombras.",
   },
   {
@@ -2289,7 +2289,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Carta a los Colosenses 3, 1-4 · Biblia Straubinger",
     question: "¿En qué medida tus anhelos cotidianos están anclados en las cosas de arriba y no en las seguridades pasajeras de la tierra?",
     imageQuestion: "¿Buscas las cosas de arriba?",
-    image: "./assets/images/239-biblia-col-03-vida-escondida.png",
+    image: "./assets/images/239-biblia-col-03-vida-escondida.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: La vida escondida con Cristo en Dios.",
   },
   {
@@ -2298,7 +2298,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Carta a los Filipenses 4, 4-7 · Biblia Straubinger",
     question: "Cuando surge la inquietud en tu día, ¿acudes de inmediato a la oración agradecida o dejas que la ansiedad tome el control?",
     imageQuestion: "¿Presentas tus inquietudes a Dios?",
-    image: "./assets/images/240-biblia-flp-04-gozo-y-paz.png",
+    image: "./assets/images/240-biblia-flp-04-gozo-y-paz.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: El gozo sobrenatural y la paz de Dios.",
   },
   {
@@ -2307,7 +2307,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Carta a los Romanos 8, 35-39 · Biblia Straubinger",
     question: "¿Descansas en la certeza inquebrantable de que ninguna tribulación presente puede apartarte del amor de Cristo?",
     imageQuestion: "¿Confías en el amor que todo lo vence?",
-    image: "./assets/images/241-biblia-rom-08-victoria-del-amor.png",
+    image: "./assets/images/241-biblia-rom-08-victoria-del-amor.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: La victoria del amor de Cristo.",
   },
   {
@@ -2316,7 +2316,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Primera Carta de San Pedro 1, 6-9 · Biblia Straubinger",
     question: "¿Logras mirar tus dificultades presentes no como castigos, sino como el crisol donde Dios purifica y embellece tu fe?",
     imageQuestion: "¿Ves la prueba como purificación de la fe?",
-    image: "./assets/images/242-biblia-1pe-01-fe-en-crisol.png",
+    image: "./assets/images/242-biblia-1pe-01-fe-en-crisol.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: La fe purificada en el crisol.",
   },
   {
@@ -2325,7 +2325,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Primera Carta de San Pedro 5, 6-10 · Biblia Straubinger",
     question: "¿Qué preocupación que te quita el sueño necesitas descargar hoy con humildad sobre las manos del Padre?",
     imageQuestion: "¿Descargas tus afanes en Dios?",
-    image: "./assets/images/243-biblia-1pe-05-descargar-agobio.png",
+    image: "./assets/images/243-biblia-1pe-05-descargar-agobio.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Echad sobre Él toda solicitud.",
   },
   {
@@ -2334,7 +2334,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Carta a los Hebreos 4, 14-16 · Biblia Straubinger",
     question: "¿Te acercas a Jesús con la confianza de quien sabe que Él conoce tus flaquezas humanas y no te juzga con desdén?",
     imageQuestion: "¿Te acercas con confianza a la gracia?",
-    image: "./assets/images/244-biblia-heb-04-sumo-sacerdote.png",
+    image: "./assets/images/244-biblia-heb-04-sumo-sacerdote.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: El Sumo Sacerdote compasivo.",
   },
   {
@@ -2343,7 +2343,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Carta a los Hebreos 12, 1-3 · Biblia Straubinger",
     question: "En medio del cansancio y la desgana espiritual, ¿fijas tu mirada en la Cruz de Cristo para renovar tus fuerzas?",
     imageQuestion: "¿Pones tus ojos en Jesús en la carrera?",
-    image: "./assets/images/245-biblia-heb-12-fijos-los-ojos.png",
+    image: "./assets/images/245-biblia-heb-12-fijos-los-ojos.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Fijos los ojos en Jesús.",
   },
   {
@@ -2352,7 +2352,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Profecía de Isaías 49, 14-16 · Biblia Straubinger",
     question: "¿Has sentido alguna vez la soledad del abandono, olvidando que el amor de Dios por ti supera al amor de la madre más tierna?",
     imageQuestion: "¿Crees que Dios jamás te olvida?",
-    image: "./assets/images/246-biblia-is-49-grabado-en-palmas.png",
+    image: "./assets/images/246-biblia-is-49-grabado-en-palmas.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Grabado en las palmas de Dios.",
   },
   {
@@ -2361,7 +2361,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Profecía de Isaías 43, 1-4 · Biblia Straubinger",
     question: "¿Vives con el temor al futuro o te sabes sostenido por el Dios que te llama por tu propio nombre?",
     imageQuestion: "¿Sabes que eres precioso para Dios?",
-    image: "./assets/images/247-biblia-is-43-precioso-a-mis-ojos.png",
+    image: "./assets/images/247-biblia-is-43-precioso-a-mis-ojos.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Precioso a mis ojos y Yo te amo.",
   },
   {
@@ -2370,7 +2370,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Profecía de Jeremías 29, 11-14 · Biblia Straubinger",
     question: "¿Confías en que los planes de Dios para tu vida son de paz y salvación, aun cuando no entiendas el camino actual?",
     imageQuestion: "¿Confías en los planes de Dios?",
-    image: "./assets/images/248-biblia-jer-29-pensamientos-paz.png",
+    image: "./assets/images/248-biblia-jer-29-pensamientos-paz.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Pensamientos de paz y esperanza.",
   },
   {
@@ -2379,7 +2379,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Profecía de Ezequiel 36, 26-28 · Biblia Straubinger",
     question: "¿Qué dureza o resentimiento necesitas entregar hoy a Dios para que Él transforme tu corazón de piedra en un corazón compasivo?",
     imageQuestion: "¿Pides a Dios un corazón nuevo?",
-    image: "./assets/images/249-biblia-ez-36-corazon-de-carne.png",
+    image: "./assets/images/249-biblia-ez-36-corazon-de-carne.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: El corazón nuevo de carne.",
   },
   {
@@ -2388,7 +2388,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Profecía de Oseas 2, 14-15 · Biblia Straubinger",
     question: "¿Aceptas los silencios y desiertos de tu vida como invitaciones de Dios para hablar a solas con tu corazón?",
     imageQuestion: "¿Escuchas a Dios en el silencio del desierto?",
-    image: "./assets/images/250-biblia-os-02-hablar-al-corazon.png",
+    image: "./assets/images/250-biblia-os-02-hablar-al-corazon.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: La llamada al desierto y puerta de esperanza.",
   },
   {
@@ -2397,7 +2397,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Libro del Eclesiástico (Sirácida) 2, 1-6 · Biblia Straubinger",
     question: "¿Estás dispuesto a perseverar fiel al Señor cuando servirle exige paciencia, humillación y purificación?",
     imageQuestion: "¿Mantienes firme tu corazón en la prueba?",
-    image: "./assets/images/251-biblia-sir-02-preparar-para-prueba.png",
+    image: "./assets/images/251-biblia-sir-02-preparar-para-prueba.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Preparar el alma para la prueba.",
   },
   {
@@ -2406,7 +2406,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Apocalipsis de San Juan 3, 20-22 · Biblia Straubinger",
     question: "¿Has dejado que Jesús entre a la intimidad de tu hogar interior o lo mantienes esperando en el umbral?",
     imageQuestion: "¿Abres la puerta de tu corazón a Jesús?",
-    image: "./assets/images/252-biblia-ap-03-estoy-a-la-puerta.png",
+    image: "./assets/images/252-biblia-ap-03-estoy-a-la-puerta.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: He aquí que estoy a la puerta y llamo.",
   },
   {
@@ -2415,7 +2415,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Apocalipsis de San Juan 21, 3-5 · Biblia Straubinger",
     question: "En tus momentos de duelo o cansancio, ¿encuentras consuelo en la promesa eterna de que Dios enjugará cada una de tus lágrimas?",
     imageQuestion: "¿Esperas el consuelo eterno de Dios?",
-    image: "./assets/images/253-biblia-ap-21-enjugara-lagrimas.png",
+    image: "./assets/images/253-biblia-ap-21-enjugara-lagrimas.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: El enjugamiento de las lágrimas.",
   },
   {
@@ -2424,7 +2424,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Libro de los Proverbios 3, 5-8 · Biblia Straubinger",
     question: "¿Confías plenamente en la guía de Dios o sigues apoyándote en tus propios cálculos humanos?",
     imageQuestion: "¿Confías en Dios o en tus cálculos?",
-    image: "./assets/images/254-biblia-prov-03-confia-de-corazon.png",
+    image: "./assets/images/254-biblia-prov-03-confia-de-corazon.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Confía en Yahvé de todo tu corazón.",
   },
   {
@@ -2433,7 +2433,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Libro de los Proverbios 4, 23-27 · Biblia Straubinger",
     question: "¿Cuidas con diligencia lo que dejas entrar a tu corazón a través de tus ojos, oídos y palabras?",
     imageQuestion: "¿Cuidas la pureza de tu corazón?",
-    image: "./assets/images/255-biblia-prov-04-guarda-tu-corazon.png",
+    image: "./assets/images/255-biblia-prov-04-guarda-tu-corazon.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Guarda tu corazón, fuente de la vida.",
   },
   {
@@ -2442,7 +2442,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Libro de los Proverbios 15, 1-4 · Biblia Straubinger",
     question: "Cuando alguien te habla con aspereza, ¿respondes con mansedumbre o enciendes el fuego de la discusión?",
     imageQuestion: "¿Respondes con mansedumbre ante el enojo?",
-    image: "./assets/images/256-biblia-prov-15-respuesta-blanda.png",
+    image: "./assets/images/256-biblia-prov-15-respuesta-blanda.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: La respuesta blanda calma la ira.",
   },
   {
@@ -2451,7 +2451,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Libro de los Proverbios 16, 1-3 · Biblia Straubinger",
     question: "¿Ofreces a Dios tus proyectos diarios antes de emprenderlos, o solo te acuerdas de Él cuando fracasan?",
     imageQuestion: "¿Encomiendas tus obras al Señor?",
-    image: "./assets/images/257-biblia-prov-16-encomienda-tus-obras.png",
+    image: "./assets/images/257-biblia-prov-16-encomienda-tus-obras.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Encomienda a Yahvé tus obras.",
   },
   {
@@ -2460,7 +2460,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Libro de los Proverbios 16, 31-33 · Biblia Straubinger",
     question: "¿Reconoces que la verdadera grandeza cristiana radica en dominar la propia ira y vencer el orgullo?",
     imageQuestion: "¿Dominas tu espíritu ante la ira?",
-    image: "./assets/images/258-biblia-prov-16-domina-tu-espiritu.png",
+    image: "./assets/images/258-biblia-prov-16-domina-tu-espiritu.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: El que domina su espíritu es mayor que el valiente.",
   },
   {
@@ -2469,7 +2469,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Carta a los Colosenses 3, 12-14 · Biblia Straubinger",
     question: "¿Estás dispuesto a perdonar a quien te ofendió con la misma generosidad con que el Señor te perdonó a ti?",
     imageQuestion: "¿Perdonas como el Señor te perdonó?",
-    image: "./assets/images/259-biblia-col-03-entranas-de-perdon.png",
+    image: "./assets/images/259-biblia-col-03-entranas-de-perdon.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Revestirse de entrañas de perdón.",
   },
   {
@@ -2478,7 +2478,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Carta a los Efesios 4, 31-32 · Biblia Straubinger",
     question: "¿Qué resquicio de amargura o queja guardas en tu corazón que hoy necesitas soltar en manos de Dios?",
     imageQuestion: "¿Destierras la amargura de tu alma?",
-    image: "./assets/images/260-biblia-efe-04-desterrar-amargura.png",
+    image: "./assets/images/260-biblia-efe-04-desterrar-amargura.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Desterrar la amargura y perdonar mutuamente.",
   },
   {
@@ -2487,7 +2487,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Evangelio según San Mateo 18, 21-22 · Biblia Straubinger",
     question: "¿Pones límites y condiciones al perdón, o estás dispuesto a perdonar una y otra vez como Cristo te enseña?",
     imageQuestion: "¿Perdonas sin poner límites?",
-    image: "./assets/images/261-biblia-mt-18-setenta-veces-siete.png",
+    image: "./assets/images/261-biblia-mt-18-setenta-veces-siete.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: La medida del perdón: Setenta veces siete.",
   },
   {
@@ -2496,7 +2496,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Evangelio según San Lucas 6, 36-38 · Biblia Straubinger",
     question: "¿Con qué medida mides las faltas ajenas: con la severidad del juicio o con la generosidad de la misericordia?",
     imageQuestion: "¿Mides a los demás con misericordia?",
-    image: "./assets/images/262-biblia-lc-06-medida-del-perdon.png",
+    image: "./assets/images/262-biblia-lc-06-medida-del-perdon.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Misericordia y perdón sin medida.",
   },
   {
@@ -2505,7 +2505,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Carta a los Romanos 12, 17-21 · Biblia Straubinger",
     question: "Ante una ofensa recibida, ¿buscas el desquite o vences el rencor ofreciendo una respuesta de bien y caridad?",
     imageQuestion: "¿Vences el mal a fuerza de bien?",
-    image: "./assets/images/263-biblia-rom-12-vence-el-mal-con-bien.png",
+    image: "./assets/images/263-biblia-rom-12-vence-el-mal-con-bien.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: Vencer el mal con el bien.",
   },
   {
@@ -2514,7 +2514,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Evangelio según San Lucas 23, 33-34 · Biblia Straubinger",
     question: "Al mirar a Jesús en la Cruz excusando a sus propios verdugos, ¿encuentras la fuerza para perdonar a quien te ha herido?",
     imageQuestion: "¿Perdonas mirando a Cristo en la Cruz?",
-    image: "./assets/images/264-biblia-lc-23-padre-perdonales.png",
+    image: "./assets/images/264-biblia-lc-23-padre-perdonales.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: El perdón supremo en la Cruz.",
   },
   {
@@ -2523,7 +2523,7 @@ Que otros sean más santos que yo, con tal de que yo sea todo lo santo que pueda
     source: "Libro del Génesis 50, 19-21 · Biblia Straubinger",
     question: "¿Eres capaz de ver cómo Dios puede transformar incluso el daño que otros te causaron en una bendición de gracia y reconciliación?",
     imageQuestion: "¿Ves la mano de Dios en el perdón?",
-    image: "./assets/images/265-biblia-gen-50-jose-perdona-hermanos.png",
+    image: "./assets/images/265-biblia-gen-50-jose-perdona-hermanos.webp",
     imageAlt: "Pintura sacra al óleo que ilustra el pasaje bíblico: José consuela y perdona a sus hermanos.",
   },
 ];
@@ -2672,9 +2672,24 @@ const questionCard = (experience, topicNumber) => `
     <div class="swipe-hint">Desliza para contemplar</div>
   </article>`;
 
+// Reintento automático de imágenes en caso de parpadeo o micro-corte de red móvil
+window.handleImageError = (img) => {
+  if (!img) return;
+  const retries = parseInt(img.dataset.retries || "0", 10);
+  if (retries < 4) {
+    img.dataset.retries = String(retries + 1);
+    const baseSrc = img.dataset.originalSrc || img.src.split("?")[0];
+    img.dataset.originalSrc = baseSrc;
+    const delay = 350 * Math.pow(1.8, retries);
+    setTimeout(() => {
+      img.src = `${baseSrc}?r=${Date.now()}`;
+    }, delay);
+  }
+};
+
 const imageCard = (experience, topicNumber) => `
   <article class="card image-card" data-content-id="${experience.id}" data-phase="image" aria-label="Imagen de contemplación ${topicNumber}">
-    <img src="${experience.image}" alt="${escapeHtml(experience.imageAlt)}" decoding="async" />
+    <img src="${experience.image}" alt="${escapeHtml(experience.imageAlt)}" decoding="async" loading="lazy" onload="this.classList.add('loaded')" onerror="handleImageError(this)" />
     <div class="image-overlay">
       <div>
         <div class="topline"><span class="brand">Nutre tu Alma</span><span>Contempla</span></div>
@@ -2742,8 +2757,8 @@ let mouseGesture = null;
 feed.tabIndex = 0;
 
 // --- SISTEMA DE PRECARGA Y BUFFER LOCAL DE 20 TARJETAS POR ADELANTADO ---
-const CACHE_NAME = "nutre-tu-alma-runtime-v10";
-const BUFFER_AHEAD_COUNT = 20;
+const CACHE_NAME = "nutre-tu-alma-runtime-v11";
+const BUFFER_AHEAD_COUNT = 6;
 let isBuffering = false;
 let lastBufferedIndex = -1;
 

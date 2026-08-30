@@ -166,6 +166,12 @@ button {
   transform: translateZ(0);
   backface-visibility: hidden;
   will-change: transform;
+  opacity: 0;
+  transition: opacity 0.25s ease-out;
+}
+
+.image-card img.loaded {
+  opacity: 1;
 }
 
 .image-overlay {

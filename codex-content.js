@@ -5,7 +5,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · I. Os doy mi paz, p. 5",
     "question": "¿Qué necesitas recibir hoy del Espíritu Santo para que la paz de Cristo eche raíces en tu corazón?",
     "imageQuestion": "¿Qué paz necesitas recibir?",
-    "image": "./assets/images/155-cx-001-paz-y-espiritu.png",
+    "image": "./assets/images/155-cx-001-paz-y-espiritu.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -14,7 +14,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · I. Os doy mi paz, p. 9",
     "question": "¿Dejas que Cristo sea verdaderamente tu paz, o buscas paz primero en aquello que cambia?",
     "imageQuestion": "¿Quién es tu paz?",
-    "image": "./assets/images/156-cx-002-cristo-nuestra-paz.png",
+    "image": "./assets/images/156-cx-002-cristo-nuestra-paz.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -23,7 +23,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · I. Os doy mi paz, p. 13",
     "question": "Cuando te diriges al Padre, ¿qué imagen de Él aparece primero en tu corazón y necesita ser sanada?",
     "imageQuestion": "¿Cómo miras al Padre?",
-    "image": "./assets/images/157-cx-003-imagen-del-padre.png",
+    "image": "./assets/images/157-cx-003-imagen-del-padre.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -32,7 +32,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · III. La paz de Cristo reine en vuestros corazones, p. 28",
     "question": "¿Qué fruto del Espíritu necesita crecer hoy para que tu paz no dependa solo de las circunstancias?",
     "imageQuestion": "¿Qué fruto debe crecer?",
-    "image": "./assets/images/158-cx-004-fruto-del-espiritu.png",
+    "image": "./assets/images/158-cx-004-fruto-del-espiritu.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -41,7 +41,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · III. La paz de Cristo reine en vuestros corazones, p. 31",
     "question": "En la decisión que tienes delante, ¿has dejado espacio a la oración y a la paz del corazón antes de imponer tu preferencia?",
     "imageQuestion": "¿Qué te dice la paz?",
-    "image": "./assets/images/159-cx-005-discernimiento-y-paz.png",
+    "image": "./assets/images/159-cx-005-discernimiento-y-paz.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -50,7 +50,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · III. La paz de Cristo reine en vuestros corazones, p. 33",
     "question": "¿Qué ansiedad por el mañana necesitas poner hoy en las manos del Padre que ya conoce lo que necesitas?",
     "imageQuestion": "¿Entregas el mañana al Padre?",
-    "image": "./assets/images/160-cx-006-confianza-cada-dia.png",
+    "image": "./assets/images/160-cx-006-confianza-cada-dia.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -59,7 +59,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques Philippe - La oración, camino de amor · Introducción, p. 8",
     "question": "¿Qué tiempo concreto puedes ofrecer hoy al Señor con sencillez, confiando en que Él es fiel?",
     "imageQuestion": "¿Qué tiempo das al Señor?",
-    "image": "./assets/images/161-cx-007-fidelidad-en-la-oracion.png",
+    "image": "./assets/images/161-cx-007-fidelidad-en-la-oracion.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -68,7 +68,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques Philippe - La oración, camino de amor · I. Los motivos de la oración, p. 11",
     "question": "Ante lo que hoy te preocupa, ¿te acercas a la oración como al lugar donde Dios renueva tu esperanza?",
     "imageQuestion": "¿Dónde renuevas tu esperanza?",
-    "image": "./assets/images/162-cx-008-esperanza-en-la-oracion.png",
+    "image": "./assets/images/162-cx-008-esperanza-en-la-oracion.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -77,7 +77,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques Philippe - La oración, camino de amor · I. Los motivos de la oración · 2. La prioridad de Dios en nuestra vida, p. 13",
     "question": "¿Puedes quedarte hoy un momento con Dios sin medir resultados, solo por amor a estar con Él?",
     "imageQuestion": "¿Puedes estar con Dios?",
-    "image": "./assets/images/163-cx-009-amor-gratuito.png",
+    "image": "./assets/images/163-cx-009-amor-gratuito.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -86,7 +86,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques Philippe - La oración, camino de amor · I. Los motivos de la oración · 3. Amar gratuitamente, p. 15",
     "question": "¿Puedes volver tu atención al Señor ahora mismo y permanecer un instante con Él?",
     "imageQuestion": "¿Estás presente para Dios?",
-    "image": "./assets/images/164-cx-010-presencia-amorosa.png",
+    "image": "./assets/images/164-cx-010-presencia-amorosa.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -95,7 +95,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques Philippe - La oración, camino de amor · I. Los motivos de la oración · 7. La oración, camino de libertad, p. 22",
     "question": "¿Qué expectativa sobre otra persona necesitas devolver a Dios para poder amarla con mayor libertad?",
     "imageQuestion": "¿Esperas todo de Dios?",
-    "image": "./assets/images/165-cx-011-libertad-para-amar.png",
+    "image": "./assets/images/165-cx-011-libertad-para-amar.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -104,7 +104,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques Philippe - La oración, camino de amor · I. Los motivos de la oración · 8. La oración construye nuestra unidad de vida, p. 23",
     "question": "¿Qué parte de tu historia puedes presentar hoy a Cristo para que Él la abra de nuevo a su gracia?",
     "imageQuestion": "¿Qué quieres entregar a Cristo?",
-    "image": "./assets/images/166-cx-012-todo-en-la-gracia.png",
+    "image": "./assets/images/166-cx-012-todo-en-la-gracia.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -113,7 +113,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques_Philippe_El_tesoro_de_la_oración_116_págs_pdf_·_versión · Introducción, p. 7",
     "question": "¿Puedes presentarte hoy ante Dios con una oración sencilla y pobre, confiando en la gracia que Él quiere darte?",
     "imageQuestion": "¿Vienes a Dios tal como eres?",
-    "image": "./assets/images/167-cx-013-oracion-simple-y-pobre.png",
+    "image": "./assets/images/167-cx-013-oracion-simple-y-pobre.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -122,7 +122,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques_Philippe_El_tesoro_de_la_oración_116_págs_pdf_·_versión · 2. El deseo de Dios, p. 16",
     "question": "¿Qué pequeño acto de fidelidad puede reavivar hoy tu deseo de buscar a Dios?",
     "imageQuestion": "¿Qué llama quieres reavivar?",
-    "image": "./assets/images/168-cx-014-reavivar-el-don.png",
+    "image": "./assets/images/168-cx-014-reavivar-el-don.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -131,7 +131,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques_Philippe_El_tesoro_de_la_oración_116_págs_pdf_·_versión · 2. El deseo de Dios, p. 17",
     "question": "¿Qué necesitas vaciar de tu corazón para recibir con mayor libertad lo que Dios quiere darte?",
     "imageQuestion": "¿Qué necesita vaciar tu corazón?",
-    "image": "./assets/images/169-cx-015-deseo-purificado.png",
+    "image": "./assets/images/169-cx-015-deseo-purificado.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -140,7 +140,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques_Philippe_El_tesoro_de_la_oración_116_págs_pdf_·_versión · 3. La determinación, pp. 21–22",
     "question": "Tal como estás hoy, ¿puedes volver a elegir seguir al Señor y pedir a María que te sostenga?",
     "imageQuestion": "¿Vuelves a elegir seguirle?",
-    "image": "./assets/images/170-cx-016-maria-sostiene-el-camino.png",
+    "image": "./assets/images/170-cx-016-maria-sostiene-el-camino.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -149,7 +149,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques_Philippe_El_tesoro_de_la_oración_116_págs_pdf_·_versión · 5. Conocimiento de Dios y conocimiento de sí, p. 29",
     "question": "¿Hay alguna imagen falsa de Dios que esté alimentando tu miedo en vez de ayudarte a confiar en Él?",
     "imageQuestion": "¿Qué imagen de Dios llevas?",
-    "image": "./assets/images/171-cx-017-confiar-en-el-padre.png",
+    "image": "./assets/images/171-cx-017-confiar-en-el-padre.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -158,7 +158,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques_Philippe_El_tesoro_de_la_oración_116_págs_pdf_·_versión · 9. Santificar el espacio, p. 54",
     "question": "¿Cómo puedes cuidar el domingo para recordar con gratitud que Cristo te hace nuevo?",
     "imageQuestion": "¿Cómo vivirás el día del Señor?",
-    "image": "./assets/images/172-cx-018-el-dia-del-senor.png",
+    "image": "./assets/images/172-cx-018-el-dia-del-senor.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -167,7 +167,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Si_conocieras_el_don_de_Dios_Aprender_a_recibir_Jacques_Philippe · Presentación, p. 5",
     "question": "¿Qué pasaría si hoy recibieras tu vida espiritual primero como un don de Dios y no como una carga?",
     "imageQuestion": "¿Recibes el don de Dios?",
-    "image": "./assets/images/173-cx-019-el-don-de-dios.png",
+    "image": "./assets/images/173-cx-019-el-don-de-dios.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -176,7 +176,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Si_conocieras_el_don_de_Dios_Aprender_a_recibir_Jacques_Philippe · Presentación, p. 5",
     "question": "¿En qué parte de tu vida necesitas dejar de confiar solo en tu esfuerzo y abrirte a la misericordia del Padre?",
     "imageQuestion": "¿Dónde necesitas recibir gracia?",
-    "image": "./assets/images/174-cx-020-la-gracia-transforma.png",
+    "image": "./assets/images/174-cx-020-la-gracia-transforma.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -185,7 +185,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Si_conocieras_el_don_de_Dios_Aprender_a_recibir_Jacques_Philippe · 1. La receptividad espiritual · La perseverancia en la oración, p. 9",
     "question": "¿Qué gracia concreta necesitas pedir hoy al Padre con perseverancia y sencillez?",
     "imageQuestion": "¿Qué quieres pedir al Padre?",
-    "image": "./assets/images/175-cx-021-pedid-y-se-os-dara.png",
+    "image": "./assets/images/175-cx-021-pedid-y-se-os-dara.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -194,7 +194,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Si_conocieras_el_don_de_Dios_Aprender_a_recibir_Jacques_Philippe · 1. La receptividad espiritual · La confianza, p. 10",
     "question": "¿Puedes acercarte hoy a Dios sin fingir perfección y simplemente confiar en su misericordia?",
     "imageQuestion": "¿Confías en su misericordia?",
-    "image": "./assets/images/176-cx-022-confianza-y-misericordia.png",
+    "image": "./assets/images/176-cx-022-confianza-y-misericordia.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -203,7 +203,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Si_conocieras_el_don_de_Dios_Aprender_a_recibir_Jacques_Philippe · 1. La receptividad espiritual · La humildad, p. 11",
     "question": "¿Puedes reconocer hoy con paz que todo bien que tienes es recibido de la bondad de Dios?",
     "imageQuestion": "¿Todo lo recibes de Dios?",
-    "image": "./assets/images/177-cx-023-humildad-que-recibe.png",
+    "image": "./assets/images/177-cx-023-humildad-que-recibe.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -212,7 +212,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Si_conocieras_el_don_de_Dios_Aprender_a_recibir_Jacques_Philippe · 1. La receptividad espiritual · La paz interior, p. 14",
     "question": "Cuando tu corazón está agitado, ¿puedes esperar a recuperar la paz antes de tomar una decisión importante?",
     "imageQuestion": "¿Puedes esperar a que vuelva la paz?",
-    "image": "./assets/images/178-cx-024-la-paz-para-discernir.png",
+    "image": "./assets/images/178-cx-024-la-paz-para-discernir.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -221,7 +221,7 @@ window.CODEX_EXPERIENCES = [
     "source": "La fuerza del silencio - Cardenal Robert Sarah · Prólogo, p. 14",
     "question": "¿Qué ruido puedes dejar hoy para volver a Dios y servir mejor a los demás?",
     "imageQuestion": "¿Qué ruido puedes dejar?",
-    "image": "./assets/images/179-cx-025-el-silencio-manifiesta-a-dios.png",
+    "image": "./assets/images/179-cx-025-el-silencio-manifiesta-a-dios.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -230,7 +230,7 @@ window.CODEX_EXPERIENCES = [
     "source": "La fuerza del silencio - Cardenal Robert Sarah · I. Dios y el silencio, p. 18",
     "question": "¿Puedes hacer silencio hoy para recordar que Cristo y su Palabra están cerca de ti?",
     "imageQuestion": "¿Recuerdas que Cristo está cerca?",
-    "image": "./assets/images/180-cx-026-la-palabra-en-el-corazon.png",
+    "image": "./assets/images/180-cx-026-la-palabra-en-el-corazon.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -239,7 +239,7 @@ window.CODEX_EXPERIENCES = [
     "source": "La fuerza del silencio - Cardenal Robert Sarah · I. Dios y el silencio, p. 21",
     "question": "¿Recuerdas que por tu bautismo perteneces al Padre, al Hijo y al Espíritu Santo?",
     "imageQuestion": "¿Vives como hijo de Dios?",
-    "image": "./assets/images/181-cx-027-la-vida-del-bautismo.png",
+    "image": "./assets/images/181-cx-027-la-vida-del-bautismo.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -248,7 +248,7 @@ window.CODEX_EXPERIENCES = [
     "source": "La fuerza del silencio - Cardenal Robert Sarah · I. Dios y el silencio, p. 22",
     "question": "¿Puedes recibir un momento de silencio no como vacío, sino como una ocasión para estar ante Dios?",
     "imageQuestion": "¿Puedes habitar el silencio?",
-    "image": "./assets/images/182-cx-028-silencio-y-presencia.png",
+    "image": "./assets/images/182-cx-028-silencio-y-presencia.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -257,7 +257,7 @@ window.CODEX_EXPERIENCES = [
     "source": "La fuerza del silencio - Cardenal Robert Sarah · I. Dios y el silencio, p. 23",
     "question": "En medio de tus tareas, ¿qué te ayudaría a dejar la dispersión y volver a escuchar al Señor?",
     "imageQuestion": "¿Qué te devuelve a la escucha?",
-    "image": "./assets/images/183-cx-029-marta-y-maria.png",
+    "image": "./assets/images/183-cx-029-marta-y-maria.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -266,7 +266,7 @@ window.CODEX_EXPERIENCES = [
     "source": "La fuerza del silencio - Cardenal Robert Sarah · I. Dios y el silencio, p. 27",
     "question": "¿Qué espacio concreto puedes proteger hoy para que el silencio te devuelva la paz y te haga más atento a los demás?",
     "imageQuestion": "¿Qué espacio protegerás para Dios?",
-    "image": "./assets/images/184-cx-030-el-espacio-del-silencio.png",
+    "image": "./assets/images/184-cx-030-el-espacio-del-silencio.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -275,7 +275,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · I. Os doy mi paz, p. 4",
     "question": "¿Qué cambia en tu manera de vivir cuando vuelves primero a estar en paz con Dios?",
     "imageQuestion": "¿Vuelves primero a Dios?",
-    "image": "./assets/images/185-cx-031-la-paz-con-dios.png",
+    "image": "./assets/images/185-cx-031-la-paz-con-dios.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -284,7 +284,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · I. Os doy mi paz, p. 11",
     "question": "Al mirar la cruz, ¿puedes dejar de cargar culpas ajenas y agradecer a Cristo que ha cargado con tus pecados?",
     "imageQuestion": "¿Qué puso Cristo sobre sus hombros?",
-    "image": "./assets/images/186-cx-032-cristo-carga-nuestros-pecados.png",
+    "image": "./assets/images/186-cx-032-cristo-carga-nuestros-pecados.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -293,7 +293,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · I. Os doy mi paz, p. 12",
     "question": "¿Puedes pedir hoy al Espíritu Santo una paz que haga más verdaderas y amorosas tus relaciones?",
     "imageQuestion": "¿Qué paz quieres recibir?",
-    "image": "./assets/images/187-cx-033-la-paz-del-espiritu.png",
+    "image": "./assets/images/187-cx-033-la-paz-del-espiritu.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -302,7 +302,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · II. Bienaventurados los que trabajan por la paz, pp. 17–18",
     "question": "Cuando no puedes resolver una situación, ¿recuerdas que aún puedes pedir al Señor la paz?",
     "imageQuestion": "¿Por quién puedes pedir paz?",
-    "image": "./assets/images/188-cx-034-rezar-por-la-paz.png",
+    "image": "./assets/images/188-cx-034-rezar-por-la-paz.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -311,7 +311,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · III. La paz, fruto del Espíritu Santo, p. 29",
     "question": "¿Qué te ayudaría hoy a buscar una paz del corazón que te acerque realmente a Dios?",
     "imageQuestion": "¿Qué aquieta tu corazón ante Dios?",
-    "image": "./assets/images/189-cx-035-paz-del-corazon.png",
+    "image": "./assets/images/189-cx-035-paz-del-corazon.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -320,7 +320,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · III. La paz, fruto del Espíritu Santo, p. 30",
     "question": "¿Puedes mirar hoy hacia la paz definitiva que Cristo prepara para quienes le aman?",
     "imageQuestion": "¿Hacia qué paz caminas?",
-    "image": "./assets/images/190-cx-036-la-vision-de-paz.png",
+    "image": "./assets/images/190-cx-036-la-vision-de-paz.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -329,7 +329,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques Philippe - La oración, camino de amor · I. Los motivos de la oración · 5. Conocimiento de Dios y conocimiento de sí, p. 17",
     "question": "¿Le pides hoy a Jesús que te revele con más verdad el corazón del Padre?",
     "imageQuestion": "¿Quieres conocer al Padre?",
-    "image": "./assets/images/191-cx-037-jesus-revela-al-padre.png",
+    "image": "./assets/images/191-cx-037-jesus-revela-al-padre.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -338,7 +338,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques Philippe - La oración, camino de amor · I. Los motivos de la oración · 5. Conocimiento de Dios y conocimiento de sí, p. 18",
     "question": "¿Puedes recibir hoy que tu identidad más profunda no es tu fracaso, sino ser hijo amado de Dios?",
     "imageQuestion": "¿Quién eres ante Dios?",
-    "image": "./assets/images/192-cx-038-hijo-amado-de-dios.png",
+    "image": "./assets/images/192-cx-038-hijo-amado-de-dios.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -347,7 +347,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques_Philippe_El_tesoro_de_la_oración_116_págs_pdf_·_versión · 7. La relectura de vida, p. 38",
     "question": "¿Qué acontecimiento reciente puedes mirar hoy con Dios para descubrir cómo te ha acompañado?",
     "imageQuestion": "¿Cómo te ha acompañado Dios?",
-    "image": "./assets/images/193-cx-039-releer-la-vida-con-dios.png",
+    "image": "./assets/images/193-cx-039-releer-la-vida-con-dios.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -356,7 +356,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques_Philippe_El_tesoro_de_la_oración_116_págs_pdf_·_versión · 6. Pobreza y libertad, p. 36",
     "question": "¿Puedes amar hoy a alguien respetando su libertad, sin intentar poseerlo ni controlar su respuesta?",
     "imageQuestion": "¿Amas con libertad?",
-    "image": "./assets/images/194-cx-040-amar-con-libertad.png",
+    "image": "./assets/images/194-cx-040-amar-con-libertad.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -365,7 +365,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Si_conocieras_el_don_de_Dios_Aprender_a_recibir_Jacques_Philippe · 2. Vivir bajo la mirada de Dios con Teresa de Lisieux, p. 26",
     "question": "¿A quién puedes mirar hoy con la paciencia y la esperanza con que Jesús te mira?",
     "imageQuestion": "¿Cómo mirarías con Jesús?",
-    "image": "./assets/images/195-cx-041-mirar-con-los-ojos-de-jesus.png",
+    "image": "./assets/images/195-cx-041-mirar-con-los-ojos-de-jesus.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -374,7 +374,7 @@ window.CODEX_EXPERIENCES = [
     "source": "La fuerza del silencio - Cardenal Robert Sarah · I. Dios y el silencio, p. 27",
     "question": "¿Qué fuente de ruido podrías dejar por un momento para recuperar la libertad de estar ante Dios?",
     "imageQuestion": "¿Qué ruido puedes soltar?",
-    "image": "./assets/images/196-cx-042-dejar-el-ruido.png",
+    "image": "./assets/images/196-cx-042-dejar-el-ruido.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -383,7 +383,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Jacques_Philippe_El_tesoro_de_la_oración_116_págs_pdf_·_versión · 5. Conocimiento de Dios y conocimiento de sí, p. 31",
     "question": "¿Puedes dejar que el amor de Dios te muestre hoy quién eres, en vez de definirte solo por tus temores?",
     "imageQuestion": "¿Quién eres bajo su mirada?",
-    "image": "./assets/images/197-cx-043-la-mirada-del-amado.png",
+    "image": "./assets/images/197-cx-043-la-mirada-del-amado.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -392,7 +392,7 @@ window.CODEX_EXPERIENCES = [
     "source": "RANIERO CANTALAMESA Os doy mi paz · III. La paz, fruto del Espíritu Santo, p. 28",
     "question": "¿Qué necesitas entregar al Señor para que la paz que deseas comunicar nazca primero en tu corazón?",
     "imageQuestion": "¿Nace la paz en tu corazón?",
-    "image": "./assets/images/198-cx-044-la-paz-nace-en-el-corazon.png",
+    "image": "./assets/images/198-cx-044-la-paz-nace-en-el-corazon.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -401,7 +401,7 @@ window.CODEX_EXPERIENCES = [
     "source": "Si_conocieras_el_don_de_Dios_Aprender_a_recibir_Jacques_Philippe · 2. Vivir bajo la mirada de Dios con Teresa de Lisieux, p. 19",
     "question": "¿Puedes presentarte hoy ante la mirada de Jesús sin esconderte, confiando en su compasión?",
     "imageQuestion": "¿Te dejas mirar por Jesús?",
-    "image": "./assets/images/199-cx-045-la-mirada-de-misericordia.png",
+    "image": "./assets/images/199-cx-045-la-mirada-de-misericordia.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   },
   {
@@ -410,7 +410,7 @@ window.CODEX_EXPERIENCES = [
     "source": "La fuerza del silencio - Cardenal Robert Sarah · I. Dios y el silencio, p. 24",
     "question": "¿Qué afán necesita hoy volver a su lugar para que puedas reservar un momento de cara a cara con Dios?",
     "imageQuestion": "¿Qué afán debe volver a su lugar?",
-    "image": "./assets/images/200-cx-046-el-cara-a-cara-con-dios.png",
+    "image": "./assets/images/200-cx-046-el-cara-a-cara-con-dios.webp",
     "imageAlt": "Pintura sacra al óleo que ilustra la lectura y meditación del pasaje."
   }
 ];
