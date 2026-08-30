@@ -3583,7 +3583,13 @@ const buildRhythmicStream = (rawExperiences) => {
   return stream;
 };
 
-const dynamicExperiences = buildRhythmicStream(experiences);
+// Generación por lotes secuenciales: 
+// 1. Mantiene el orden exacto de los primeros 277 temas para los usuarios actuales.
+// 2. Encola los 106 nuevos temas al final (posiciones 278 a 383) para que los descubran de forma natural.
+const INITIAL_PUBLISHED_COUNT = 277;
+const initialStream = buildRhythmicStream(experiences.slice(0, INITIAL_PUBLISHED_COUNT));
+const expansionStream = buildRhythmicStream(experiences.slice(INITIAL_PUBLISHED_COUNT));
+const dynamicExperiences = [...initialStream, ...expansionStream];
 
 const RESUME_STORAGE_KEY = "nutre-tu-alma:resume-v3";
 const FULL_CYCLE_SIZE = 100;
@@ -3736,7 +3742,7 @@ let mouseGesture = null;
 feed.tabIndex = 0;
 
 // --- SISTEMA DE PRECARGA Y BUFFER LOCAL DE 20 TARJETAS POR ADELANTADO ---
-const CACHE_NAME = "nutre-tu-alma-runtime-v13";
+const CACHE_NAME = "nutre-tu-alma-runtime-v14";
 const BUFFER_AHEAD_COUNT = 6;
 let isBuffering = false;
 let lastBufferedIndex = -1;
