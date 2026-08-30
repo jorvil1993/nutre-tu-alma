@@ -2701,7 +2701,26 @@ const imageCard = (experience, topicNumber) => `
     </div>
   </article>`;
 
-feed.innerHTML = dynamicExperiences
+const completionCard = () => `
+  <article class="card completion-card" data-content-id="fin-del-ciclo" data-phase="complete" aria-label="Fin del ciclo contemplativo">
+    <div class="topline"><span class="brand">Nutre tu Alma</span><span>Ciclo completado</span></div>
+    <div class="card-main completion-main">
+      <div class="completion-icon">🕊️</div>
+      <h2 class="completion-title">Has recorrido el ciclo contemplativo</h2>
+      <p class="completion-text">«Yo soy la vid, vosotros los sarmientos; el que permanece en Mí, y Yo en él, éste lleva mucho fruto».<br><br>Vuelve a comenzar para seguir nutriendo tu oración y meditación diaria.</p>
+      <button class="restart-btn" onclick="restartCycle()">Comenzar de nuevo</button>
+    </div>
+    <div class="swipe-hint" onclick="restartCycle()" style="cursor: pointer;">Toca o desliza para volver al inicio</div>
+  </article>`;
+
+window.restartCycle = () => {
+  try {
+    localStorage.removeItem(RESUME_STORAGE_KEY);
+  } catch {}
+  goToCard(0, true);
+};
+
+feed.innerHTML = [...dynamicExperiences
   .flatMap((experience, index) => [
     readingCard(experience, index + 1),
     questionCard(experience, index + 1),
@@ -2757,7 +2776,7 @@ let mouseGesture = null;
 feed.tabIndex = 0;
 
 // --- SISTEMA DE PRECARGA Y BUFFER LOCAL DE 20 TARJETAS POR ADELANTADO ---
-const CACHE_NAME = "nutre-tu-alma-runtime-v11";
+const CACHE_NAME = "nutre-tu-alma-runtime-v12";
 const BUFFER_AHEAD_COUNT = 6;
 let isBuffering = false;
 let lastBufferedIndex = -1;
@@ -2839,15 +2858,20 @@ const bufferUpcomingImages = (currentIndex) => {
 };
 
 const goToCard = (requestedIndex, smooth = true) => {
-  const targetIndex = Math.max(0, Math.min(cards.length - 1, requestedIndex));
-  if (targetIndex === activeCardIndex) return;
+  let targetIndex = requestedIndex;
+  if (targetIndex >= cards.length) {
+    targetIndex = 0;
+  } else if (targetIndex < 0) {
+    targetIndex = 0;
+  }
+
   activeCardIndex = targetIndex;
   cards[targetIndex]?.scrollIntoView({
     behavior: smooth && !reduceMotion ? "smooth" : "auto",
     block: "start",
   });
   preloadAdjacentImages(targetIndex);
-  if (Math.abs(targetIndex - lastBufferedIndex) >= 5) {
+  if (Math.abs(targetIndex - lastBufferedIndex) >= 4) {
     bufferUpcomingImages(targetIndex);
   }
 };
@@ -2933,6 +2957,28 @@ const resumeObserver = new IntersectionObserver(
 );
 
 cards.forEach((card) => resumeObserver.observe(card));
+
+// Detección de deslizamiento al final del feed para reiniciar ciclo automáticamente
+let touchStartY = 0;
+let touchStartX = 0;
+feed.addEventListener("touchstart", (e) => {
+  if (e.touches && e.touches.length === 1) {
+    touchStartY = e.touches[0].clientY;
+    touchStartX = e.touches[0].clientX;
+  }
+}, { passive: true });
+
+feed.addEventListener("touchend", (e) => {
+  if (e.changedTouches && e.changedTouches.length === 1) {
+    const deltaY = touchStartY - e.changedTouches[0].clientY;
+    const deltaX = Math.abs(touchStartX - e.changedTouches[0].clientX);
+    // Si estamos en la última tarjeta y el usuario desliza hacia arriba para seguir
+    if (activeCardIndex >= cards.length - 1 && deltaY > 35 && deltaY > deltaX) {
+      restartCycle();
+    }
+  }
+}, { passive: true });
+
 
 // Mantiene la pantalla encendida únicamente mientras Nutre tu Alma está visible.
 let screenWakeLock = null;

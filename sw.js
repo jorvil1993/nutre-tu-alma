@@ -1,4 +1,4 @@
-const CACHE_NAME = "nutre-tu-alma-runtime-v11";
+const CACHE_NAME = "nutre-tu-alma-runtime-v12";
 const APP_SHELL = [
   "./",
   "./index.html",
