@@ -3714,22 +3714,18 @@ const resumeIndex = () => {
   const savedIndex = cards.findIndex(
     (card) => card.dataset.contentId === saved.contentId && card.dataset.phase === saved.phase,
   );
-  if (savedIndex < 0) return 0;
-
-  if (!saved.advanceOnResume) return savedIndex;
-  if (savedIndex < cards.length - 1) return savedIndex + 1;
-
-  return dynamicExperiences.length >= FULL_CYCLE_SIZE ? 0 : savedIndex;
+  return savedIndex >= 0 ? savedIndex : 0;
 };
 
 const saveResume = (card) => {
-  const phase = card.dataset.phase;
+  if (!card?.dataset?.contentId) return;
   const position = {
     contentId: card.dataset.contentId,
-    phase,
-    advanceOnResume: phase === "image",
+    phase: card.dataset.phase,
   };
-  localStorage.setItem(RESUME_STORAGE_KEY, JSON.stringify(position));
+  try {
+    localStorage.setItem(RESUME_STORAGE_KEY, JSON.stringify(position));
+  } catch {}
 };
 
 const restoreIndex = resumeIndex();
@@ -3743,7 +3739,7 @@ let mouseGesture = null;
 feed.tabIndex = 0;
 
 // --- SISTEMA DE PRECARGA Y BUFFER LOCAL DE 20 TARJETAS POR ADELANTADO ---
-const CACHE_NAME = "nutre-tu-alma-runtime-v15";
+const CACHE_NAME = "nutre-tu-alma-runtime-v16";
 const BUFFER_AHEAD_COUNT = 6;
 let isBuffering = false;
 let lastBufferedIndex = -1;
@@ -3825,12 +3821,8 @@ const bufferUpcomingImages = (currentIndex) => {
 };
 
 const goToCard = (requestedIndex, smooth = true) => {
-  let targetIndex = requestedIndex;
-  if (targetIndex >= cards.length) {
-    targetIndex = 0;
-  } else if (targetIndex < 0) {
-    targetIndex = 0;
-  }
+  const targetIndex = Math.max(0, Math.min(cards.length - 1, requestedIndex));
+  if (targetIndex === activeCardIndex) return;
 
   activeCardIndex = targetIndex;
   cards[targetIndex]?.scrollIntoView({
@@ -3925,28 +3917,6 @@ const resumeObserver = new IntersectionObserver(
 
 cards.forEach((card) => resumeObserver.observe(card));
 
-// Detección de deslizamiento al final del feed para reiniciar ciclo automáticamente
-let touchStartY = 0;
-let touchStartX = 0;
-feed.addEventListener("touchstart", (e) => {
-  if (e.touches && e.touches.length === 1) {
-    touchStartY = e.touches[0].clientY;
-    touchStartX = e.touches[0].clientX;
-  }
-}, { passive: true });
-
-feed.addEventListener("touchend", (e) => {
-  if (e.changedTouches && e.changedTouches.length === 1) {
-    const deltaY = touchStartY - e.changedTouches[0].clientY;
-    const deltaX = Math.abs(touchStartX - e.changedTouches[0].clientX);
-    // Si estamos en la última tarjeta y el usuario desliza hacia arriba para seguir
-    if (activeCardIndex >= cards.length - 1 && deltaY > 35 && deltaY > deltaX) {
-      restartCycle();
-    }
-  }
-}, { passive: true });
-
-
 // Mantiene la pantalla encendida únicamente mientras Nutre tu Alma está visible.
 let screenWakeLock = null;
 
@@ -3971,15 +3941,7 @@ window.addEventListener("focus", keepScreenAwake);
 keepScreenAwake();
 
 if ("serviceWorker" in navigator) {
-  let reloadingForUpdate = false;
-
-  navigator.serviceWorker.addEventListener("controllerchange", () => {
-    if (reloadingForUpdate) return;
-    reloadingForUpdate = true;
-    window.location.reload();
-  });
-
   navigator.serviceWorker
-    .register("./sw.js", { updateViaCache: "none" })
-    .then((registration) => registration.update());
+    .register("./sw.js")
+    .catch(() => {});
 }
