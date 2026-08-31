@@ -6,12 +6,20 @@
     <meta name="theme-color" content="#11130f" />
     <meta name="description" content="Un momento de lectura, meditación e imagen para nutrir el alma y volver el corazón a Dios." />
     <link rel="manifest" href="./manifest.webmanifest" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=15" />
     <title>Nutre tu Alma</title>
   </head>
   <body>
     <main id="feed" aria-label="Feed de contemplación"></main>
-    <script src="./codex-content.js" defer></script>
-    <script src="./app.js" defer></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("./sw.js?v=15", { updateViaCache: "none" })
+          .then((reg) => reg.update())
+          .catch(() => {});
+      }
+    </script>
+    <script src="./codex-content.js?v=15" defer></script>
+    <script src="./app.js?v=15" defer></script>
   </body>
 </html>
