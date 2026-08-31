@@ -3686,13 +3686,14 @@ window.restartCycle = () => {
   goToCard(0, true);
 };
 
-feed.innerHTML = [...dynamicExperiences
-  .flatMap((experience, index) => [
+feed.innerHTML = [
+  ...dynamicExperiences.flatMap((experience, index) => [
     readingCard(experience, index + 1),
     questionCard(experience, index + 1),
     imageCard(experience, index + 1),
-  ])
-  .join("");
+  ]),
+  completionCard(),
+].join("");
 
 const cards = [...feed.querySelectorAll(".card")];
 
@@ -3742,7 +3743,7 @@ let mouseGesture = null;
 feed.tabIndex = 0;
 
 // --- SISTEMA DE PRECARGA Y BUFFER LOCAL DE 20 TARJETAS POR ADELANTADO ---
-const CACHE_NAME = "nutre-tu-alma-runtime-v14";
+const CACHE_NAME = "nutre-tu-alma-runtime-v15";
 const BUFFER_AHEAD_COUNT = 6;
 let isBuffering = false;
 let lastBufferedIndex = -1;
